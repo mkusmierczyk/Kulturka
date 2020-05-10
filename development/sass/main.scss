@@ -1,3 +1,9 @@
-div {
-  color: red;
-}
+//generic
+@import "generic/reset";
+@import "generic/grid";
+@import "generic/var";
+@import "generic/all";
+
+//elements
+@import "elements/menu";
+

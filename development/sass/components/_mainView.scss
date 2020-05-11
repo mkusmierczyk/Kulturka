@@ -1,3 +1,100 @@
-.main{
+//main
+
+.main {
+
   background-color: $bg_color;
+  height: 100vh;
+  box-sizing: border-box;
 }
+
+//Hamburger section
+
+.main__hamburger {
+  height: 8vh;
+  background-color: $complementary_color;
+  display: flex;
+  align-items: center;
+  padding-top: 0.5vh;
+}
+
+//Stats section
+.main__stats {
+  width: 100vw;
+  height: 20vh;
+  margin-top: 2rem;
+  text-align: center;
+  border-radius: 4rem;
+  font-weight: bold;
+  font-size: 1rem;
+
+  i {
+    font-size: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: relative;
+    bottom: 2vh;
+    border-radius: 0.5rem
+  }
+
+}
+//Stat__Books
+
+.main__stats__books {
+  background-color: $screen_bg;
+  margin-right: 2vw;
+  box-shadow: 3px 10px 16px 0px rgba(166, 153, 166, 1);
+
+  i {
+    background-color: $success_color;
+  }
+
+}
+
+.main__stats__books--counter {
+  display: block;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  font-style: italic;
+
+}
+
+.main__stats__books--counter--month {
+  display: block;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  font-style: italic;
+}
+//Stat__Movies
+
+.main__stats__movies {
+  background-color: $screen_bg;
+  margin-left: 2vw;
+  box-shadow: 3px 10px 16px 0px rgba(166, 153, 166, 1);
+
+  i {
+    background-color: $info_color;
+  }
+
+}
+
+.main__stats__movies--counter {
+  display: block;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  font-style: italic;
+}
+
+.main__stats__movies--counter--month {
+  display: block;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 10px 0 10px 0;
+  font-style: italic;
+}
+
+
+
+

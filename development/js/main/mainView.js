@@ -6,18 +6,35 @@ export const MainView = () => {
     return (
         <>
             <div className='container main'>
+                <div className='row main__hamburger'>
+                    <h1 className=" col-12 nav__menu__logo"><Link to={"/"}>Kulturka </Link></h1>
+                </div>
+
                 <div className='row main__stats'>
                     <div className="col-6 main__stats__books">
-                        <p>Przeczytane {"ilość"}</p>
-                        <p>Przeczytane {"miesiąc"}: {"ilość"}</p>
+                        <i className="fas fa-book-reader"> </i>
+                        <p>Przeczytane:
+                            <span className='main__stats__books--counter'>ilość </span>
+                        </p>
+                        <p>Przeczytane
+                            <span className='main__stats__books--month'>"miesiąc"</span>:
+                            <span className='main__stats__books--counter--month'>ilość </span>
+                        </p>
                     </div>
-                    <div className="col-6 main__stats__movies">
-                        <p>Obejrzane Filmy {"ilość"}</p>
-                        <p>Obejrzane Filmy {"miesiąc"}: {"ilość"}</p>
+
+                    <div className="col-6 main__stats__movies main__stats--all ">
+                        <i className="fas fa-film"> </i>
+                        <p>Obejrzane Filmy:
+                            <span className='main__stats__movies--counter'>ilość </span>
+                        </p>
+                        <p>Obejrzane Filmy
+                            <span className='main__stats__movies--month'>"miesiąc"</span>:
+                            <span className='main__stats__movies--counter--month'>ilość </span>
+                        </p>
                     </div>
 
                 </div>
-                <div className='row main__searchPage'>
+                <div className='row main__searchPage main__stats--all'>
                     <div className="col-6 main__searchPage__books">
                         <p></p></div>
                     <div className="col-6 main__searchPage__movies">

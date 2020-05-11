@@ -1,6 +1,6 @@
 .nav {
   display: none;
- // display: flex;
+  //  display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1;
@@ -13,6 +13,7 @@
   padding-top: 1.5rem;
   padding-bottom: 2rem;
   text-align: center;
+  font-weight: 700;
 
   border-bottom: 2px solid $complementary_color;
 
@@ -86,13 +87,28 @@
   }
 }
 
-.nav__menu__hamburger{
+.nav__menu__hamburger {
   font-size: 4rem;
   position: absolute;
   right: 1px;
-  top:1px;
+  top: 1px;
+
+  &:active {
+    animation: shadowing .4s cubic-bezier(.25, .46, .45, .94) both
+
+  }
 }
 
+@keyframes shadowing {
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 transparent
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .35)
+  }
+}
 
 
 

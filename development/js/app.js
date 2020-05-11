@@ -4,6 +4,10 @@ import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import '../sass/main.scss'
 import {Menu} from "./main/menu";
 import {MainView} from "./main/mainView";
+import {Search} from "./main/search";
+import {MyShelf} from "./main/myShelf";
+import {MyMovies} from "./main/myMovies";
+import {WishesList} from "./main/wishesList";
 
 
 const App = () => {
@@ -11,8 +15,11 @@ const App = () => {
         <HashRouter>
 
             <Route exact path="/" component={Menu}/>
-
             <Route exact path="/" component={MainView}/>
+            <Route exact path="/search" component={Search}/>
+            <Route exact path="/myShelf" component={MyShelf}/>
+            <Route exact path="/myMovies" component={MyMovies}/>
+            <Route exact path="/wishesLists" component={WishesList}/>
 
 
         </HashRouter>

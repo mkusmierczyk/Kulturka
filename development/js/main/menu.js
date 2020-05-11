@@ -13,13 +13,13 @@ export const Menu = () => {
                         <ul className="nav__menu__links">
                             <li className="nav__menu__links nav__menu--link"><Link to={"/"}> <i
                                 className="fas fa-th-large"> </i> <span>Panel Główny </span></Link></li>
-                            <li className="nav__menu__links nav__menu--link"><Link to={"/"}><i
+                            <li className="nav__menu__links nav__menu--link"><Link to={"//search"}><i
                                 className="fas fa-search"> </i> <span>Wyszukaj </span> </Link></li>
-                            <li className="nav__menu__links nav__menu--link"><Link to={"/"}><i
+                            <li className="nav__menu__links nav__menu--link"><Link to={"/myShelf"}><i
                                 className="fas fa-book-open"> </i> <span>Moja Półka </span></Link></li>
-                            <li className="nav__menu__links nav__menu--link"><Link to={"/"}><i
+                            <li className="nav__menu__links nav__menu--link"><Link to={"/myMovies"}><i
                                 className="fas fa-video"> </i><span>Moja Filomoteka </span></Link></li>
-                            <li className="nav__menu__links nav__menu--link"><Link to={"/"}><i
+                            <li className="nav__menu__links nav__menu--link"><Link to={"/wishesList"}><i
                                 className="far fa-grin-hearts"> </i> <span>Lista Życzeń</span> </Link></li>
                         </ul>
 

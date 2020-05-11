@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
+import Background from '../../images/Movies_screen1.png';
 
 export const MainView = () => {
     return (
@@ -34,23 +35,27 @@ export const MainView = () => {
                     </div>
 
                 </div>
-                <div className='row main__searchPage main__stats--all'>
-                    <div className="col-6 main__searchPage__books">
-                        <p></p></div>
-                    <div className="col-6 main__searchPage__movies">
-                        <p></p>
-                    </div>
+
+                <div className='row main__searchPage '>
+                    <Link className="col-6 main__searchPage__books" to={"/search"}>
+                        Wyszukaj Książkę
+                        {/*// style={{ backgroundImage: `url(${Background})` }}*/}
+                    </Link>
+                    <Link className="col-6 main__searchPage__movies" to={"/search"}>
+                        Wyszukaj Film
+                    </Link>
                 </div>
+
                 <div className='row main__shortcut'>
-                    <div className="col-3 row main__shortcut__myShelf">
-                        <p></p>
-                    </div>
-                    <div className="col-3 row main__shortcut__myMovies">
-                        <p></p>
-                    </div>
-                    <div className="col-3 row main__shortcut__wishesList">
-                        <p></p>
-                    </div>
+                    <Link className="col-4 row main__shortcut__myShelf" to={"/myShelf"}>
+                          Półka
+                    </Link>
+                    <Link className="col-4 row main__shortcut__myMovies" to={"/myMovies"}>
+                        Filomoteka
+                    </Link>
+                    <Link className="col-4 row main__shortcut__wishesList" to={"/wishesList"}>
+                      Lista Życzeń
+                    </Link>
                 </div>
             </div>
 

@@ -2,7 +2,7 @@
 
 .nav {
   //display: none;
-    display: flex;
+  //  display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1;
@@ -11,8 +11,9 @@
   font-size: 1rem;
   font-weight: bold;
   font-family: $text_font;
-  background-color: black;
+  background-color: $menu_logo_background;
   color: $main_color;
+  opacity: 1;
 
 
 }
@@ -37,6 +38,7 @@
 .nav__menu__closed{
   text-align: right;
   font-size:2rem;
+  color:$complementary_color;
 
 }
 

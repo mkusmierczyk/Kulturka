@@ -215,7 +215,7 @@ input {
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
+ * All other form control components do not inherit `text-transform` values.
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
@@ -245,7 +245,7 @@ input[type="submit"] {
 }
 
 /**
- * Re-set default cursor for disabled elements.
+ * Re-set default cursor for disabled components.
  */
 
 button[disabled],

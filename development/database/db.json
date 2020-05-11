@@ -1,0 +1,18 @@
+{
+  "books_movies": [
+    {
+      "login": "janKowalski",
+      "name": 123,
+      "title": "Dobry, zły i brzydki",
+      "description": " To jest film o....",
+      "type": "movie"
+    },
+    {
+      "login": "andrzejNowak",
+      "name": 123,
+      "title": "Dobry, zły i brzydki",
+      "description": " To jest film o....",
+      "type": "book"
+    }
+  ]
+}

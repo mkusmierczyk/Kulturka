@@ -1,5 +1,6 @@
 .nav {
-  display: flex;
+  display: none;
+ // display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -13,7 +14,8 @@
   text-align: center;
 
   border-bottom: 2px solid $complementary_color;
-  a{
+
+  a {
     color: $main_color;
     text-decoration: none;
   }
@@ -29,7 +31,6 @@
   font-family: $text_font;
   background-color: black;
   color: $main_color;
-
 
 
 }
@@ -83,6 +84,14 @@
     }
   }
 }
+
+.nav__menu__hamburger{
+  font-size: 5rem;
+  position: absolute;
+  right: 1px;
+  top:1px;
+}
+
 
 
 

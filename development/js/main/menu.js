@@ -9,7 +9,7 @@ export const Menu = () => {
             <HashRouter>
             <nav className="nav">
             <div className="nav__menu">
-                <h1 className="nav__menu__logo"> Kulturka</h1>
+                <h1 className="nav__menu__logo"> <Link to={"/"}>Kulturka </Link></h1>
                 <ul className="nav__menu__links">
                     <li  className="nav__menu__links nav__menu--link"><Link to={"/"}> <i className="fas fa-th-large"> </i> <span >Panel Główny </span></Link></li>
                     <li  className="nav__menu__links nav__menu--link"><Link to={"/"}><i className="fas fa-search"> </i> <span>Wyszukaj </span> </Link></li>

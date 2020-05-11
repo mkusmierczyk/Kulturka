@@ -1,19 +1,34 @@
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 
 
 export const Menu = () => {
+
+    const [showMenu, setShowMenu] = useState("none");
+
+    const handleShowMenu = (e) => {
+        e.preventDefault();
+        setShowMenu("flex");
+    }
+
+    const handleHideMenu = (e) => {
+        e.preventDefault();
+        setShowMenu("none");
+    }
+
+
     return (
         <>
             <HashRouter>
-                <nav className="nav">
-                    <div className="nav__menu">
+                <nav className="nav" style={{display: showMenu}}>
+                    <div className="nav__menu ">
                         <h1 className="nav__menu__logo"><Link to={"/"}>Kulturka </Link></h1>
+                        <p className="nav__menu__closed" onClick={handleHideMenu}>X</p>
                         <ul className="nav__menu__links">
                             <li className="nav__menu__links nav__menu--link"><Link to={"/"}> <i
                                 className="fas fa-th-large"> </i> <span>Panel Główny </span></Link></li>
-                            <li className="nav__menu__links nav__menu--link"><Link to={"//search"}><i
+                            <li className="nav__menu__links nav__menu--link"><Link to={"/search"}><i
                                 className="fas fa-search"> </i> <span>Wyszukaj </span> </Link></li>
                             <li className="nav__menu__links nav__menu--link"><Link to={"/myShelf"}><i
                                 className="fas fa-book-open"> </i> <span>Moja Półka </span></Link></li>
@@ -31,7 +46,7 @@ export const Menu = () => {
                     </div>
 
                 </nav>
-                <i className=" nav__menu__hamburger fas fa-bars"> </i>
+                <i className=" nav__menu__hamburger fas fa-bars" onClick={handleShowMenu}> </i>
             </HashRouter>
         </>
 

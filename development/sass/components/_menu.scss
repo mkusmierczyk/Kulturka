@@ -1,9 +1,20 @@
+
+
 .nav {
-  display: none;
-  //  display: flex;
+  //display: none;
+    display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1;
+  width: 20rem;
+  height: 100vh;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: $text_font;
+  background-color: black;
+  color: $main_color;
+
+
 }
 
 .nav__menu__logo {
@@ -21,21 +32,15 @@
     color: $main_color;
     text-decoration: none;
   }
+}
 
+.nav__menu__closed{
+  text-align: right;
+  font-size:2rem;
 
 }
 
-.nav {
-  width: 20rem;
-  height: 100vh;
-  font-size: 1rem;
-  font-weight: bold;
-  font-family: $text_font;
-  background-color: black;
-  color: $main_color;
 
-
-}
 
 .nav__menu__links a {
   display: flex;

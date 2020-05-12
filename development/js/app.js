@@ -4,7 +4,7 @@ import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import '../sass/main.scss'
 import {Menu} from "./main/menu";
 import {MainView} from "./main/mainView";
-import {Search} from "./main/search";
+import {Search} from "./Search/search";
 import {MyShelf} from "./main/myShelf";
 import {MyMovies} from "./main/myMovies";
 import {WishesList} from "./main/wishesList";

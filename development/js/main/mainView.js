@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
-import Background from '../../images/Movies_screen1.png';
+
 
 export const MainView = () => {
     return (
@@ -39,7 +39,6 @@ export const MainView = () => {
                 <div className='row main__searchPage '>
                     <Link className="col-6 main__searchPage__books" to={"/search"}>
                         Wyszukaj Książkę
-                        {/*// style={{ backgroundImage: `url(${Background})` }}*/}
                     </Link>
                     <Link className="col-6 main__searchPage__movies" to={"/search"}>
                         Wyszukaj Film

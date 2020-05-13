@@ -1,18 +1,908 @@
 {
   "books_movies": [
     {
+      "id": 1,
       "login": "janKowalski",
-      "name": 123,
+      "password": 123,
       "title": "Dobry, zły i brzydki",
       "description": " To jest film o....",
-      "type": "movie"
+      "url": "`https://image.tmdb.org/t/p/w500/${movie.poster_path}`",
+      "type": "movie",
+      "date": "2020-01-03",
+      "people": {
+        "popularity": "213123",
+        "vote_average": 9.8,
+        "vote_count": "122"
+      }
     },
     {
+      "id": 2,
       "login": "andrzejNowak",
-      "name": 123,
-      "title": "Dobry, zły i brzydki",
-      "description": " To jest film o....",
-      "type": "book"
+      "password": 123,
+      "title": "Na Zachodzie bez zmian",
+      "url": "`https://image.tmdb.org/t/p/w500/${movie.poster_path}`",
+      "description": " To jest Książka o....",
+      "type": "book",
+      "date": "2020-01-03"
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 3
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "",
+      "type": "",
+      "date": "2020-05-13T08:40:40.764Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 4
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "Film",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 5
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 6
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 7
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500/undefined",
+      "type": "option",
+      "date": "2020-05-13T08:58:53.620Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 8
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 9
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 10
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500/undefined",
+      "type": "Film",
+      "date": "2020-05-13T09:08:19.645Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 11
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 12
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 13
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 14
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500/undefined",
+      "type": "Film",
+      "date": "2020-05-13T09:15:54.925Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 15
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 16
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:17:19.837Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 17
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//yhUmbB6oClswAjqcS9iNi7pEwbr.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:17:21.713Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 18
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 19
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Nadszedł ten czas. Czas Frodo, który musi pokonać przebiegłego Golluma, przetrwać przerażający atak olbrzymiego pająka Sheloby i oprzeć się zniewalającej mocy Pierścienia, który niesie za sobą zniszczenie i zgubę. Czas Aragorna, który musi dobyć miecza swych przodków i przyjąć koronę swojego dziedzictwa. Czas potężnego starcia, które czarodziej Gandalf nazwał największą bitwą naszych czasów. Nadszedł też czas inspirującej kulminacji trylogii opartej na klasyce literatury autorstwa J.R.R. Tolkiena. Po raz trzeci film z kultowej trylogii zdobył nominację do Nagrody Akademii w kategorii Najlepszy film i po raz pierwszy ją otrzymał (oraz 10 innych). Król zasłużył na swoją koronę.",
+      "url": "https://image.tmdb.org/t/p/w500//oV6t5tkv41NHxc80gBuvuHvNlnS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:29:20.093Z",
+      "people": {
+        "popularity": 57.498,
+        "vote_average": 8.4,
+        "vote_count": 15411
+      },
+      "id": 20
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 21
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 22
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 23
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 24
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 25
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//yhUmbB6oClswAjqcS9iNi7pEwbr.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:36:41.174Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 26
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 27
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//yhUmbB6oClswAjqcS9iNi7pEwbr.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:38:19.766Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 28
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//oV6t5tkv41NHxc80gBuvuHvNlnS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:38:20.912Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 29
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 30
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:40:10.911Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 31
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500//yhUmbB6oClswAjqcS9iNi7pEwbr.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:40:26.664Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 32
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 33
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Nadszedł ten czas. Czas Frodo, który musi pokonać przebiegłego Golluma, przetrwać przerażający atak olbrzymiego pająka Sheloby i oprzeć się zniewalającej mocy Pierścienia, który niesie za sobą zniszczenie i zgubę. Czas Aragorna, który musi dobyć miecza swych przodków i przyjąć koronę swojego dziedzictwa. Czas potężnego starcia, które czarodziej Gandalf nazwał największą bitwą naszych czasów. Nadszedł też czas inspirującej kulminacji trylogii opartej na klasyce literatury autorstwa J.R.R. Tolkiena. Po raz trzeci film z kultowej trylogii zdobył nominację do Nagrody Akademii w kategorii Najlepszy film i po raz pierwszy ją otrzymał (oraz 10 innych). Król zasłużył na swoją koronę.",
+      "url": "https://image.tmdb.org/t/p/w500//oV6t5tkv41NHxc80gBuvuHvNlnS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:42:50.494Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 34
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Ekranizacja pierwszej części trylogii Tolkiena, \"Drużyna pierścienia\" zapoznaje widzów z czarodziejskim światem Śródziemia i jego mieszkańcami - ludźmi, hobbitami, elfami, krasnoludami, czarodziejami, trollami i orkami. W tej części trylogii młody i nieśmiały hobbit Frodo Baggins odziedzicza pierścień - Jedyny Pierścień, narzędzie władzy absolutnej, które pozwoliłoby Sauronowi, mrocznemu Władcy Mordoru, rządzić Śródziemiem i zniewolić zamieszkujące je ludy. Frodo, wraz z lojalną kompanią hobbitów, ludzi, czarodzieja, krasnoluda i elfa, musi zabrać Pierścień do Szczelin Zagłady, gdzie został kiedyś wykuty, i zniszczyć go raz na zawsze. Taka podróż oznacza zapuszczenie się głęboko do krainy Czarnego Władcy, gdzie gromadzi on armię orków. Drużyna musi walczyć nie tylko ze złem czającym się wokół, ale i z wewnętrznymi waśniami oraz niszczącym wpływem samego Pierścienia. Przyszłość świata i przeznaczenie drużyny są ze sobą splecione.",
+      "url": "https://image.tmdb.org/t/p/w500//9UL1AK7oWjeA33vCELCZ1NhMm5R.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:43:12.589Z",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 35
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 36
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Generał Maximus (Russell Crowe) zakończył kolejną udaną wyprawę wojenną. Zmuszony do ucieczki przez zazdrosnego o jego wpływy u Cesarza dziedzica tronu Commodusa, Maximus trafia do niewoli i zostaje gladiatorem. Powraca do Rzymu z zamiarem pomszczenia śmierci syna i żony. Wie, że jedyną siłą potężniejszą od samego Cesarza jest wola ludu, może dokonać swej zemsty, zostając największym bohaterem całego Imperium. \"Gladiator\" to epicka opowieść o odwadze i zemście osadzona w realiach Cesarstwa Rzymskiego roku 180 n.e.  [opis dystrybutora dvd]",
+      "url": "https://image.tmdb.org/t/p/w500//1f0U34P6OFPXvfQta556VfXZqiC.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:45:45.630Z",
+      "people": {
+        "popularity": 35.027,
+        "vote_average": 8.2,
+        "vote_count": 11669
+      },
+      "id": 37
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Generał Maximus (Russell Crowe) zakończył kolejną udaną wyprawę wojenną. Zmuszony do ucieczki przez zazdrosnego o jego wpływy u Cesarza dziedzica tronu Commodusa, Maximus trafia do niewoli i zostaje gladiatorem. Powraca do Rzymu z zamiarem pomszczenia śmierci syna i żony. Wie, że jedyną siłą potężniejszą od samego Cesarza jest wola ludu, może dokonać swej zemsty, zostając największym bohaterem całego Imperium. \"Gladiator\" to epicka opowieść o odwadze i zemście osadzona w realiach Cesarstwa Rzymskiego roku 180 n.e.  [opis dystrybutora dvd]",
+      "url": "https://image.tmdb.org/t/p/w500//1f0U34P6OFPXvfQta556VfXZqiC.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:46:17.040Z",
+      "people": {
+        "popularity": 35.027,
+        "vote_average": 8.2,
+        "vote_count": 11669
+      },
+      "id": 38
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Jeden walczy, by wygrać. Drugi walczy, by przetrwać. Dwaj młodzi bokserzy stają do walki, która może zrujnować ich przyjaźń i życie. W filmie \"Gladiator\" w role bokserów-amatorów wcielili się Cuba Gooding Jr. (\"Lepiej być nie może\", \"Chłopaki z sąsiedztwa\", \"Jerry Maguire\") i James Marshall (\"Miasteczko Twin Peaks\"), a partnerują im Brian Dennehy (\"F/X\", \"F/X2\") w roli skorumpowanego organizatora walki i Robert Loggia (\"Nóż\") jako cyniczny łowca młodych talentów.",
+      "url": "https://image.tmdb.org/t/p/w500//24eDtuux6l0Mgl8sX8fSxa20HEh.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:46:44.325Z",
+      "people": {
+        "popularity": 6.398,
+        "vote_average": 6.2,
+        "vote_count": 60
+      },
+      "id": 39
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Jeden walczy, by wygrać. Drugi walczy, by przetrwać. Dwaj młodzi bokserzy stają do walki, która może zrujnować ich przyjaźń i życie. W filmie \"Gladiator\" w role bokserów-amatorów wcielili się Cuba Gooding Jr. (\"Lepiej być nie może\", \"Chłopaki z sąsiedztwa\", \"Jerry Maguire\") i James Marshall (\"Miasteczko Twin Peaks\"), a partnerują im Brian Dennehy (\"F/X\", \"F/X2\") w roli skorumpowanego organizatora walki i Robert Loggia (\"Nóż\") jako cyniczny łowca młodych talentów.",
+      "url": "https://image.tmdb.org/t/p/w500//24eDtuux6l0Mgl8sX8fSxa20HEh.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:47:03.230Z",
+      "people": {
+        "popularity": 6.398,
+        "vote_average": 6.2,
+        "vote_count": 60
+      },
+      "id": 40
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Jeden walczy, by wygrać. Drugi walczy, by przetrwać. Dwaj młodzi bokserzy stają do walki, która może zrujnować ich przyjaźń i życie. W filmie \"Gladiator\" w role bokserów-amatorów wcielili się Cuba Gooding Jr. (\"Lepiej być nie może\", \"Chłopaki z sąsiedztwa\", \"Jerry Maguire\") i James Marshall (\"Miasteczko Twin Peaks\"), a partnerują im Brian Dennehy (\"F/X\", \"F/X2\") w roli skorumpowanego organizatora walki i Robert Loggia (\"Nóż\") jako cyniczny łowca młodych talentów.",
+      "url": "https://image.tmdb.org/t/p/w500//24eDtuux6l0Mgl8sX8fSxa20HEh.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:47:06.745Z",
+      "people": {
+        "popularity": 6.398,
+        "vote_average": 6.2,
+        "vote_count": 60
+      },
+      "id": 41
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 42
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Co ty możesz o sobie wiedzieć, jeśli nigdy nie walczyłeś? W tym niezwykłym, pełnym niespodziewanych zwrotów akcji i nie pozbawionym swoistego humoru filmie w reżyserii Davida Finchera (\"Siedem\") oryginalne i dynamiczne kreacje stworzyli Brad Pitt (\"Siedem\") i Edward Norton (\"Lęk pierwotny\"). Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja.",
+      "url": "https://image.tmdb.org/t/p/w500//efBb4gjjKneUoBVgfFOUu2OwihS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T09:50:26.143Z",
+      "people": {
+        "popularity": 40.318,
+        "vote_average": 8.4,
+        "vote_count": 19126
+      },
+      "id": 43
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 44
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 45
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Co ty możesz o sobie wiedzieć, jeśli nigdy nie walczyłeś? W tym niezwykłym, pełnym niespodziewanych zwrotów akcji i nie pozbawionym swoistego humoru filmie w reżyserii Davida Finchera (\"Siedem\") oryginalne i dynamiczne kreacje stworzyli Brad Pitt (\"Siedem\") i Edward Norton (\"Lęk pierwotny\"). Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja.",
+      "url": "https://image.tmdb.org/t/p/w500//efBb4gjjKneUoBVgfFOUu2OwihS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:11:42.073Z",
+      "people": {
+        "popularity": 40.318,
+        "vote_average": 8.4,
+        "vote_count": 19126
+      },
+      "id": 46
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Co ty możesz o sobie wiedzieć, jeśli nigdy nie walczyłeś? W tym niezwykłym, pełnym niespodziewanych zwrotów akcji i nie pozbawionym swoistego humoru filmie w reżyserii Davida Finchera (\"Siedem\") oryginalne i dynamiczne kreacje stworzyli Brad Pitt (\"Siedem\") i Edward Norton (\"Lęk pierwotny\"). Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja.",
+      "url": "https://image.tmdb.org/t/p/w500//efBb4gjjKneUoBVgfFOUu2OwihS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:11:56.048Z",
+      "people": {
+        "popularity": 40.318,
+        "vote_average": 8.4,
+        "vote_count": 19126
+      },
+      "id": 47
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 48
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Drużyna Pierścienia została rozbita. Z dziewięciu jej członków dwóch zginęło. Merry i Pippin zostają wzięci do niewoli przez orki. Aragorn, Legolas i Gimli ruszają w pościg, by ich odbić. Frodo chce za wszelką cenę wypełnić misję Powiernika Pierścienia, nawet sam. Wie też, że w pojedynkę łatwiej będzie mu umknąć przed ścigającymi na każdym kroku Drużynę Pierścienia szpiegami. W misji tej zdecydowanie pragnie wspierać go Sam, nawet wbrew jego życzeniu. Tak więc rozpoczyna się dużo trudniejszy etap misji Powiernika Pierścienia. Tymczasem Merry i Pippin, po wydostaniu się z niewoli, prowadzą armię pradawnych Entów na Isengardu, gdzie leży siedziba zdrajcy Sarumana. Aragorn, Legolas, Gimli i Gandalf Biały wspierają Rohan w bitwie o Rogaty Gród, mającej odeprzeć najazd Isengardu. Członkowie rozbitej Drużyny Pierścienia rozumieją, że tylko tym sposobem mogą wspomóc Powiernika Pierścienia w jego misji. Niestety wszystko wskazuje na to, że wojna z siłami Mordoru za chwilę się rozpocznie.",
+      "url": "https://image.tmdb.org/t/p/w500//yhUmbB6oClswAjqcS9iNi7pEwbr.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:34:20.675Z",
+      "people": {
+        "popularity": 39.936,
+        "vote_average": 8.3,
+        "vote_count": 14561
+      },
+      "id": 49
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:34:36.595Z",
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 50
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 51
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Drużyna Pierścienia została rozbita. Z dziewięciu jej członków dwóch zginęło. Merry i Pippin zostają wzięci do niewoli przez orki. Aragorn, Legolas i Gimli ruszają w pościg, by ich odbić. Frodo chce za wszelką cenę wypełnić misję Powiernika Pierścienia, nawet sam. Wie też, że w pojedynkę łatwiej będzie mu umknąć przed ścigającymi na każdym kroku Drużynę Pierścienia szpiegami. W misji tej zdecydowanie pragnie wspierać go Sam, nawet wbrew jego życzeniu. Tak więc rozpoczyna się dużo trudniejszy etap misji Powiernika Pierścienia. Tymczasem Merry i Pippin, po wydostaniu się z niewoli, prowadzą armię pradawnych Entów na Isengardu, gdzie leży siedziba zdrajcy Sarumana. Aragorn, Legolas, Gimli i Gandalf Biały wspierają Rohan w bitwie o Rogaty Gród, mającej odeprzeć najazd Isengardu. Członkowie rozbitej Drużyny Pierścienia rozumieją, że tylko tym sposobem mogą wspomóc Powiernika Pierścienia w jego misji. Niestety wszystko wskazuje na to, że wojna z siłami Mordoru za chwilę się rozpocznie.",
+      "url": "https://image.tmdb.org/t/p/w500//yhUmbB6oClswAjqcS9iNi7pEwbr.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:35:11.027Z",
+      "people": {
+        "popularity": 39.936,
+        "vote_average": 8.3,
+        "vote_count": 14561
+      },
+      "id": 52
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 53
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Co ty możesz o sobie wiedzieć, jeśli nigdy nie walczyłeś? W tym niezwykłym, pełnym niespodziewanych zwrotów akcji i nie pozbawionym swoistego humoru filmie w reżyserii Davida Finchera (\"Siedem\") oryginalne i dynamiczne kreacje stworzyli Brad Pitt (\"Siedem\") i Edward Norton (\"Lęk pierwotny\"). Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja.",
+      "url": "https://image.tmdb.org/t/p/w500//efBb4gjjKneUoBVgfFOUu2OwihS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:35:35.411Z",
+      "people": {
+        "popularity": 40.318,
+        "vote_average": 8.4,
+        "vote_count": 19126
+      },
+      "id": 54
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 55
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:36:04.171Z",
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 56
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "date": "",
+      "people": {
+        "popularity": "",
+        "vote_average": "",
+        "vote_count": ""
+      },
+      "id": 57
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Ekranizacja pierwszej części trylogii Tolkiena, \"Drużyna pierścienia\" zapoznaje widzów z czarodziejskim światem Śródziemia i jego mieszkańcami - ludźmi, hobbitami, elfami, krasnoludami, czarodziejami, trollami i orkami. W tej części trylogii młody i nieśmiały hobbit Frodo Baggins odziedzicza pierścień - Jedyny Pierścień, narzędzie władzy absolutnej, które pozwoliłoby Sauronowi, mrocznemu Władcy Mordoru, rządzić Śródziemiem i zniewolić zamieszkujące je ludy. Frodo, wraz z lojalną kompanią hobbitów, ludzi, czarodzieja, krasnoluda i elfa, musi zabrać Pierścień do Szczelin Zagłady, gdzie został kiedyś wykuty, i zniszczyć go raz na zawsze. Taka podróż oznacza zapuszczenie się głęboko do krainy Czarnego Władcy, gdzie gromadzi on armię orków. Drużyna musi walczyć nie tylko ze złem czającym się wokół, ale i z wewnętrznymi waśniami oraz niszczącym wpływem samego Pierścienia. Przyszłość świata i przeznaczenie drużyny są ze sobą splecione.",
+      "url": "https://image.tmdb.org/t/p/w500//9UL1AK7oWjeA33vCELCZ1NhMm5R.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:39:07.931Z",
+      "people": {
+        "popularity": 50.996,
+        "vote_average": 8.3,
+        "vote_count": 16897
+      },
+      "id": 58
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//7OEnUJemQZuKFyxXYlmRznoUemX.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:39:14.843Z",
+      "people": {
+        "popularity": 6.344,
+        "vote_average": 7.1,
+        "vote_count": 18
+      },
+      "id": 59
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:43:25.020Z",
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 60
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:43:26.123Z",
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 61
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:45:14.908Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 62
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Nadszedł ten czas. Czas Frodo, który musi pokonać przebiegłego Golluma, przetrwać przerażający atak olbrzymiego pająka Sheloby i oprzeć się zniewalającej mocy Pierścienia, który niesie za sobą zniszczenie i zgubę. Czas Aragorna, który musi dobyć miecza swych przodków i przyjąć koronę swojego dziedzictwa. Czas potężnego starcia, które czarodziej Gandalf nazwał największą bitwą naszych czasów. Nadszedł też czas inspirującej kulminacji trylogii opartej na klasyce literatury autorstwa J.R.R. Tolkiena. Po raz trzeci film z kultowej trylogii zdobył nominację do Nagrody Akademii w kategorii Najlepszy film i po raz pierwszy ją otrzymał (oraz 10 innych). Król zasłużył na swoją koronę.",
+      "url": "https://image.tmdb.org/t/p/w500//oV6t5tkv41NHxc80gBuvuHvNlnS.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:45:18.427Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 57.498,
+        "vote_average": 8.4,
+        "vote_count": 15411
+      },
+      "id": 63
+    },
+    {
+      "login": "",
+      "password": "",
+      "description": "Ludzie walczą od stuleci. Niektórzy ze względu na władzę, inni z powodu chwały lub honoru, niektórzy zaś z miłości. W starożytnej Grecji namiętność, jaka połączyła parę najbardziej znanych kochanków w literaturze świata - Parysa, księcia Troi (Orlando Bloom) i Helenę (Diane Kruger), królową Sparty, stała się przyczyną wojny, za której przyczyną legła w ruinach cała cywilizacja. Porwanie Heleny to obraza, której mąż, król Menelaos (Brendan Gleeson), nie może puścić płazem.",
+      "url": "https://image.tmdb.org/t/p/w500//zXfcFQCjNWACKfkhwYpAIcQbG7k.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:58:13.835Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 21.854,
+        "vote_average": 7.1,
+        "vote_count": 6572
+      },
+      "id": 64
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Will Smith: Live in Concert",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//3jfOK5O8HEa6F8cRLVmLTm0YlE8.jpg",
+      "type": "Film",
+      "date": "2020-05-13T10:59:19.076Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 0.6,
+        "vote_average": 7.3,
+        "vote_count": 6
+      },
+      "id": 65
     }
   ]
 }

@@ -18,7 +18,7 @@ const App = () => {
             <Route exact path="/" component={MainView}/>
             <Route exact path="/search" component={Search}/>
             <Route exact path="/myShelf" component={MyShelf}/>
-            <Route exact path="/myMovies" component={MyMovies}/>
+            <Route exact path="/myMovies" component={MyMovies} />
             <Route exact path="/wishesLists" component={WishesList}/>
 
 

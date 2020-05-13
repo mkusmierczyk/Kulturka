@@ -111,6 +111,56 @@
         "vote_count": 430
       },
       "id": 7
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Władca Pierścieni",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Książka",
+      "date": "2020-05-13T19:33:55.435Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 8
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Władca Pierścieni",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Książka",
+      "date": "2020-05-13T19:33:59.283Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 9.782,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 9
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Władca zwierząt",
+      "description": "Królewski syn, Dar, w bardzo młodym wieku został porwany przez kapłana. Wychowywał się w przybranej rodzinie. Kiedy już dorósł jego przybrany ojciec zostaje zamordowany. Dar zaś odkrywa w sobie dar, telepatycznej komunikacji ze zwierzętami. Postanawia się także zemścić za śmierć przybranego ojca. A za wszystkim jak się okazuje stoi zły mag Maax, ze swoim złowieszczym pierścieniem z żywym okiem ...",
+      "url": "https://image.tmdb.org/t/p/w500//aEzPKniyv06YJNeqTqaFZ6fBy5.jpg",
+      "type": "Książka",
+      "date": "2020-05-13T19:37:53.267Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 8.342,
+        "vote_average": 6.2,
+        "vote_count": 192
+      },
+      "id": 10
     }
+
+
   ]
 }

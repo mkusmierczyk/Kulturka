@@ -8,7 +8,8 @@ import useInput from "../Search/useInput";
 export const MyMovies = (props) => {
 
     const [addedMovies, setAddedMovies] = useState(false)
-
+    const [filterStart, setFilterStart] = useInput("")
+    const[filterEnd, setFilterEnd] =useInput("")
 
 
     const API_URL = 'http://localhost:3000';
@@ -73,10 +74,10 @@ export const MyMovies = (props) => {
                 <h1>{pageName} </h1>
 
                 <label> {movieDate}
-                    <input className="col-12" type="text"/>
+                    <input className="col-12" type="text" {...setFilterStart}/>
                 </label>
                 <label> do:
-                    <input className="col-12" type="text"/>
+                    <input className="col-12" type="text" {...setFilterEnd}/>
                 </label>
 
                 <ul className="search__list ">

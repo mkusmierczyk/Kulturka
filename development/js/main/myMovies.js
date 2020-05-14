@@ -8,8 +8,9 @@ import useInput from "../Search/useInput";
 export const MyMovies = (props) => {
 
     const [addedMovies, setAddedMovies] = useState(false)
-    const [filterStart, setFilterStart] = useInput("")
-    const[filterEnd, setFilterEnd] =useInput("")
+    const [filterStart, setFilterStart] = useInput("2020-03-13")
+    const [filterEnd, setFilterEnd] = useInput("2020-05-13")
+
 
 
     const API_URL = 'http://localhost:3000';
@@ -58,13 +59,20 @@ export const MyMovies = (props) => {
     if (!addedMovies) return <h1>Loading data ...</h1>
 
 
-
     let type = props.type || "Film";
     let wishesList = props.wishlist || false
     let pageName = props.pageName || "Moja Filmoteka"
     let movieDate = props.movieDate || "Wyszukaj Filmy obejrzane od:"
     let allMovies = props.AllMovies;
-    const onlyMoviesNonWS = addedMovies.data.filter(movies => movies.type === type && movies.wishlist === wishesList)
+
+    let now = new Date
+
+    const onlyMoviesNonWS = addedMovies.data.filter(movie => {
+        return movie.type === "Film" &&
+            movie.wishlist === false &&
+            (Date.parse(movie.date) > (Date.parse(filterStart))
+            &&Date.parse(movie.date) < (Date.parse(filterEnd)) )
+    })
 
 
     return (
@@ -74,10 +82,10 @@ export const MyMovies = (props) => {
                 <h1>{pageName} </h1>
 
                 <label> {movieDate}
-                    <input className="col-12" type="text" {...setFilterStart}/>
+                    <input className="col-12" type="date"required pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
                 </label>
                 <label> do:
-                    <input className="col-12" type="text" {...setFilterEnd}/>
+                    <input className="col-12" type="date" {...setFilterEnd}/>
                 </label>
 
                 <ul className="search__list ">
@@ -91,7 +99,7 @@ export const MyMovies = (props) => {
                             <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
 
 
-                            <p className="search__list__text__description col-12">{movie.description}</p>
+                            <p className="search__list__text__description col-12">{movie.date}</p>
 
                             <div className="  search__list__stats__people col-12">
                                 <div
@@ -104,7 +112,7 @@ export const MyMovies = (props) => {
 
                             <div className=" search__list__buttons col-12">
                                 <button className="search__list__buttons__add  "
-                                        onClick={e => handleDeleteClick(e, movie.id)} >Usuń
+                                        onClick={e => handleDeleteClick(e, movie.id)}>Usuń
                                 </button>
 
                             </div>

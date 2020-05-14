@@ -151,7 +151,7 @@
       "description": "Ekranizacja pierwszej części trylogii Tolkiena, \"Drużyna pierścienia\" zapoznaje widzów z czarodziejskim światem Śródziemia i jego mieszkańcami - ludźmi, hobbitami, elfami, krasnoludami, czarodziejami, trollami i orkami. W tej części trylogii młody i nieśmiały hobbit Frodo Baggins odziedzicza pierścień - Jedyny Pierścień, narzędzie władzy absolutnej, które pozwoliłoby Sauronowi, mrocznemu Władcy Mordoru, rządzić Śródziemiem i zniewolić zamieszkujące je ludy. Frodo, wraz z lojalną kompanią hobbitów, ludzi, czarodzieja, krasnoluda i elfa, musi zabrać Pierścień do Szczelin Zagłady, gdzie został kiedyś wykuty, i zniszczyć go raz na zawsze. Taka podróż oznacza zapuszczenie się głęboko do krainy Czarnego Władcy, gdzie gromadzi on armię orków. Drużyna musi walczyć nie tylko ze złem czającym się wokół, ale i z wewnętrznymi waśniami oraz niszczącym wpływem samego Pierścienia. Przyszłość świata i przeznaczenie drużyny są ze sobą splecione.",
       "url": "https://image.tmdb.org/t/p/w500//9UL1AK7oWjeA33vCELCZ1NhMm5R.jpg",
       "type": "Film",
-      "date": "2020-05-14T08:15:20.590Z",
+      "date": "2020-04-14T08:15:20.590Z",
       "wishlist": false,
       "people": {
         "popularity": 43.4,
@@ -167,7 +167,7 @@
       "description": "Małoletni pomocnik Andre Toulona w czasie II wojny światowej, Peter Hertz, zdecydował się opowiedzenia historii lalkarza i jego lalek pewnej grożącej mu bronią kobiecie. Film ten jest praktycznie połączeniem scen ze wcześniejszych części serii, by wyjaśnić to wszystko, o czym nie było mowy.",
       "url": "https://image.tmdb.org/t/p/w500//z5fFGOpgevs7KKT5dlKPd290A1d.jpg",
       "type": "Film",
-      "date": "2020-05-14T10:15:45.868Z",
+      "date": "2020-03-14T10:15:45.868Z",
       "wishlist": false,
       "people": {
         "popularity": 6.058,
@@ -175,6 +175,150 @@
         "vote_count": 26
       },
       "id": 13
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Podziemny krąg",
+      "description": "Co ty możesz o sobie wiedzieć, jeśli nigdy nie walczyłeś? W tym niezwykłym, pełnym niespodziewanych zwrotów akcji i nie pozbawionym swoistego humoru filmie w reżyserii Davida Finchera (\"Siedem\") oryginalne i dynamiczne kreacje stworzyli Brad Pitt (\"Siedem\") i Edward Norton (\"Lęk pierwotny\"). Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja.",
+      "url": "https://image.tmdb.org/t/p/w500//efBb4gjjKneUoBVgfFOUu2OwihS.jpg",
+      "type": "Film",
+      "date": "2020-02-14T12:44:48.054Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 38.449,
+        "vote_average": 8.4,
+        "vote_count": 19133
+      },
+      "id": 14
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Why We Fight",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//kfOmnlwt1rrhxmxc05X3i9mHSOs.jpg",
+      "type": "Film",
+      "date": "2020-01-14T12:44:51.629Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 9.023,
+        "vote_average": 7.9,
+        "vote_count": 60
+      },
+      "id": 15
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Fight Valley",
+      "description": "Po śmierci siostry, Windsor przeprowadza własne śledztwo i dowiaduje się o nielegalnych walkach ulicznych, podczas których zginęła Tori. Pragnąć pomścić siostrę, kobieta rozpoczyna treningi u najlepszej fighterki.",
+      "url": "https://image.tmdb.org/t/p/w500//jIPWkzF9srlU8eZTldLM6JYZwkO.jpg",
+      "type": "Film",
+      "date": "2020-01-29T12:44:54.822Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 5.157,
+        "vote_average": 3.7,
+        "vote_count": 17
+      },
+      "id": 16
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Gwiezdny pył",
+      "description": "Opowieść o parze starszych ludzi, żyjących na odludziu i nie mających kontaktów ze światem zewnętrznym. Stary jest konstruktorem-amatorem różnego rodzaju dziwnych urządzeń. Tym razem zamarzył sobie, że na starość będzie kapitalistą i nie będzie płacił za prąd. W tym celu buduje na przepływającej rzeczce małą zaporę z kołem młyńskim napędzającym amatorską prądnicę. W trakcie budowy mijają dni i możemy przyglądać się codziennemu życiu tej dziwacznej pary. Piją i rozmawiają, śpiewają, kłócą się i śmieją. Wszystko to w oprawie gęstej zieleni rosnącej wokół ich domu i stawu. [filmweb.pl]",
+      "url": "https://image.tmdb.org/t/p/w500//5pXj60PZ7NGHPeMxqk4zimBGJTq.jpg",
+      "type": "Film",
+      "date": "2020-05-14T13:42:35.329Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 0.695,
+        "vote_average": 7.5,
+        "vote_count": 2
+      },
+      "id": 17
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Mój rower",
+      "description": "Mówi się, że mężczyźni nie rozumieją kobiet. A co, jeśli jest jeszcze gorzej i nie rozumieją też siebie nawzajem? Najnowszy komediodramat Piotra Trzaskalskiego, to nietypowy przewodnik po męskim świecie. Dlaczego niezależnie od wieku, gdy facet kocha, nie potrafi tego wyrazić słowami? Paweł, Włodek i Maciek skazani na swoje towarzystwo przez kilka dni, nie przepuszczą żadnej okazji, żeby uprzykrzyć sobie życie. Czy naprawdę więcej ich dzieli niż łączy? Czy klucz do zrozumienia męskiego punktu widzenia w ogóle istnieje?",
+      "url": "https://image.tmdb.org/t/p/w500//uQuXSRUDoyK5QG21vyNeQRIoMKh.jpg",
+      "type": "Film",
+      "date": "2020-05-14T13:47:22.281Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 2.468,
+        "vote_average": 6,
+        "vote_count": 13
+      },
+      "id": 18
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Gang Olsena w amoku",
+      "description": "Benny i Klejd nie chcą już zadawać się z Egonem, twierdząc, że przynosi im pecha, a jego plany są zawsze do kitu. Olsen sam obrabia sejf i zabiera wszystkich na Majorkę. Teraz wszyscy się do niego znów przekonali, jednakże już w samolocie zaczynają się prawdziwe kłopoty..",
+      "url": "https://image.tmdb.org/t/p/w500//yUSa33TJXIYA8rlLBsxl5flTRsZ.jpg",
+      "type": "Film",
+      "date": "2020-05-14T13:49:36.561Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 3.351,
+        "vote_average": 6.9,
+        "vote_count": 27
+      },
+      "id": 19
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Trzy metry nad niebem",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//v1uyiF4pWzBhBlM5732XM0OnCCA.jpg",
+      "type": "Film",
+      "date": "2020-05-14T13:51:03.321Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 11.174,
+        "vote_average": 5.7,
+        "vote_count": 508
+      },
+      "id": 20
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Sacro GRA",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//dGYMAWlPAwsuMURdU8UkKLdVnG4.jpg",
+      "type": "Film",
+      "date": "2020-05-14T13:52:06.665Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 2.705,
+        "vote_average": 6.1,
+        "vote_count": 39
+      },
+      "id": 21
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Kłopoty z Harrym",
+      "description": "Tytułowy Harry jest obcym w małej amerykańskiej mieścinie, co więcej jest trupem. Co gorsza kilka osób, dzięki niezwykłemu splotowi wydarzeń, uważa, że jest odpowiedzialna za śmierć Harrego. Rozpoczyna się zabawna historia zakopywania, odkopywania, ukrywania i przenoszenia zwłok Harrego - stróż prawa próbuje rozwikłać zagadkę, która okazuje się mieć ciekawe rozwiązanie. Najśmieszniejszy film Hitchcocka.",
+      "url": "https://image.tmdb.org/t/p/w500//1SoXxpGigI6XNkW5BLPYZNcGocI.jpg",
+      "type": "Książka",
+      "date": "2020-05-14T13:54:56.481Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 7.895,
+        "vote_average": 7,
+        "vote_count": 394
+      },
+      "id": 22
     }
   ]
 }

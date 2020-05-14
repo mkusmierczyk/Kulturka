@@ -30,9 +30,17 @@ export const Search = () => {
     })
 
 
-    const handleSubmit = (index, e, isWishList , btn) => {
+    const handleSubmit = (index, e, isWishList ) => {
         e.preventDefault();
-        // setHideButton(btn);
+        e.target.parentElement.style.display = "none"
+        const adInfo = document.createElement("span")
+        adInfo.innerText ="Dodano do Listy"
+        adInfo.style.color = "green"
+        adInfo.style.margin = "5px"
+        adInfo.style.fontWeight= "bold"
+
+        e.target.parentElement.parentElement.appendChild(adInfo)
+
         let movie = movies[index]
         console.log(movie);
         setBookMovie({
@@ -156,7 +164,7 @@ export const Search = () => {
                                         onClick={e => handleSubmit(index, e, false)}>Dodaj
                                 </button>
                                 <button  className="search__list__buttons__wishList "
-                                        onClick={e => handleSubmit(index, e, true,false)}>Dodaj Lista Życzeń
+                                        onClick={e => handleSubmit(index, e, true,)}>Dodaj Lista Życzeń
                                 </button>
                             </div>
                         </div>

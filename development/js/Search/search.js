@@ -11,7 +11,6 @@ export const Search = () => {
     // const[hideButton, setHideButton] = useState(true)
 
 
-
     const API_URL = 'http://localhost:3000';
 
     const [bookMovie, setBookMovie] = useState({
@@ -30,33 +29,32 @@ export const Search = () => {
     })
 
 
-    const handleSubmit = (index, e, isWishList ) => {
+    const handleSubmit = (index, e, isWishList) => {
         e.preventDefault();
         e.target.parentElement.style.display = "none"
         const adInfo = document.createElement("span")
-        adInfo.innerText ="Dodano do Listy"
+        adInfo.innerText = "Dodano do Listy"
         adInfo.style.color = "green"
         adInfo.style.margin = "5px"
-        adInfo.style.fontWeight= "bold"
+        adInfo.style.fontWeight = "bold"
 
         e.target.parentElement.parentElement.appendChild(adInfo)
 
         let movie = movies[index]
         console.log(movie);
         setBookMovie({
-            login: "",
-            password: "",
-            title: movie.title,
-            description: movie.overview,
-            url: `https://image.tmdb.org/t/p/w500/${movie.poster_path}`,
-            type: option,
-            date: new Date,
-            popularity: movie.popularity,
-            vote_average: movie.vote_average,
-            vote_count: movie.vote_count,
-            wishlist: isWishList
-        }
-
+                login: "",
+                password: "",
+                title: movie.title,
+                description: movie.overview,
+                url: `https://image.tmdb.org/t/p/w500/${movie.poster_path}`,
+                type: option,
+                date: new Date,
+                popularity: movie.popularity,
+                vote_average: movie.vote_average,
+                vote_count: movie.vote_count,
+                wishlist: isWishList
+            }
         )
 
     }
@@ -133,6 +131,7 @@ export const Search = () => {
             <div className="container search">
                 <div className="row search__inputs">
                     <input className="col-12" type="text" {...setSearchName}/>
+
                     <select value={option}  {...setOption}>
                         <option value="Film">Film</option>
                         <option value="Książka">Książka</option>
@@ -141,7 +140,7 @@ export const Search = () => {
 
 
                 <ul className="search__list ">
-                    {movies.map((movie, index) => <li className="row" key={movie.id}>
+                    {movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                         <img className="search__list__poster col-4 alt"
                              src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                              alt={`plakat filmu ${movie.title}`}/>
@@ -151,19 +150,23 @@ export const Search = () => {
                             <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
 
 
-                            <p className="search__list__text__description col-12">{movie.overview}</p>
+                            <p className="search__list__text__description col-11">{movie.overview}</p>
 
                             <div className="  search__list__stats__people col-12">
-                                <div className="search__list__people__popularity"> Obejrzano: {movie.popularity}</div>
-                                <div className="search__list__people__avarage">Średnia Głosów {movie.vote_average}</div>
-                                <div className="search__list__people__votes">Ilość Głosów {movie.vote_count}</div>
+                                <div
+                                    className="search__list__people__popularity"> Obejrzano: <span> {movie.popularity} </span>
+                                </div>
+                                <div className="search__list__people__avarage">Średnia
+                                    Głosów<span> {movie.vote_average}</span></div>
+                                <div className="search__list__people__votes">Ilość
+                                    Głosów <span>{movie.vote_count}</span></div>
                             </div>
 
-                            <div className=" search__list__buttons col-12">
-                                <button className="search__list__buttons__add  "
+                            <div className=" search__list__buttons  col-12">
+                                <button className="search__list__buttons__add btn  "
                                         onClick={e => handleSubmit(index, e, false)}>Dodaj
                                 </button>
-                                <button  className="search__list__buttons__wishList "
+                                <button className="search__list__buttons__wishList btn "
                                         onClick={e => handleSubmit(index, e, true,)}>Dodaj Lista Życzeń
                                 </button>
                             </div>

@@ -335,6 +335,38 @@
         "vote_count": 15421
       },
       "id": 25
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Kraina lodu II",
+      "description": "Dlaczego Elsa urodziła się obdarzona magiczną mocą? Odpowiedź na to pytanie nie daje jej spokoju i… zagraża całemu królestwu! Dlatego razem z Anną, Kristoffem, Olafem i Svenem wyruszają w niebezpieczną i niezwykłą podróż. Czy ta wyprawa odmieni życie bohaterów? Czego się podczas niej dowiedzą? Jakie przygody przeżyją? W oscarowej Krainie lodu Elsa bała się, że jej moc jest zbyt potężna i może doprowadzić do katastrofy. W drugiej części musi mieć nadzieję, że ta moc będzie wystarczająca, aby przezwyciężyć problemy, które napotka. Czy tak się stanie?",
+      "url": "https://image.tmdb.org/t/p/w500//jVGafxdBZldAJfmgZujoDfBpVxd.jpg",
+      "type": "Film",
+      "date": "2020-05-14T17:59:50.465Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 266.789,
+        "vote_average": 7.2,
+        "vote_count": 4319
+      },
+      "id": 26
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Władca Pierścieni",
+      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
+      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "type": "Film",
+      "date": "2020-05-14T18:22:40.898Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 12.717,
+        "vote_average": 6.5,
+        "vote_count": 430
+      },
+      "id": 27
     }
   ]
 }

@@ -81,14 +81,16 @@ export const MyMovies = (props) => {
         <>
             <Menu/>
             <div className="container">
-                <h1>{pageName} </h1>
+                <div className="header">
+                <h1 className="header__title">{pageName} </h1>
 
-                <label> {movieDate}
-                    <input className="col-12" type="date"required pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
+                <label className="header__label"> {movieDate}
+                    <input className=" col-12 header__label__input" className="col-12" type="date"required pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
                 </label>
-                <label> do:
-                    <input className="col-12" type="date" {...setFilterEnd}/>
+                <label className="header__label"> do:
+                    <input className="col-12 header__label__input" type="date" {...setFilterEnd}/>
                 </label>
+                </div>
 
                 <ul className="search__list ">
                     {onlyMoviesNonWS.map((movie, index) => <li className="row" key={index}>

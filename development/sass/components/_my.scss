@@ -1,0 +1,22 @@
+.header{
+  background-color: $menu_logo_background;
+  color: $screen_bg;
+  font-family: $complementary_font;
+  display: flex;
+flex-direction: column;
+}
+
+.header__title{
+  text-align: center;
+  letter-spacing: 5px;
+
+  margin:0 10px 15px 10px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 10px;
+
+}
+.header__label{
+  font-size:1.5rem;
+
+}

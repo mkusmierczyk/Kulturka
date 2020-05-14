@@ -15,11 +15,11 @@ const App = () => {
         <HashRouter>
 
             <Route exact path="/" component={Menu}/>
-            <Route exact path="/" component={MainView}/>
+            <Route exact path="/" component={MainView} allMovies ="data" />
             <Route exact path="/search" component={Search}/>
             <Route exact path="/myShelf" component={MyShelf}/>
             <Route exact path="/myMovies" component={MyMovies} />
-            <Route exact path="/wishesLists" component={WishesList}/>
+            <Route exact path="/wishesList" component={WishesList}/>
 
 
         </HashRouter>

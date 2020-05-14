@@ -7,6 +7,7 @@ export const Menu = () => {
 
     const [showMenu, setShowMenu] = useState("none");
 
+
     const handleShowMenu = (e) => {
         e.preventDefault();
         setShowMenu("flex");
@@ -16,6 +17,9 @@ export const Menu = () => {
         e.preventDefault();
         setShowMenu("none");
     }
+
+
+
 
 
     return (

@@ -12,9 +12,8 @@ export const WishesList = () => {
     console.log("wishes")
     return (
         <>
-            <Menu/>
-            <MyMovies wishlist ={true} type = "Film"  />
-            <MyMovies wishlist ={true} type = "Książki"  />
+            <MyMovies wishlist ={true} type = "Film" pageName = "Lista Życzeń"  movieDate={ "Wyszukaj od"} />
+            {/*<MyMovies wishlist ={true} type = "Książka"  />*/}
     </>
     )
 }

@@ -8,6 +8,8 @@ export const Search = () => {
     const [searchName, setSearchName] = useInput("Władca Pierścieni")
     const [option, setOption] = useInput("Film");
     const [movies, setMovies] = useState([])
+    // const[hideButton, setHideButton] = useState(true)
+
 
 
     const API_URL = 'http://localhost:3000';
@@ -28,8 +30,9 @@ export const Search = () => {
     })
 
 
-    const handleSubmit = (index, e, isWishList) => {
+    const handleSubmit = (index, e, isWishList , btn) => {
         e.preventDefault();
+        // setHideButton(btn);
         let movie = movies[index]
         console.log(movie);
         setBookMovie({
@@ -44,7 +47,9 @@ export const Search = () => {
             vote_average: movie.vote_average,
             vote_count: movie.vote_count,
             wishlist: isWishList
-        })
+        }
+
+        )
 
     }
 
@@ -150,8 +155,8 @@ export const Search = () => {
                                 <button className="search__list__buttons__add  "
                                         onClick={e => handleSubmit(index, e, false)}>Dodaj
                                 </button>
-                                <button className="search__list__buttons__wishList "
-                                        onClick={e => handleSubmit(index, e, true)}>Dodaj Lista Życzeń
+                                <button  className="search__list__buttons__wishList "
+                                        onClick={e => handleSubmit(index, e, true,false)}>Dodaj Lista Życzeń
                                 </button>
                             </div>
                         </div>

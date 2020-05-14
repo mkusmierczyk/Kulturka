@@ -2,14 +2,16 @@ import React, {Component, useEffect, useState} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import {Menu} from "./menu";
+import useInput from "../Search/useInput";
 
 
 export const MyMovies = (props) => {
 
     const [addedMovies, setAddedMovies] = useState(false)
 
-    const API_URL = 'http://localhost:3000';
 
+
+    const API_URL = 'http://localhost:3000';
 
     useEffect(() => {
         fetch(`${API_URL}/books_movies`)
@@ -34,24 +36,43 @@ export const MyMovies = (props) => {
 
     }, [])
 
-    console.log(addedMovies);
+
+    const handleDeleteClick = (e, movieId) => {
+        e.preventDefault();
+        fetch(`${API_URL}/books_movies/${movieId}`, {
+            method: 'DELETE'
+        })
+            .then(d => {
+                console.log("usnięto", d)
+                const data = addedMovies.data.filter(movie => movie.id !== movieId);
+                setAddedMovies({data})
+                console.log(addedMovies);
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    }
 
 
     if (!addedMovies) return <h1>Loading data ...</h1>
 
-    let type = props.type || "Film";
-    let wishesList= props.wishlist|| false
 
-    const onlyMoviesNonWS = addedMovies.data.filter((movies) => movies.type === type && movies.wishlist === wishesList)
+
+    let type = props.type || "Film";
+    let wishesList = props.wishlist || false
+    let pageName = props.pageName || "Moja Filmoteka"
+    let movieDate = props.movieDate || "Wyszukaj Filmy obejrzane od:"
+    let allMovies = props.AllMovies;
+    const onlyMoviesNonWS = addedMovies.data.filter(movies => movies.type === type && movies.wishlist === wishesList)
 
 
     return (
         <>
             <Menu/>
             <div className="container">
-                <h1>Moja Filomoteka </h1>
+                <h1>{pageName} </h1>
 
-                <label> Wyszukaj Filmy od:
+                <label> {movieDate}
                     <input className="col-12" type="text"/>
                 </label>
                 <label> do:
@@ -82,7 +103,7 @@ export const MyMovies = (props) => {
 
                             <div className=" search__list__buttons col-12">
                                 <button className="search__list__buttons__add  "
-                                        onClick={e => handleSubmit(index, e, false)}>Usuń
+                                        onClick={e => handleDeleteClick(e, movie.id)} >Usuń
                                 </button>
 
                             </div>

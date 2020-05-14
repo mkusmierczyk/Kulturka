@@ -83,13 +83,14 @@ export const MyMovies = (props) => {
             <div className="container">
                 <div className="header">
                 <h1 className="header__title">{pageName} </h1>
-
+                <div className="header">
                 <label className="header__label"> {movieDate}
-                    <input className=" col-12 header__label__input" className="col-12" type="date"required pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
+                    <input className=" col-12 header__label__input col-12" type="date"required pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
                 </label>
                 <label className="header__label"> do:
                     <input className="col-12 header__label__input" type="date" {...setFilterEnd}/>
                 </label>
+                </div>
                 </div>
 
                 <ul className="search__list ">
@@ -103,7 +104,7 @@ export const MyMovies = (props) => {
                             <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
 
 
-                            <p className="search__list__text__description col-12">{movie.date}</p>
+                            <p className="search__list__text__description col-11">{movie.description}</p>
 
                             <div className="  search__list__stats__people col-12">
                                 <div
@@ -115,7 +116,7 @@ export const MyMovies = (props) => {
                             </div>
 
                             <div className=" search__list__buttons col-12">
-                                <button className="search__list__buttons__add  "
+                                <button className="search__list__buttons__add btn  "
                                         onClick={e => handleDeleteClick(e, movie.id)}>Usuń
                                 </button>
 

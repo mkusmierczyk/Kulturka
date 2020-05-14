@@ -5,7 +5,7 @@ import useInput from "./useInput"
 import {Menu} from "../main/menu";
 
 export const Search = () => {
-    const [searchName, setSearchName] = useInput("Władca Pierścieni")
+    const [searchName, setSearchName] = useInput("Czego poszukujesz?")
     const [option, setOption] = useInput("Film");
     const [movies, setMovies] = useState([])
     // const[hideButton, setHideButton] = useState(true)
@@ -117,11 +117,6 @@ export const Search = () => {
 
     }, [searchName]);
 
-    console.log(searchName.length)
-
-    console.log(movies);
-    console.log(option)
-
 
     if (movies === []) return <p>Loading data...</p>;
 
@@ -129,13 +124,16 @@ export const Search = () => {
         <>
             <Menu> </Menu>
             <div className="container search">
-                <div className="row search__inputs">
-                    <input className="col-12" type="text" {...setSearchName}/>
+                <div className="header">
+                    <h1 className="header__title"> Wyszukaj</h1>
+                    <div className="row header">
+                        <input className="col-12 header__label__input " type="text" {...setSearchName}/>
 
-                    <select value={option}  {...setOption}>
-                        <option value="Film">Film</option>
-                        <option value="Książka">Książka</option>
-                    </select>
+                        <select className="header__label__input" value={option}  {...setOption}>
+                            <option value="Film">Film</option>
+                            <option value="Książka">Książka</option>
+                        </select>
+                    </div>
                 </div>
 
 
@@ -160,6 +158,7 @@ export const Search = () => {
                                     Głosów<span> {movie.vote_average}</span></div>
                                 <div className="search__list__people__votes">Ilość
                                     Głosów <span>{movie.vote_count}</span></div>
+
                             </div>
 
                             <div className=" search__list__buttons  col-12">

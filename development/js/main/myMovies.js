@@ -12,7 +12,6 @@ export const MyMovies = (props) => {
     const [filterEnd, setFilterEnd] = useInput("2020-05-14")
 
 
-
     const API_URL = 'http://localhost:3000';
 
     useEffect(() => {
@@ -71,8 +70,8 @@ export const MyMovies = (props) => {
     const onlyMoviesNonWS = addedMovies.data.filter(movie => {
         return movie.type === type &&
             movie.wishlist === wishesList &&
-            (Date.parse(movie.date) > (Date.parse(filterStart+"T00:00:00"))
-            &&Date.parse(movie.date) < (Date.parse(filterEnd +"T23:59:59")) )
+            (Date.parse(movie.date) > (Date.parse(filterStart + "T00:00:00"))
+                && Date.parse(movie.date) < (Date.parse(filterEnd + "T23:59:59")))
 
     })
 
@@ -82,15 +81,16 @@ export const MyMovies = (props) => {
             <Menu/>
             <div className="container">
                 <div className="header">
-                <h1 className="header__title">{pageName} </h1>
-                <div className="header">
-                <label className="header__label"> {movieDate}
-                    <input className=" col-12 header__label__input col-12" type="date"required pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
-                </label>
-                <label className="header__label"> do:
-                    <input className="col-12 header__label__input" type="date" {...setFilterEnd}/>
-                </label>
-                </div>
+                    <h1 className="header__title">{pageName} </h1>
+                    <div className="header">
+                        <label className="header__label"> {movieDate}
+                            <input className=" col-12 header__label__input col-12" type="date" required
+                                   pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
+                        </label>
+                        <label className="header__label"> do:
+                            <input className="col-12 header__label__input" type="date" {...setFilterEnd}/>
+                        </label>
+                    </div>
                 </div>
 
                 <ul className="search__list ">
@@ -109,10 +109,12 @@ export const MyMovies = (props) => {
                             <div className="  search__list__stats__people col-12">
                                 <div
                                     className="search__list__people__popularity"> Obejrzano: {movie.people.popularity}</div>
-                                <div className="search__list__people__avarage">Średnia
+                                <div className="search__list__people__avarage">Średnia:
                                     Głosów {movie.people.vote_average}</div>
-                                <div className="search__list__people__votes">Ilość
+                                <div className="search__list__people__votes">Ilość:
                                     Głosów {movie.people.vote_count}</div>
+                                <div className="search__list__people__date">Data
+                                    Dodania: {movie.date.substr(0, 10)}</div>
                             </div>
 
                             <div className=" search__list__buttons col-12">

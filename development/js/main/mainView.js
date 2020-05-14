@@ -42,17 +42,19 @@ export const MainView = () => {
     let onlyMovies = addedMovies.data.filter(movie => movie.type === "Film" && movie.wishlist === false)
     let onlyBooks = addedMovies.data.filter(movie => movie.type === "Książka" && movie.wishlist === false)
     let now = new Date
-    let onlyMoviesMonth = addedMovies.data.filter(movie =>{return movie.type === "Film" && movie.wishlist === false&& (Date.parse(movie.date) > (Date.parse(now))-30*1440*60*1000)})
-    let onlyBooksMonth = addedMovies.data.filter(movie =>  movie.type === "Książka" && movie.wishlist === false&& (Date.parse(movie.date) > (Date.parse(now))-30*1440*60*1000))
+    let onlyMoviesMonth = addedMovies.data.filter(movie => {
+        return movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000)
+    })
+    let onlyBooksMonth = addedMovies.data.filter(movie => movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000))
     console.log(onlyBooksMonth)
-
 
 
     return (
         <>
             <div className='container main'>
                 <div className='row main__hamburger'>
-                    <h1 className=" col-12 nav__menu__logo"><Link to={"/"}><img src="../../images/logo.png"/>Kulturka </Link></h1>
+                    <h1 className=" col-12 nav__menu__logo"><Link to={"/"}><img src="../../images/logo.png"/>Kulturka
+                    </Link></h1>
                 </div>
 
                 <div className='row main__stats'>

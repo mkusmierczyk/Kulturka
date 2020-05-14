@@ -16,11 +16,12 @@
   align-items: center;
   padding-top: 2.6vh;
   font-weight: bold;
-  img{
-    width:75px;
+
+  img {
+    width: 75px;
     height: 75px;
     border-radius: 50%;
-    margin:0 10px 5px 0
+    margin: 0 10px 5px 0
   }
 }
 
@@ -118,8 +119,6 @@
   font-family: $complementary_font;
 
 
-
-
 }
 
 .main__searchPage__movies {
@@ -205,20 +204,20 @@
 
 .main__shortcut__myShelf {
   background-color: #00ff90;
-   background-image: url("/../../images/my_shelf_view.jpg");
+  background-image: url("/../../images/my_shelf_view.jpg");
   background-size: cover;
 }
 
 .main__shortcut__myMovies {
   background-color: #ff00e5;
-   background-image: url("/../../images/my_movies.jpg");
+  background-image: url("/../../images/my_movies.jpg");
   background-size: cover;
 
 }
 
 .main__shortcut__wishesList {
   background-color: #ffd500;
-   background-image: url("/../../images/wish_list.jpg");
+  background-image: url("/../../images/wish_list.jpg");
   background-size: cover;
 }
 

@@ -8,12 +8,11 @@ import {Menu} from "./menu";
 export const WishesList = () => {
 
 
-
     console.log("wishes")
     return (
         <>
-            <MyMovies wishlist ={true} type = "Film" pageName = "Lista Życzeń"  movieDate={ "Wyszukaj od"} />
+            <MyMovies wishlist={true} type="Film" pageName="Lista Życzeń" movieDate={"Wyszukaj od"}/>
             {/*<MyMovies wishlist ={true} type = "Książka"  />*/}
-    </>
+        </>
     )
 }

@@ -20,10 +20,6 @@ export const Menu = () => {
 
     }
 
-
-
-
-
     return (
         <>
             <HashRouter>
@@ -52,7 +48,7 @@ export const Menu = () => {
                     </div>
 
                 </nav>
-               <i className=" nav__menu__hamburger fas fa-bars" onClick={handleShowMenu}> </i>
+                <i className=" nav__menu__hamburger fas fa-bars" onClick={handleShowMenu}> </i>
             </HashRouter>
         </>
 

@@ -1,5 +1,4 @@
 
-
 .nav {
   position: absolute;
   flex-direction: column;
@@ -14,14 +13,13 @@
   color: $main_color;
 
 
-
 }
 
 .nav__menu__logo {
   width: 100%;
   font-family: $logo_font;
   font-size: 3rem;
-  padding-top: 3.38rem ;
+  padding-top: 3.38rem;
   padding-bottom: 1.5rem;
   text-align: center;
   font-weight: 700;
@@ -33,23 +31,22 @@
   }
 }
 
-.nav__menu__closed{
+.nav__menu__closed {
   text-align: right;
-  font-size:2rem;
-  color:$complementary_color;
+  font-size: 2rem;
+  color: $complementary_color;
   cursor: pointer;
 
 }
-
 
 
 .nav__menu__links a {
   display: flex;
   flex-direction: column;
   color: $complementary_color;
-  border:1px solid $complementary_color;
+  border: 1px solid $complementary_color;
   border-radius: 10px;
-  margin: 1rem 10px 0 10px ;
+  margin: 1rem 10px 0 10px;
 
   i {
     margin: 0 1rem 0 0.33rem;
@@ -84,7 +81,7 @@
 .nav__menu__media {
   display: flex;
   align-self: flex-end;
-  margin:0 1rem 2rem 0;
+  margin: 0 1rem 2rem 0;
 
   i {
     font-size: 4rem;
@@ -97,13 +94,12 @@
   }
 }
 
-
 .nav__menu__hamburger {
   font-size: 3rem;
   position: absolute;
   right: 10px;
   top: 1px;
- color:$screen_bg;
+  color: $screen_bg;
 
   &:active {
     animation: shadowing .4s cubic-bezier(.25, .46, .45, .94) both

@@ -8,8 +8,8 @@ import useInput from "../Search/useInput";
 export const MyMovies = (props) => {
 
     const [addedMovies, setAddedMovies] = useState(false)
-    const [filterStart, setFilterStart] = useInput("2020-03-13")
-    const [filterEnd, setFilterEnd] = useInput("2020-05-13")
+    const [filterStart, setFilterStart] = useInput("2019-03-13")
+    const [filterEnd, setFilterEnd] = useInput("2020-05-14")
 
 
 
@@ -65,13 +65,15 @@ export const MyMovies = (props) => {
     let movieDate = props.movieDate || "Wyszukaj Filmy obejrzane od:"
     let allMovies = props.AllMovies;
 
+
     let now = new Date
 
     const onlyMoviesNonWS = addedMovies.data.filter(movie => {
-        return movie.type === "Film" &&
-            movie.wishlist === false &&
-            (Date.parse(movie.date) > (Date.parse(filterStart))
-            &&Date.parse(movie.date) < (Date.parse(filterEnd)) )
+        return movie.type === type &&
+            movie.wishlist === wishesList &&
+            (Date.parse(movie.date) > (Date.parse(filterStart+"T00:00:00"))
+            &&Date.parse(movie.date) < (Date.parse(filterEnd +"T23:59:59")) )
+
     })
 
 

@@ -52,7 +52,7 @@ export const MainView = () => {
         <>
             <div className='container main'>
                 <div className='row main__hamburger'>
-                    <h1 className=" col-12 nav__menu__logo"><Link to={"/"}>Kulturka </Link></h1>
+                    <h1 className=" col-12 nav__menu__logo"><Link to={"/"}><img src="../../images/logo.png"/>Kulturka </Link></h1>
                 </div>
 
                 <div className='row main__stats'>

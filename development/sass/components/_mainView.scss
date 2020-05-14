@@ -14,8 +14,14 @@
   background-color: $menu_logo_background;
   display: flex;
   align-items: center;
-  padding-top: 0.5vh;
+  padding-top: 2.6vh;
   font-weight: bold;
+  img{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    margin:0 10px 5px 0
+  }
 }
 
 //Stats section

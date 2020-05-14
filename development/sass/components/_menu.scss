@@ -2,19 +2,17 @@
 
 .nav {
   position: absolute;
-  //display: none;
-  //  display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 1;
-  width: 20rem;
+  width: 50vw;
   height: 100vh;
   font-size: 1rem;
   font-weight: bold;
   font-family: $text_font;
   background-color: $menu_logo_background;
   color: $main_color;
-  opacity: 1;
+
 
 
 }
@@ -27,7 +25,6 @@
   padding-bottom: 2rem;
   text-align: center;
   font-weight: 700;
-
   border-bottom: 2px solid $complementary_color;
 
   a {
@@ -49,6 +46,9 @@
   display: flex;
   flex-direction: column;
   color: $complementary_color;
+  border:1px solid $complementary_color;
+  border-radius: 10px;
+  margin: 2rem 10px 0 10px ;
 
   i {
     margin: 0 1rem 0 0.33rem;
@@ -83,6 +83,7 @@
 .nav__menu__media {
   display: flex;
   align-self: flex-end;
+  margin-right: 1rem;
 
   i {
     font-size: 4rem;
@@ -94,6 +95,7 @@
     }
   }
 }
+
 
 .nav__menu__hamburger {
   font-size: 4rem;

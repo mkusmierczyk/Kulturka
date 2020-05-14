@@ -70,22 +70,6 @@
       "title": "Władca Pierścieni",
       "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
       "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
-      "type": "Film",
-      "date": "2020-03-13T13:26:03.076Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 9.782,
-        "vote_average": 6.5,
-        "vote_count": 430
-      },
-      "id": 7
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca Pierścieni",
-      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
-      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
       "type": "Książka",
       "date": "2020-03-13T19:33:55.435Z",
       "wishlist": true,
@@ -243,22 +227,6 @@
     {
       "login": "",
       "password": "",
-      "title": "Mój rower",
-      "description": "Mówi się, że mężczyźni nie rozumieją kobiet. A co, jeśli jest jeszcze gorzej i nie rozumieją też siebie nawzajem? Najnowszy komediodramat Piotra Trzaskalskiego, to nietypowy przewodnik po męskim świecie. Dlaczego niezależnie od wieku, gdy facet kocha, nie potrafi tego wyrazić słowami? Paweł, Włodek i Maciek skazani na swoje towarzystwo przez kilka dni, nie przepuszczą żadnej okazji, żeby uprzykrzyć sobie życie. Czy naprawdę więcej ich dzieli niż łączy? Czy klucz do zrozumienia męskiego punktu widzenia w ogóle istnieje?",
-      "url": "https://image.tmdb.org/t/p/w500//uQuXSRUDoyK5QG21vyNeQRIoMKh.jpg",
-      "type": "Film",
-      "date": "2020-05-14T13:47:22.281Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 2.468,
-        "vote_average": 6,
-        "vote_count": 13
-      },
-      "id": 18
-    },
-    {
-      "login": "",
-      "password": "",
       "title": "Gang Olsena w amoku",
       "description": "Benny i Klejd nie chcą już zadawać się z Egonem, twierdząc, że przynosi im pecha, a jego plany są zawsze do kitu. Olsen sam obrabia sejf i zabiera wszystkich na Majorkę. Teraz wszyscy się do niego znów przekonali, jednakże już w samolocie zaczynają się prawdziwe kłopoty..",
       "url": "https://image.tmdb.org/t/p/w500//yUSa33TJXIYA8rlLBsxl5flTRsZ.jpg",
@@ -319,6 +287,54 @@
         "vote_count": 394
       },
       "id": 22
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Nędznicy",
+      "description": "Wspaniała adaptacja powieści Victora Hugo. Los francuskiego ludu, dotkniętego niesprawiedliwością społeczną, uosabia postać głównego bohatera, katorżnika Jeana Valjeana (Hugh Jackman), skazanego na ciężkie roboty za kradzież chleba. Wydźwignąwszy się z upadku dzięki pomocy biskupa, Jean odnajduje sens dobra, zdobywa wysoką pozycję społeczną i staje się protektorem skrzywdzonych i uciśnionych. Wciąż jednak prześladuje go inspektor policji Javert (Russell Crowe).",
+      "url": "https://image.tmdb.org/t/p/w500//7p919Ia1dzpn5SBkgvavoACSjKC.jpg",
+      "type": "Film",
+      "date": "2020-05-14T14:14:11.458Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 18.404,
+        "vote_average": 7.4,
+        "vote_count": 3796
+      },
+      "id": 23
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Lejdis",
+      "description": "Cztery bohaterki prowadzą bogate w niespodzianki życie. Ich przyjaźń sprawia, że łatwiej przebrnąć im przez pułapki zastawiane przez los.",
+      "url": "https://image.tmdb.org/t/p/w500//2DhpFmUyYlqcxfGWLIVW4imAFmG.jpg",
+      "type": "Film",
+      "date": "2020-05-14T14:17:19.914Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 3.997,
+        "vote_average": 5.6,
+        "vote_count": 24
+      },
+      "id": 24
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Władca Pierścieni: Powrót Króla",
+      "description": "Nadszedł ten czas. Czas Frodo, który musi pokonać przebiegłego Golluma, przetrwać przerażający atak olbrzymiego pająka Sheloby i oprzeć się zniewalającej mocy Pierścienia, który niesie za sobą zniszczenie i zgubę. Czas Aragorna, który musi dobyć miecza swych przodków i przyjąć koronę swojego dziedzictwa. Czas potężnego starcia, które czarodziej Gandalf nazwał największą bitwą naszych czasów. Nadszedł też czas inspirującej kulminacji trylogii opartej na klasyce literatury autorstwa J.R.R. Tolkiena. Po raz trzeci film z kultowej trylogii zdobył nominację do Nagrody Akademii w kategorii Najlepszy film i po raz pierwszy ją otrzymał (oraz 10 innych). Król zasłużył na swoją koronę.",
+      "url": "https://image.tmdb.org/t/p/w500//oV6t5tkv41NHxc80gBuvuHvNlnS.jpg",
+      "type": "Film",
+      "date": "2020-05-14T14:23:55.730Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 46.277,
+        "vote_average": 8.4,
+        "vote_count": 15421
+      },
+      "id": 25
     }
   ]
 }

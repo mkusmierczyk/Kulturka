@@ -11,11 +11,13 @@ export const Menu = () => {
     const handleShowMenu = (e) => {
         e.preventDefault();
         setShowMenu("flex");
+
     }
 
     const handleHideMenu = (e) => {
         e.preventDefault();
         setShowMenu("none");
+
     }
 
 
@@ -27,7 +29,7 @@ export const Menu = () => {
             <HashRouter>
                 <nav className="nav" style={{display: showMenu}}>
                     <div className="nav__menu ">
-                        <h1 className="nav__menu__logo"><Link to={"/"}>Kulturka </Link></h1>
+                        <h1 className="nav__menu__logo"><Link to={"/"}> Kulturka </Link></h1>
                         <p className="nav__menu__closed" onClick={handleHideMenu}>X</p>
                         <ul className="nav__menu__links">
                             <li className="nav__menu__links nav__menu--link"><Link to={"/"}> <i
@@ -50,7 +52,7 @@ export const Menu = () => {
                     </div>
 
                 </nav>
-                <i className=" nav__menu__hamburger fas fa-bars" onClick={handleShowMenu}> </i>
+               <i className=" nav__menu__hamburger fas fa-bars" onClick={handleShowMenu}> </i>
             </HashRouter>
         </>
 

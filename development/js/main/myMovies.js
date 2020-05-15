@@ -9,7 +9,8 @@ export const MyMovies = (props) => {
 
     const [addedMovies, setAddedMovies] = useState(false)
     const [filterStart, setFilterStart] = useInput("2019-03-13")
-    const [filterEnd, setFilterEnd] = useInput("2020-05-14")
+    const [filterEnd, setFilterEnd] = useInput("2020-05-15")
+
 
 
     const API_URL = 'http://localhost:3000';
@@ -28,12 +29,13 @@ export const MyMovies = (props) => {
             .then(data => {
 
                 setAddedMovies({data})
-                console.log(data)
+
 
             })
             .catch(error => {
                 console.log(error)
             })
+
 
     }, [])
 
@@ -125,6 +127,7 @@ export const MyMovies = (props) => {
                             </div>
                         </div>
                     </li>)}
+                    {onlyMoviesNonWS.length === 0 && <h2> Brak wyników wyszukiwania</h2>}
                 </ul>
 
             </div>

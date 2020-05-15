@@ -179,22 +179,6 @@
     {
       "login": "",
       "password": "",
-      "title": "Why We Fight",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//kfOmnlwt1rrhxmxc05X3i9mHSOs.jpg",
-      "type": "Film",
-      "date": "2020-01-14T12:44:51.629Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 9.023,
-        "vote_average": 7.9,
-        "vote_count": 60
-      },
-      "id": 15
-    },
-    {
-      "login": "",
-      "password": "",
       "title": "Fight Valley",
       "description": "Po śmierci siostry, Windsor przeprowadza własne śledztwo i dowiaduje się o nielegalnych walkach ulicznych, podczas których zginęła Tori. Pragnąć pomścić siostrę, kobieta rozpoczyna treningi u najlepszej fighterki.",
       "url": "https://image.tmdb.org/t/p/w500//jIPWkzF9srlU8eZTldLM6JYZwkO.jpg",
@@ -367,6 +351,54 @@
         "vote_count": 430
       },
       "id": 27
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Gladiator",
+      "description": "Generał Maximus (Russell Crowe) zakończył kolejną udaną wyprawę wojenną. Zmuszony do ucieczki przez zazdrosnego o jego wpływy u Cesarza dziedzica tronu Commodusa, Maximus trafia do niewoli i zostaje gladiatorem. Powraca do Rzymu z zamiarem pomszczenia śmierci syna i żony. Wie, że jedyną siłą potężniejszą od samego Cesarza jest wola ludu, może dokonać swej zemsty, zostając największym bohaterem całego Imperium. \"Gladiator\" to epicka opowieść o odwadze i zemście osadzona w realiach Cesarstwa Rzymskiego roku 180 n.e.  [opis dystrybutora dvd]",
+      "url": "https://image.tmdb.org/t/p/w500//1f0U34P6OFPXvfQta556VfXZqiC.jpg",
+      "type": "Film",
+      "date": "2020-05-15T09:26:46.770Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 35.789,
+        "vote_average": 8.2,
+        "vote_count": 11686
+      },
+      "id": 28
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Moje córki krowy",
+      "description": "Marta (Kulesza) odniosła sukces w życiu, jest znaną aktorką, gwiazdą popularnych seriali. Pomimo sławy i pieniędzy, wciąż nie może ułożyć sobie życia. Samotnie wychowała dorosłą już córkę (w tej roli debiutująca Maria Dębska). W przeciwieństwie do swojej silnej i dominującej starszej siostry, Kasia (Muskała) jest wrażliwa i ma skłonność do egzaltacji. Pracuje jako nauczycielka, jej małżeństwo jest dalekie od ideału. Mąż Kasi (Marcin Dorociński) to życiowy nieudacznik, który bezskutecznie poszukuje pracy. Siostry nie przepadają za sobą, ale nagła choroba matki (Niemirska) zmusza je do wspólnego działania. Muszą zaopiekować się ukochanym, ale despotycznym ojcem (Dziędziel). Marta i Kasia stopniowo zbliżają się do siebie i odzyskują utracony kontakt, co wywołuje szereg tragikomicznych sytuacji.",
+      "url": "https://image.tmdb.org/t/p/w500//9W6x6JscJqrsjY4hbyc2iezULQ9.jpg",
+      "type": "Film",
+      "date": "2020-05-15T09:27:05.738Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 3.677,
+        "vote_average": 6.5,
+        "vote_count": 16
+      },
+      "id": 29
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Moje století",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//v9WZiZ0DRHHCPbZdivTRKzT1VvN.jpg",
+      "type": "Książka",
+      "date": "2020-05-15T09:27:30.226Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 0.637,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      "id": 30
     }
   ]
 }

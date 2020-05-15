@@ -11,6 +11,12 @@
   font-family: $text_font;
   background-color: $menu_logo_background;
   color: $main_color;
+  @media (min-width: 626px) {
+    position: relative;
+    width: 40vw;
+    display: flex;
+
+  }
 
 
 }
@@ -25,9 +31,11 @@
   font-weight: 700;
   border-bottom: 2px solid $complementary_color;
 
+
   a {
     color: $main_color;
     text-decoration: none;
+
   }
 }
 
@@ -36,6 +44,9 @@
   font-size: 2rem;
   color: $complementary_color;
   cursor: pointer;
+  @media (min-width: 800px) {
+    display: none;
+  }
 
 }
 
@@ -100,6 +111,9 @@
   right: 10px;
   top: 1px;
   color: $screen_bg;
+  @media (min-width: 626px) {
+       display: none;
+      }
 
   &:active {
     animation: shadowing .4s cubic-bezier(.25, .46, .45, .94) both

@@ -3,12 +3,15 @@ import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import useInput from "../Search/useInput";
 import * as Data from "autoprefixer/lib/brackets";
+import {Menu} from "./menu";
 
 
 export const MainView = () => {
 
 
     const [addedMovies, setAddedMovies] = useState(false)
+
+
 
     const API_URL = 'http://localhost:3000';
 
@@ -32,6 +35,7 @@ export const MainView = () => {
             })
             .catch(error => {
                 console.log(error)
+
             })
 
     }, [])
@@ -49,9 +53,13 @@ export const MainView = () => {
     console.log(onlyBooksMonth)
 
 
+
     return (
         <>
-            <div className='container main'>
+
+            <div className='container MenuMain'>
+                <Menu/>
+                <div className="main">
                 <div className='row main__hamburger'>
                     <h1 className=" col-12 nav__menu__logo"><Link to={"/"}><img src="../../images/logo.png"/>Kulturka
                     </Link></h1>
@@ -99,6 +107,7 @@ export const MainView = () => {
                     <Link className="col-4 row main__shortcut__wishesList" to={"/wishesList"}>
                         Lista Życzeń
                     </Link>
+                </div>
                 </div>
             </div>
 

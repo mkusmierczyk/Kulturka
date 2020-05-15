@@ -1,10 +1,16 @@
 //main
 
-.main {
+.MenuMain {
 
   background-color: $bg_color;
   height: 100vh;
   box-sizing: border-box;
+  display: flex;//dous
+  flex-direction: row;//dous
+}
+.main{
+  display: flex;
+  flex-direction: column;
 }
 
 //Hamburger section
@@ -27,7 +33,7 @@
 
 //Stats section
 .main__stats {
-  width: 100vw;
+
   height: 20vh;
   margin-top: 2.7rem;
   text-align: center;

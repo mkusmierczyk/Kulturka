@@ -14,7 +14,7 @@ const App = () => {
     return (
         <HashRouter>
 
-            <Route exact path="/" component={Menu}/>
+            <Route exact path="/menu" component={Menu}/>
             <Route exact path="/" component={MainView} allMovies ="data" />
             <Route exact path="/search" component={Search}/>
             <Route exact path="/myShelf" component={MyShelf}/>

@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, {Component, useEffect, useState} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 
@@ -6,8 +6,24 @@ import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 export const Menu = () => {
 
     const [showMenu, setShowMenu] = useState("none");
+    const [resize, setResize] = useState("none");
 
 
+    let resizeWidth = ()=>{
+        if (window.innerWidth > 563){
+            setShowMenu("flex")
+        }
+    }
+
+
+    useEffect(() => {
+        resizeWidth()
+        window.addEventListener("resize",resizeWidth)},[])
+
+
+
+
+    console.log(resize)
     const handleShowMenu = (e) => {
         e.preventDefault();
         setShowMenu("flex");
@@ -20,11 +36,14 @@ export const Menu = () => {
 
     }
 
+
+
     return (
+
         <>
             <HashRouter>
-                <nav className="nav" style={{display: showMenu}}>
-                    <div className="nav__menu ">
+                <nav className="nav " style={{display: showMenu} }>
+                    <div className="nav__menu  ">
                         <h1 className="nav__menu__logo"><Link to={"/"}> Kulturka </Link></h1>
                         <p className="nav__menu__closed" onClick={handleHideMenu}>X</p>
                         <ul className="nav__menu__links">

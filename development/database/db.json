@@ -83,22 +83,6 @@
     {
       "login": "",
       "password": "",
-      "title": "Władca Pierścieni",
-      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
-      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
-      "type": "Książka",
-      "date": "2020-03-13T19:33:59.283Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 9.782,
-        "vote_average": 6.5,
-        "vote_count": 430
-      },
-      "id": 9
-    },
-    {
-      "login": "",
-      "password": "",
       "title": "Władca zwierząt",
       "description": "Królewski syn, Dar, w bardzo młodym wieku został porwany przez kapłana. Wychowywał się w przybranej rodzinie. Kiedy już dorósł jego przybrany ojciec zostaje zamordowany. Dar zaś odkrywa w sobie dar, telepatycznej komunikacji ze zwierzętami. Postanawia się także zemścić za śmierć przybranego ojca. A za wszystkim jak się okazuje stoi zły mag Maax, ze swoim złowieszczym pierścieniem z żywym okiem ...",
       "url": "https://image.tmdb.org/t/p/w500//aEzPKniyv06YJNeqTqaFZ6fBy5.jpg",
@@ -399,6 +383,38 @@
         "vote_count": 0
       },
       "id": 30
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Ojciec Chrzestny",
+      "description": "Akcja filmu toczy się pod koniec II wojny światowej w Ameryce. Don Vito Corleone (Marlon Brando) jest głową jednej z pięciu mafijnych rodzin w Nowym Jorku. Wraz z pomocą synów Sonny'ego i Freda oraz Toma Hagena -który oferuje swoje usługi w zakresie prawnym - cieszą się uznaniem wśród wielu znanych i ważnych osobistości. Wszystko zaczyna się komplikować, gdy Don Vito odmawia współpracy w handlu narkotykami.",
+      "url": "https://image.tmdb.org/t/p/w500//yS3EVRQdmTH2bPQxhE13sUluvxq.jpg",
+      "type": "Film",
+      "date": "2020-05-15T13:54:30.928Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 38.74,
+        "vote_average": 8.7,
+        "vote_count": 12216
+      },
+      "id": 31
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Ojciec Chrzestny III",
+      "description": "Nowy Jork, rok 1979. Rodzinie Corleone nadal przewodzi Michael (Al Pacino). On i jego żona Kay (Diane Keaton) są po rozwodzie. Ich dzieci, Mary (Sofia Coppola) i Anthony (Franc D'Ambrosio), są już dorosłe. Michael, obecnie szanowany biznesmen i filantrop, ma odebrać nagrodę od Kościoła. Nie wszystko jednak udało się uporządkować w życiu byłego mafiosa. W kolejce po władzę rodziny staje ambitny i bezwzględny Vincent Mancini, nieślubny syn starszego brata Michaela, Sonny'ego. Za namową swojej siostry, Connie (Talia Shire), Michael zezwala, aby Vincent przyjął nazwisko Corleone i stał się pełnoprawnym członkiem rodziny. Przychylność ojca chrzestnego kończy się jednak, gdy Vincent zaczyna uwodzić jego córkę.",
+      "url": "https://image.tmdb.org/t/p/w500//q5g6D7NXMARVmDQ0Q1dzCfrzoh1.jpg",
+      "type": "Film",
+      "date": "2020-05-15T13:54:36.930Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 22.704,
+        "vote_average": 7.4,
+        "vote_count": 3615
+      },
+      "id": 32
     }
   ]
 }

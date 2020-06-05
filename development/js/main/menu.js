@@ -2,44 +2,31 @@ import React, {Component, useEffect, useState} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 
-
 export const Menu = () => {
 
     const [showMenu, setShowMenu] = useState("none");
     const [resize, setResize] = useState("none");
-
 
     let resizeWidth = ()=>{
         if (window.innerWidth > 563){
             setShowMenu("flex")
         }
     }
-
-
     useEffect(() => {
         resizeWidth()
         window.addEventListener("resize",resizeWidth)},[])
 
-
-
-
-    console.log(resize)
     const handleShowMenu = (e) => {
         e.preventDefault();
         setShowMenu("flex");
 
     }
-
     const handleHideMenu = (e) => {
         e.preventDefault();
         setShowMenu("none");
 
     }
-
-
-
     return (
-
         <>
             <HashRouter>
                 <nav className="nav " style={{display: showMenu} }>

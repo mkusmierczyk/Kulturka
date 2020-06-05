@@ -1,7 +1,11 @@
-
+.search{
+  display: flex;
+}
+.search--all{
+  width: 100%;
+}
 .search__list {
   margin-top: 1vh;
-
   li {
     margin: 1rem 0.5rem 1rem 0.5rem;
     border: solid black 1px;

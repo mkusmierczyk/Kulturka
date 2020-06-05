@@ -4,14 +4,11 @@ import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
 
-
 export const MyMovies = (props) => {
 
     const [addedMovies, setAddedMovies] = useState(false)
     const [filterStart, setFilterStart] = useInput("2019-03-13")
     const [filterEnd, setFilterEnd] = useInput("2020-05-15")
-
-
 
     const API_URL = 'http://localhost:3000';
 
@@ -25,20 +22,13 @@ export const MyMovies = (props) => {
                     throw new Error("Error during loading data")
                 }
             })
-
             .then(data => {
-
                 setAddedMovies({data})
-
-
             })
             .catch(error => {
                 console.log(error)
             })
-
-
     }, [])
-
 
     const handleDeleteClick = (e, movieId) => {
         e.preventDefault();
@@ -55,8 +45,6 @@ export const MyMovies = (props) => {
                 console.log(err)
             })
     }
-
-
     if (!addedMovies) return <h1>Loading data ...</h1>
 
 
@@ -77,20 +65,20 @@ export const MyMovies = (props) => {
 
     })
 
-
     return (
         <>
-            <Menu/>
-            <div className="container">
+            <div className="container header--menu">
+                <Menu/>
+                <div>
                 <div className="header">
                     <h1 className="header__title">{pageName} </h1>
-                    <div className="header">
+                    <div className="header--label">
                         <label className="header__label"> {movieDate}
-                            <input className=" col-12 header__label__input col-12" type="date" required
+                            <input className=" header__label__input" type="date" required
                                    pattern="\d{4}-\d{2}-\d{2}" {...setFilterStart}/>
                         </label>
                         <label className="header__label"> do:
-                            <input className="col-12 header__label__input" type="date" {...setFilterEnd}/>
+                            <input className=" header__label__input" type="date" {...setFilterEnd}/>
                         </label>
                     </div>
                 </div>
@@ -129,7 +117,7 @@ export const MyMovies = (props) => {
                     </li>)}
                     {onlyMoviesNonWS.length === 0 && <h2> Brak wyników wyszukiwania</h2>}
                 </ul>
-
+                </div>
             </div>
         </>
     )

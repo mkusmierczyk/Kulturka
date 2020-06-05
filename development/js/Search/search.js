@@ -57,7 +57,6 @@ export const Search = () => {
                 wishlist: isWishList
             }
         )
-
     }
 
 
@@ -134,12 +133,14 @@ export const Search = () => {
 
     return (
         <>
-            <Menu> </Menu>
+
             <div className="container search">
+                <Menu/>
+            <div className="search--all">
                 <div className="header">
                     <h1 className="header__title"> Wyszukaj</h1>
                     <div className="row header">
-                        <input className="col-12 header__label__input " placeholder="Czego poszukujesz?"
+                        <input className="col-11 header__label__input " placeholder="Czego poszukujesz?"
                                type="text" {...setSearchName}/>
 
                         <select className="header__label__input" value={option}  {...setOption}>
@@ -148,8 +149,6 @@ export const Search = () => {
                         </select>
                     </div>
                 </div>
-
-
                 <ul className="search__list ">
                     {movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                         <img className="search__list__poster col-4 alt"
@@ -188,6 +187,7 @@ export const Search = () => {
                     {noResults === 0 && <h2> Brak wyników wyszukiwania</h2>}
 
                 </ul>
+            </div>
             </div>
         </>
     )

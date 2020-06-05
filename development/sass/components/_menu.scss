@@ -1,9 +1,8 @@
-
 .nav {
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 1;
+  z-index: 2;
   width: 80vw;
   height: 100vh;
   font-size: 1rem;
@@ -13,12 +12,8 @@
   color: $main_color;
   @media (min-width: 626px) {
     position: relative;
-    width: 40vw;
-    display: flex;
-
+    width: 30vw;
   }
-
-
 }
 
 .nav__menu__logo {
@@ -69,9 +64,7 @@
     align-items: center;
 
   }
-
 }
-
 
 .nav__menu--link a {
   text-decoration: none;
@@ -85,26 +78,20 @@
     color: rgba(99, 104, 243, 0.85);
 
   }
-
-
 }
-
 .nav__menu__media {
   display: flex;
   align-self: flex-end;
   margin: 0 1rem 2rem 0;
-
   i {
     font-size: 4rem;
     margin-left: 1rem;
     color: $complementary_color;
-
     &:hover {
       color: rgba(99, 104, 243, 0.85);
     }
   }
 }
-
 .nav__menu__hamburger {
   font-size: 3rem;
   position: absolute;
@@ -114,13 +101,10 @@
   @media (min-width: 626px) {
        display: none;
       }
-
   &:active {
     animation: shadowing .4s cubic-bezier(.25, .46, .45, .94) both
-
   }
 }
-
 @keyframes shadowing {
   0% {
     transform: translateZ(0);

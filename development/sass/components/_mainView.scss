@@ -11,6 +11,10 @@
 .main{
   display: flex;
   flex-direction: column;
+  @media (min-width: 800px) {
+    width: 97%;
+  }
+
 }
 
 //Hamburger section

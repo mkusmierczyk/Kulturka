@@ -13,8 +13,6 @@ export const MyMovies = (props) => {
 
     const API_URL = 'http://localhost:3000';
 
-
-
     useEffect(() => {
         fetch(`${API_URL}/books_movies`)
             .then(response => {
@@ -55,9 +53,6 @@ export const MyMovies = (props) => {
     let wishesList = props.wishlist || false
     let pageName = props.pageName || "Moja Filmoteka"
     let movieDate = props.movieDate || "Wyszukaj Filmy obejrzane od:"
-    let allMovies = props.AllMovies;
-
-
 
     const onlyMoviesNonWS = addedMovies.data.filter(movie => {
         return movie.type === type &&
@@ -100,11 +95,11 @@ export const MyMovies = (props) => {
 
                             <div className="  search__list__stats__people col-12">
                                 <div
-                                    className="search__list__people__popularity"> Obejrzano: {movie.people.popularity}</div>
+                                    className="search__list__people__popularity"> Obejrzano: {movie.popularity}</div>
                                 <div className="search__list__people__avarage">Średnia:
-                                    Głosów {movie.people.vote_average}</div>
+                                    Głosów {movie.vote_average}</div>
                                 <div className="search__list__people__votes">Ilość:
-                                    Głosów {movie.people.vote_count}</div>
+                                    Głosów {movie.vote_count}</div>
                                 <div className="search__list__people__date">Data
                                     Dodania: {movie.date.substr(0, 10)}</div>
                             </div>

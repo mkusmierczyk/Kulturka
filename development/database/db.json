@@ -67,86 +67,6 @@
     {
       "login": "",
       "password": "",
-      "title": "Władca zwierząt",
-      "description": "Królewski syn, Dar, w bardzo młodym wieku został porwany przez kapłana. Wychowywał się w przybranej rodzinie. Kiedy już dorósł jego przybrany ojciec zostaje zamordowany. Dar zaś odkrywa w sobie dar, telepatycznej komunikacji ze zwierzętami. Postanawia się także zemścić za śmierć przybranego ojca. A za wszystkim jak się okazuje stoi zły mag Maax, ze swoim złowieszczym pierścieniem z żywym okiem ...",
-      "url": "https://image.tmdb.org/t/p/w500//aEzPKniyv06YJNeqTqaFZ6fBy5.jpg",
-      "type": "Książka",
-      "date": "2020-03-13T19:37:53.267Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 8.342,
-        "vote_average": 6.2,
-        "vote_count": 192
-      },
-      "id": 10
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca Pierścieni",
-      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
-      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
-      "type": "Film",
-      "date": "2020-05-14T07:09:41.508Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 12.717,
-        "vote_average": 6.5,
-        "vote_count": 430
-      },
-      "id": 11
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca Pierścieni: Drużyna Pierścienia",
-      "description": "Ekranizacja pierwszej części trylogii Tolkiena, \"Drużyna pierścienia\" zapoznaje widzów z czarodziejskim światem Śródziemia i jego mieszkańcami - ludźmi, hobbitami, elfami, krasnoludami, czarodziejami, trollami i orkami. W tej części trylogii młody i nieśmiały hobbit Frodo Baggins odziedzicza pierścień - Jedyny Pierścień, narzędzie władzy absolutnej, które pozwoliłoby Sauronowi, mrocznemu Władcy Mordoru, rządzić Śródziemiem i zniewolić zamieszkujące je ludy. Frodo, wraz z lojalną kompanią hobbitów, ludzi, czarodzieja, krasnoluda i elfa, musi zabrać Pierścień do Szczelin Zagłady, gdzie został kiedyś wykuty, i zniszczyć go raz na zawsze. Taka podróż oznacza zapuszczenie się głęboko do krainy Czarnego Władcy, gdzie gromadzi on armię orków. Drużyna musi walczyć nie tylko ze złem czającym się wokół, ale i z wewnętrznymi waśniami oraz niszczącym wpływem samego Pierścienia. Przyszłość świata i przeznaczenie drużyny są ze sobą splecione.",
-      "url": "https://image.tmdb.org/t/p/w500//9UL1AK7oWjeA33vCELCZ1NhMm5R.jpg",
-      "type": "Film",
-      "date": "2020-04-14T08:15:20.590Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 43.4,
-        "vote_average": 8.3,
-        "vote_count": 16906
-      },
-      "id": 12
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca lalek - Spuścizna",
-      "description": "Małoletni pomocnik Andre Toulona w czasie II wojny światowej, Peter Hertz, zdecydował się opowiedzenia historii lalkarza i jego lalek pewnej grożącej mu bronią kobiecie. Film ten jest praktycznie połączeniem scen ze wcześniejszych części serii, by wyjaśnić to wszystko, o czym nie było mowy.",
-      "url": "https://image.tmdb.org/t/p/w500//z5fFGOpgevs7KKT5dlKPd290A1d.jpg",
-      "type": "Film",
-      "date": "2020-03-14T10:15:45.868Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 6.058,
-        "vote_average": 3,
-        "vote_count": 26
-      },
-      "id": 13
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Podziemny krąg",
-      "description": "Co ty możesz o sobie wiedzieć, jeśli nigdy nie walczyłeś? W tym niezwykłym, pełnym niespodziewanych zwrotów akcji i nie pozbawionym swoistego humoru filmie w reżyserii Davida Finchera (\"Siedem\") oryginalne i dynamiczne kreacje stworzyli Brad Pitt (\"Siedem\") i Edward Norton (\"Lęk pierwotny\"). Jack (Norton) cierpi na chroniczną bezsenność i jest całkowicie znudzony swym dotychczasowym życiem. Do czasu, gdy spotyka charyzmatycznego Tylera Durdena (Pitt) - sprzedawcę mydła o dość pokrętnej filozofii życia... Uważa on bowiem, że samo-doskonalenie jest dla słabeuszy, a to co rzeczywiście sprawia, że warto żyć to samo-destrukcja.",
-      "url": "https://image.tmdb.org/t/p/w500//efBb4gjjKneUoBVgfFOUu2OwihS.jpg",
-      "type": "Film",
-      "date": "2020-02-14T12:44:48.054Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 38.449,
-        "vote_average": 8.4,
-        "vote_count": 19133
-      },
-      "id": 14
-    },
-    {
-      "login": "",
-      "password": "",
       "title": "Fight Valley",
       "description": "Po śmierci siostry, Windsor przeprowadza własne śledztwo i dowiaduje się o nielegalnych walkach ulicznych, podczas których zginęła Tori. Pragnąć pomścić siostrę, kobieta rozpoczyna treningi u najlepszej fighterki.",
       "url": "https://image.tmdb.org/t/p/w500//jIPWkzF9srlU8eZTldLM6JYZwkO.jpg",
@@ -175,22 +95,6 @@
         "vote_count": 2
       },
       "id": 17
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Kłopoty z Harrym",
-      "description": "Tytułowy Harry jest obcym w małej amerykańskiej mieścinie, co więcej jest trupem. Co gorsza kilka osób, dzięki niezwykłemu splotowi wydarzeń, uważa, że jest odpowiedzialna za śmierć Harrego. Rozpoczyna się zabawna historia zakopywania, odkopywania, ukrywania i przenoszenia zwłok Harrego - stróż prawa próbuje rozwikłać zagadkę, która okazuje się mieć ciekawe rozwiązanie. Najśmieszniejszy film Hitchcocka.",
-      "url": "https://image.tmdb.org/t/p/w500//1SoXxpGigI6XNkW5BLPYZNcGocI.jpg",
-      "type": "Książka",
-      "date": "2020-05-14T13:54:56.481Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 7.895,
-        "vote_average": 7,
-        "vote_count": 394
-      },
-      "id": 22
     },
     {
       "login": "",
@@ -367,6 +271,418 @@
         "vote_count": 66
       },
       "id": 35
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Grupa wsparcia",
+      "description": "\"Grupa wsparcia\" to nowa komedia romantyczna w reżyserii Zoe Lister-Jones, która wciela się również w postać głównej bohaterki. Historia dotyczy pary, której wspólne życie obfituje w kłótnie, sprzeczki i wyzwiska. Pewnego razu postanawiają, że założą zespół, a wszystkie złe słowa, które słyszą od siebie nawzajem, uczynią tekstami nowych piosenek.",
+      "url": "https://image.tmdb.org/t/p/w500//hDYKhDkmvvPnYESr1yNG3K5oMZT.jpg",
+      "type": "Film",
+      "date": "2020-06-07T14:34:11.258Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 11.395,
+        "vote_average": 6.5,
+        "vote_count": 104
+      },
+      "id": 36
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Grupa Wschód",
+      "description": "Młoda agentka, Sarah Moss (Brit Marling), pracująca w prywatnej firmie zajmującej się badaniem organizacji, które prowadzą działalność ekstremistyczną przeciwko \"wielkim korporacjom\", zostaje wyznaczona do zinfiltrowania niebezpiecznej grupy \"The East\". Sarah przenika w szeregi organizacji i powoli zyskuje zaufanie jej członków. Zadanie zaczyna się jednak komplikować, gdy kobieta poznaje powody powstania oraz cele działania \"The East\" i zakochuje się w jej charyzmatycznym przywódcy Benjim (Alexander Skarsgard) ...",
+      "url": "https://image.tmdb.org/t/p/w500//nGoFIX5WmthZZ3eLBd0QwDSkWNy.jpg",
+      "type": "Film",
+      "date": "2020-06-07T14:34:13.666Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 7.031,
+        "vote_average": 6.6,
+        "vote_count": 510
+      },
+      "id": 37
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Kalle Stropp och Grodan Boll",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//nUcECWYGBCbQuKrSHYL0RCQLNt6.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T14:34:30.395Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 0.652,
+        "vote_average": 5.3,
+        "vote_count": 2
+      },
+      "id": 38
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Kalle Stropp och Grodan Boll på svindlande äventyr",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//nF6n8uZSaIn5XcD08zip3X88Yuf.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T14:34:33.466Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 0.966,
+        "vote_average": 6.7,
+        "vote_count": 3
+      },
+      "id": 39
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Auto Focus",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//mKg09w76HFvhGRWpcGszVwdQEsu.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T14:35:46.634Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 9.315,
+        "vote_average": 6.3,
+        "vote_count": 101
+      },
+      "id": 40
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Grand Theft Auto",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//wRguyDgAm6vaft7jgudowPKQBaM.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T14:35:54.378Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 3.775,
+        "vote_average": 5.2,
+        "vote_count": 31
+      },
+      "id": 41
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Lista de espera",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//uk1CcQvzfA8G3ogEfLNEIkPHRud.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T14:36:57.163Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 2.166,
+        "vote_average": 6.5,
+        "vote_count": 11
+      },
+      "id": 42
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Nacionalna klasa do 785 ccm",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//ves5WIpBR1KMoc6mSyBJ6DQliYd.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T14:44:00.994Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 3.138,
+        "vote_average": 5.1,
+        "vote_count": 6
+      },
+      "id": 43
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Med Lill-Klas i kappsäcken",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//67g3yaVWticgMZVC1tpXDBgLpl9.jpg",
+      "type": "Film",
+      "date": "2020-06-07T15:10:47.940Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 1.534,
+        "vote_average": 6,
+        "vote_count": 1
+      },
+      "id": 44
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "De De Pyaar De",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//lKxbegRPahPDeOYeaDHhsNJDZU8.jpg",
+      "type": "Film",
+      "date": "2020-06-07T15:27:01.819Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 5.2,
+        "vote_average": 6,
+        "vote_count": 28
+      },
+      "id": 45
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Trasgredire",
+      "description": "Carla - młoda, wyjątkowo atrakcyjna kobieta właśnie przeprowadziła się do Londynu. Bedąc w obcym dla siebie mieście bardzo tęskni do swojego chłopaka Matteo. Jej ukochany ma wkrótce do niej dołączyć. W oczekiwaniu na przybycie Matteo, Carla spędza kolejne dnie na poszukiwaniu apartamentu dla dwojga. Ubrana w niewiarygodnie seksowny strój porusza się po ulicach Londynu, wypatrując odpowiedniego mieszkania. Gdziekolwiek trafi, wzbudza niekryty zachwyt i pożądanie zarówno wśród mężczyzna, jak i u kobiet. Granica między niewinnym flirtem a zdradą jest jednak krucha - o czym Carla przekona się na własnej skórze...",
+      "url": "https://image.tmdb.org/t/p/w500//66O71VlmohX9Oz6wyK3FD4xFCtA.jpg",
+      "type": "Film",
+      "date": "2020-06-07T15:30:02.420Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 17.851,
+        "vote_average": 5.5,
+        "vote_count": 111
+      },
+      "id": 46
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Trasgredire",
+      "description": "Carla - młoda, wyjątkowo atrakcyjna kobieta właśnie przeprowadziła się do Londynu. Bedąc w obcym dla siebie mieście bardzo tęskni do swojego chłopaka Matteo. Jej ukochany ma wkrótce do niej dołączyć. W oczekiwaniu na przybycie Matteo, Carla spędza kolejne dnie na poszukiwaniu apartamentu dla dwojga. Ubrana w niewiarygodnie seksowny strój porusza się po ulicach Londynu, wypatrując odpowiedniego mieszkania. Gdziekolwiek trafi, wzbudza niekryty zachwyt i pożądanie zarówno wśród mężczyzna, jak i u kobiet. Granica między niewinnym flirtem a zdradą jest jednak krucha - o czym Carla przekona się na własnej skórze...",
+      "url": "https://image.tmdb.org/t/p/w500//66O71VlmohX9Oz6wyK3FD4xFCtA.jpg",
+      "type": "Film",
+      "date": "2020-06-07T15:30:05.115Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 17.851,
+        "vote_average": 5.5,
+        "vote_count": 111
+      },
+      "id": 47
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Trasgredire",
+      "description": "Carla - młoda, wyjątkowo atrakcyjna kobieta właśnie przeprowadziła się do Londynu. Bedąc w obcym dla siebie mieście bardzo tęskni do swojego chłopaka Matteo. Jej ukochany ma wkrótce do niej dołączyć. W oczekiwaniu na przybycie Matteo, Carla spędza kolejne dnie na poszukiwaniu apartamentu dla dwojga. Ubrana w niewiarygodnie seksowny strój porusza się po ulicach Londynu, wypatrując odpowiedniego mieszkania. Gdziekolwiek trafi, wzbudza niekryty zachwyt i pożądanie zarówno wśród mężczyzna, jak i u kobiet. Granica między niewinnym flirtem a zdradą jest jednak krucha - o czym Carla przekona się na własnej skórze...",
+      "url": "https://image.tmdb.org/t/p/w500//66O71VlmohX9Oz6wyK3FD4xFCtA.jpg",
+      "type": "Film",
+      "date": "2020-06-07T15:30:07.707Z",
+      "wishlist": true,
+      "people": {
+        "popularity": 17.851,
+        "vote_average": 5.5,
+        "vote_count": 111
+      },
+      "id": 48
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Mardi Gras: Ostatki na ostro",
+      "description": "Paczka przyjaciół postanawia się nieźle zabawić w święto Mardi Gras, czyli ostatni dzień karnawału. Na dodatek dziewczyna ich najlepszego kumpla wyjechała na pogrzeb dziadka. Zrywają się więc z nudnej imprezy, zabierają kumpla i wyruszają do miasta gdzie zabawa karnawałowa trwa na całego. Gdy docierają na miejsce okazuje się, że dziewczyna ich kumpla też się tu znalazła i delikatnie mówiąc nie znajduje się ona w żałobie...",
+      "url": "https://image.tmdb.org/t/p/w500//pljjsYW0BUsWDu2x5FK5ccwW7cP.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:02:03.747Z",
+      "popularity": 6.947,
+      "vote_average": 4.9,
+      "vote_count": 61,
+      "wishlist": false,
+      "id": 49
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Filles perdues, cheveux gras",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//w1DDjKqGLtUtBKk3bj1ME2rk4z7.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:02:05.388Z",
+      "popularity": 4.347,
+      "vote_average": 5.6,
+      "vote_count": 12,
+      "wishlist": true,
+      "id": 50
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Mardi Gras",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//2VvDnkwItgpDMAywTaiNHC8VT7v.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T16:02:14.540Z",
+      "popularity": 1.96,
+      "vote_average": 6,
+      "vote_count": 3,
+      "wishlist": false,
+      "id": 51
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Dom Hemingway",
+      "description": "Po dwunastu latach pobytu w więzieniu na ulice Londynu powraca znany kasiarz z zamiarem odebrania długów.",
+      "url": "https://image.tmdb.org/t/p/w500//puMHxNZN2Tkiv6weLsI88gXWuSl.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:30:42.868Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 10.289,
+        "vote_average": 5.9,
+        "vote_count": 346
+      },
+      "id": 53
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Domek",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//2a8j8NNTnlbWnTMF5JbUSrLNaMz.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:32:34.611Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 0.6,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      "id": 54
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Ślub moich marzeń",
+      "description": "Zaręczona z mężczyzną idealnym Jaclyn godzi się, by ślub zaplanowała przyszła teściowa. Wkrótce zaczyna swojej decyzji żałować i chce powtórzyć ceremonię zgodnie ze swoimi pragnieniami.",
+      "url": "https://image.tmdb.org/t/p/w500//6J05MfnbXK5qoEdiNRmQBq8IbsO.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:33:38.084Z",
+      "popularity": 6.365,
+      "vote_average": 6,
+      "vote_count": 44,
+      "wishlist": false,
+      "id": 55
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Rób, co należy",
+      "description": "Akcja filmu rozgrywa się w czarnym gettcie nowojorskiego Brooklynu. W okolicy znajduje się sklep warzywny prowadzony prze Koreańczyków i pizzeria Sala, włoskiego emigranta. Jest najgorętszy dzień lata. Narastają napięcia pomiędzy mieszkańcami dzielnicy. Mookie, dostawca pizzy Sala, zawsze znajduje się w centrum wydarzeń.",
+      "url": "https://image.tmdb.org/t/p/w500//63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:33:46.251Z",
+      "popularity": 17.101,
+      "vote_average": 7.8,
+      "vote_count": 857,
+      "wishlist": true,
+      "id": 56
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "High Tor",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//tGaO9fzY09u7LddSTyszhRlBnuL.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:43:01.412Z",
+      "popularity": 0.991,
+      "vote_average": 7,
+      "vote_count": 1,
+      "wishlist": false,
+      "id": 57
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Wer",
+      "description": "Adwokat zaczyna podejrzewać, że jego klient, który jest oskarżony o zamordowanie amerykańskiej rodziny, skrywa wiele mroczniejsze tajemnice.",
+      "url": "https://image.tmdb.org/t/p/w500//lKOoLZPWK4ZmNOiz2oYmXOaoa1U.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:43:32.244Z",
+      "popularity": 7.255,
+      "vote_average": 5.7,
+      "vote_count": 171,
+      "wishlist": false,
+      "id": 58
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Wer 4 Sind",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//8Q7Un2CfBaWMbQBJon8k8dZFw1n.jpg",
+      "type": "Film",
+      "date": "2020-06-07T16:43:35.507Z",
+      "popularity": 3.364,
+      "vote_average": 6.3,
+      "vote_count": 3,
+      "wishlist": true,
+      "id": 59
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Und wer nimmt den Hund?",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//jzyxL0LIhSCtBRfaHGILLaX1RrF.jpg",
+      "type": "Książka",
+      "date": "2020-06-07T16:43:42.956Z",
+      "popularity": 2.653,
+      "vote_average": 5,
+      "vote_count": 2,
+      "wishlist": true,
+      "id": 60
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500/undefined",
+      "type": "Film",
+      "date": "2020-06-07T16:54:24.331Z",
+      "wishlist": true,
+      "id": 62
+    },
+    {
+      "login": "",
+      "password": "",
+      "url": "https://image.tmdb.org/t/p/w500/undefined",
+      "type": "Film",
+      "date": "2020-06-07T16:56:27.675Z",
+      "wishlist": true,
+      "id": 64
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Sacro GRA",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//dGYMAWlPAwsuMURdU8UkKLdVnG4.jpg",
+      "type": "Film",
+      "date": "2020-06-07T17:05:14.732Z",
+      "popularity": 3.538,
+      "vote_average": 6.1,
+      "vote_count": 40,
+      "wishlist": false,
+      "id": 65
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Det grå guld",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//hre0rbJ9ACjfVyhX16nrF4SLxZF.jpg",
+      "type": "Film",
+      "date": "2020-06-07T17:05:23.451Z",
+      "popularity": 0.84,
+      "vote_average": 5.7,
+      "vote_count": 6,
+      "wishlist": true,
+      "id": 66
     }
   ]
 }

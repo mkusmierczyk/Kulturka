@@ -7,7 +7,11 @@ import {MyMovies} from "./myMovies";
 export const MyShelf = () => {
     return (
         <>
-            <MyMovies wishlist={false} type="Książka" pageName="Moja Półka" movieDate={"Wyszukaj Przeczytane od"}/>
+            <MyMovies
+                wishlist={false}
+                type="Książka"
+                pageName="Moja Półka"
+                movieDate={"Wyszukaj Przeczytane od"}/>
         </>
     )
 }

@@ -5,22 +5,6 @@
       "password": "",
       "title": "Semper Fi",
       "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//7OEnUJemQZuKFyxXYlmRznoUemX.jpg",
-      "type": "Film",
-      "date": "2020-03-13T12:29:01.112Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 6.344,
-        "vote_average": 7.1,
-        "vote_count": 18
-      },
-      "id": 3
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Semper Fi",
-      "description": "",
       "url": "https://image.tmdb.org/t/p/w500//8WzhW02Wd3X5HZs6OITRqUdFOaz.jpg",
       "type": "Film",
       "date": "2020-03-13T12:29:05.424Z",
@@ -195,54 +179,6 @@
     {
       "login": "",
       "password": "",
-      "title": "Gang Olsena w amoku",
-      "description": "Benny i Klejd nie chcą już zadawać się z Egonem, twierdząc, że przynosi im pecha, a jego plany są zawsze do kitu. Olsen sam obrabia sejf i zabiera wszystkich na Majorkę. Teraz wszyscy się do niego znów przekonali, jednakże już w samolocie zaczynają się prawdziwe kłopoty..",
-      "url": "https://image.tmdb.org/t/p/w500//yUSa33TJXIYA8rlLBsxl5flTRsZ.jpg",
-      "type": "Film",
-      "date": "2020-05-14T13:49:36.561Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 3.351,
-        "vote_average": 6.9,
-        "vote_count": 27
-      },
-      "id": 19
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Trzy metry nad niebem",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//v1uyiF4pWzBhBlM5732XM0OnCCA.jpg",
-      "type": "Film",
-      "date": "2020-05-14T13:51:03.321Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 11.174,
-        "vote_average": 5.7,
-        "vote_count": 508
-      },
-      "id": 20
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Sacro GRA",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//dGYMAWlPAwsuMURdU8UkKLdVnG4.jpg",
-      "type": "Film",
-      "date": "2020-05-14T13:52:06.665Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 2.705,
-        "vote_average": 6.1,
-        "vote_count": 39
-      },
-      "id": 21
-    },
-    {
-      "login": "",
-      "password": "",
       "title": "Kłopoty z Harrym",
       "description": "Tytułowy Harry jest obcym w małej amerykańskiej mieścinie, co więcej jest trupem. Co gorsza kilka osób, dzięki niezwykłemu splotowi wydarzeń, uważa, że jest odpowiedzialna za śmierć Harrego. Rozpoczyna się zabawna historia zakopywania, odkopywania, ukrywania i przenoszenia zwłok Harrego - stróż prawa próbuje rozwikłać zagadkę, która okazuje się mieć ciekawe rozwiązanie. Najśmieszniejszy film Hitchcocka.",
       "url": "https://image.tmdb.org/t/p/w500//1SoXxpGigI6XNkW5BLPYZNcGocI.jpg",
@@ -287,22 +223,6 @@
         "vote_count": 24
       },
       "id": 24
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca Pierścieni: Powrót Króla",
-      "description": "Nadszedł ten czas. Czas Frodo, który musi pokonać przebiegłego Golluma, przetrwać przerażający atak olbrzymiego pająka Sheloby i oprzeć się zniewalającej mocy Pierścienia, który niesie za sobą zniszczenie i zgubę. Czas Aragorna, który musi dobyć miecza swych przodków i przyjąć koronę swojego dziedzictwa. Czas potężnego starcia, które czarodziej Gandalf nazwał największą bitwą naszych czasów. Nadszedł też czas inspirującej kulminacji trylogii opartej na klasyce literatury autorstwa J.R.R. Tolkiena. Po raz trzeci film z kultowej trylogii zdobył nominację do Nagrody Akademii w kategorii Najlepszy film i po raz pierwszy ją otrzymał (oraz 10 innych). Król zasłużył na swoją koronę.",
-      "url": "https://image.tmdb.org/t/p/w500//oV6t5tkv41NHxc80gBuvuHvNlnS.jpg",
-      "type": "Film",
-      "date": "2020-05-14T14:23:55.730Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 46.277,
-        "vote_average": 8.4,
-        "vote_count": 15421
-      },
-      "id": 25
     },
     {
       "login": "",
@@ -387,34 +307,66 @@
     {
       "login": "",
       "password": "",
-      "title": "Ojciec Chrzestny",
-      "description": "Akcja filmu toczy się pod koniec II wojny światowej w Ameryce. Don Vito Corleone (Marlon Brando) jest głową jednej z pięciu mafijnych rodzin w Nowym Jorku. Wraz z pomocą synów Sonny'ego i Freda oraz Toma Hagena -który oferuje swoje usługi w zakresie prawnym - cieszą się uznaniem wśród wielu znanych i ważnych osobistości. Wszystko zaczyna się komplikować, gdy Don Vito odmawia współpracy w handlu narkotykami.",
-      "url": "https://image.tmdb.org/t/p/w500//yS3EVRQdmTH2bPQxhE13sUluvxq.jpg",
+      "title": "Studnia i wahadło",
+      "description": "Sir Nicholas, ostatni potomek sławnego rodu panów zamku, nie może przeboleć tajemniczej śmierci swej żony. Gnany jej głosem, biega nocą po murach obronnego zamczyska. Jego szwagier Francis próbuje niby wyjaśnić przyczyny śmierci swej siostry. Napomyka, że Nicholas po prostu zwariował. Dopiero na krótko przed ostatecznym załamaniem się Nicholas rozpoznaje, że padł ofiarą straszliwego spisku. Zbudowana przez jego umysłowo chorych przodków sala tortur staje się widownią straszliwej zemsty...[filmweb.pl]",
+      "url": "https://image.tmdb.org/t/p/w500//wNbfxoUeEfqVPrC2Yxv9cpIyJRE.jpg",
       "type": "Film",
-      "date": "2020-05-15T13:54:30.928Z",
+      "date": "2020-06-07T14:02:37.443Z",
       "wishlist": false,
       "people": {
-        "popularity": 38.74,
-        "vote_average": 8.7,
-        "vote_count": 12216
+        "popularity": 8.868,
+        "vote_average": 6.9,
+        "vote_count": 161
       },
-      "id": 31
+      "id": 32
     },
     {
       "login": "",
       "password": "",
-      "title": "Ojciec Chrzestny III",
-      "description": "Nowy Jork, rok 1979. Rodzinie Corleone nadal przewodzi Michael (Al Pacino). On i jego żona Kay (Diane Keaton) są po rozwodzie. Ich dzieci, Mary (Sofia Coppola) i Anthony (Franc D'Ambrosio), są już dorosłe. Michael, obecnie szanowany biznesmen i filantrop, ma odebrać nagrodę od Kościoła. Nie wszystko jednak udało się uporządkować w życiu byłego mafiosa. W kolejce po władzę rodziny staje ambitny i bezwzględny Vincent Mancini, nieślubny syn starszego brata Michaela, Sonny'ego. Za namową swojej siostry, Connie (Talia Shire), Michael zezwala, aby Vincent przyjął nazwisko Corleone i stał się pełnoprawnym członkiem rodziny. Przychylność ojca chrzestnego kończy się jednak, gdy Vincent zaczyna uwodzić jego córkę.",
-      "url": "https://image.tmdb.org/t/p/w500//q5g6D7NXMARVmDQ0Q1dzCfrzoh1.jpg",
+      "title": "Studnia i wahadło",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//xq4pLMaMlVmDEzaxTrDqDa4ET25.jpg",
       "type": "Film",
-      "date": "2020-05-15T13:54:36.930Z",
+      "date": "2020-06-07T14:05:52.457Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 4.896,
+        "vote_average": 6.1,
+        "vote_count": 53
+      },
+      "id": 33
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Córka studniarza",
+      "description": "Ekranizacja powieści Marcela Pagnola: osadzona w idyllicznych plenerach Prowansji historia namiętności, która zrodziła się w trudnych czasach II wojny światowej.Patricia (Astrid Bergès-Frisbey), śliczna i pełna energii osiemnastolatka, jest najstarszą córką wdowca Pascala Amorettiego (Daniel Auteuil). Dziewczyna zajmuje się domem i pomaga ojcu w wychowywaniu pozostałych pięciu sióstr. Pewnego dnia poznaje przystojnego, pochodzącego z zamożnej rodziny Jacques’a Mazela (Nicolas Duvauchelle). Rodzi się między nimi gorące uczucie",
+      "url": "https://image.tmdb.org/t/p/w500//cFroSs92gL8pP6sDpee62vDyxky.jpg",
+      "type": "Film",
+      "date": "2020-06-07T14:24:15.794Z",
+      "wishlist": false,
+      "people": {
+        "popularity": 6.582,
+        "vote_average": 6.9,
+        "vote_count": 119
+      },
+      "id": 34
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Studnia",
+      "description": "Na ziemię od lat nie spadła kropla deszczu. Nastoletnia Kendal chroni ostatnią działającą studnie przed chciwym mężczyzną.",
+      "url": "https://image.tmdb.org/t/p/w500//rHSrw8yPuuWbtVhTiCTHllVxMIA.jpg",
+      "type": "Film",
+      "date": "2020-06-07T14:24:17.642Z",
       "wishlist": true,
       "people": {
-        "popularity": 22.704,
-        "vote_average": 7.4,
-        "vote_count": 3615
+        "popularity": 7.454,
+        "vote_average": 5.4,
+        "vote_count": 66
       },
-      "id": 32
+      "id": 35
     }
   ]
 }

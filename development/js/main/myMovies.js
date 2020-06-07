@@ -6,11 +6,14 @@ import useInput from "../Search/useInput";
 
 export const MyMovies = (props) => {
 
+    const now = new Date();
     const [addedMovies, setAddedMovies] = useState(false)
     const [filterStart, setFilterStart] = useInput("2019-03-13")
-    const [filterEnd, setFilterEnd] = useInput("2020-05-15")
+    const [filterEnd, setFilterEnd] = useInput((now.toISOString().slice(0, 10)))
 
     const API_URL = 'http://localhost:3000';
+
+
 
     useEffect(() => {
         fetch(`${API_URL}/books_movies`)
@@ -55,7 +58,6 @@ export const MyMovies = (props) => {
     let allMovies = props.AllMovies;
 
 
-    let now = new Date
 
     const onlyMoviesNonWS = addedMovies.data.filter(movie => {
         return movie.type === type &&

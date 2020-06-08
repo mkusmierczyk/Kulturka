@@ -1,16 +1,13 @@
 import React, {Component, useEffect, useState} from "react";
-import ReactDOM from "react-dom";
-import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
 
 export const MyMovies = (props) => {
 
     const now = new Date();
-    const [addedMovies, setAddedMovies] = useState(false)
-    const [filterStart, setFilterStart] = useInput("2019-03-13")
-    const [filterEnd, setFilterEnd] = useInput((now.toISOString().slice(0, 10)))
-
+    const [addedMovies, setAddedMovies] = useState(false);
+    const [filterStart, setFilterStart] = useInput("2019-03-13");
+    const [filterEnd, setFilterEnd] = useInput((now.toISOString().slice(0, 10)));
     const API_URL = 'http://localhost:3000';
 
     useEffect(() => {

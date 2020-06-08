@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-
 export const MovieSearch = ({searchName, setSearchName, setMovies, setNoResults, movies, })=> {
 
     const key = "3e8cf997cb85c12acbe8ae2e6af56e4f"

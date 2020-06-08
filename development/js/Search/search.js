@@ -3,6 +3,8 @@ import useInput from "./useInput"
 import {Menu} from "../main/menu";
 import {MovieSearch} from "./movieSearch";
 import {BookSearch} from "./bookSearch";
+import NoImage from "../../images/ar-camera.svg"
+import Logo from "../../images/logo.png";
 
 export const Search = () => {
     //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej
@@ -15,6 +17,9 @@ export const Search = () => {
         password: "",
         title: "",
         author: "",
+        pages: "",
+        language: "",
+        duration: "",
         description: "",
         url: "",
         type: "",
@@ -24,8 +29,6 @@ export const Search = () => {
         vote_count: "",
         wishlist: ""
     });
-
-
     const handleSubmit = (index, e, isWishList) => {
         e.preventDefault();
         e.target.parentElement.style.display = "none"
@@ -107,7 +110,9 @@ export const Search = () => {
                         {option === "Film" ?
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                                 <img className="search__list__poster col-4 alt"
-                                     src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+                                     src={`https://image.tmdb.org/t/p/w500/null` ?
+                                         `https://image.flaticon.com/icons/svg/2965/2965705.svg` :
+                                         `https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                                      alt={`plakat filmu ${movie.title}`}/>
                                 <div className='col-8 search__list__text'>
                                     <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
@@ -136,10 +141,9 @@ export const Search = () => {
 
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                                 <img className="search__list__poster col-4 alt"
-                                     src={
-                                         movie.volumeInfo.imageLinks === undefined
-                                             ? ""
-                                             : `${movie.volumeInfo.imageLinks.thumbnail}`
+                                     src={movie.volumeInfo.imageLinks === undefined
+                                         ? `https://image.flaticon.com/icons/svg/2965/2965705.svg`
+                                         : `${movie.volumeInfo.imageLinks.thumbnail}`
                                      }
                                      alt={`Okładka ksiązki ${movie.volumeInfo.title}`}/>
                                 <div className='col-8 search__list__text'>

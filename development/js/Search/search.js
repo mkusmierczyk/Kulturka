@@ -14,7 +14,7 @@ export const Search = () => {
         login: "",
         password: "",
         title: "",
-        author:"",
+        author: "",
         description: "",
         url: "",
         type: "",
@@ -35,13 +35,14 @@ export const Search = () => {
         adInfo.style.margin = "5px"
         adInfo.style.fontWeight = "bold"
         e.target.parentElement.parentElement.appendChild(adInfo)
+
         let movie = movies[index]
 
         setBookMovie({
                 login: "",
                 password: "",
                 title: movie.title,
-                author:"",
+                author: "",
                 description: movie.overview,
                 url: `https://image.tmdb.org/t/p/w500/${movie.poster_path}`,
                 type: option,
@@ -79,17 +80,17 @@ export const Search = () => {
                     <div className="header">
                         <h1 className="header__title"> Wyszukaj</h1>
                         <div className="row header">
-                            { option === "Film"?
+                            {option === "Film" ?
                                 <MovieSearch searchName={searchName}
-                                         setSearchName={setSearchName}
-                                         movies={movies}
-                                         setMovies={setMovies}
-                                         setNoResults={setNoResults}/>:
-                                <BookSearch  searchName={searchName}
                                              setSearchName={setSearchName}
                                              movies={movies}
                                              setMovies={setMovies}
-                                             setNoResults={setNoResults} />}
+                                             setNoResults={setNoResults}/> :
+                                <BookSearch searchName={searchName}
+                                            setSearchName={setSearchName}
+                                            movies={movies}
+                                            setMovies={setMovies}
+                                            setNoResults={setNoResults}/>}
                             <select className="header__label__input"
                                     value={option}  {...setOption}>
                                 <option
@@ -103,35 +104,35 @@ export const Search = () => {
                     </div>
                     <ul className="search__list ">
 
-                        {  option === "Film"?
+                        {option === "Film" ?
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
-                            <img className="search__list__poster col-4 alt"
-                                 src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
-                                 alt={`plakat filmu ${movie.title}`}/>
-                            <div className='col-8 search__list__text'>
-                                <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
-                                <p className="search__list__text__description col-11">{movie.overview}</p>
-                                <div className="  search__list__stats__people col-12">
-                                    <div
-                                        className="search__list__people__popularity"> Obejrzano: <span> {movie.popularity} </span>
+                                <img className="search__list__poster col-4 alt"
+                                     src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
+                                     alt={`plakat filmu ${movie.title}`}/>
+                                <div className='col-8 search__list__text'>
+                                    <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
+                                    <p className="search__list__text__description col-11">{movie.overview}</p>
+                                    <div className="  search__list__stats__people col-12">
+                                        <div
+                                            className="search__list__people__popularity"> Obejrzano: <span> {movie.popularity} </span>
+                                        </div>
+                                        <div className="search__list__people__avarage">Średnia
+                                            Głosów<span> {movie.vote_average}</span></div>
+                                        <div className="search__list__people__votes">Ilość
+                                            Głosów <span>{movie.vote_count}</span></div>
                                     </div>
-                                    <div className="search__list__people__avarage">Średnia
-                                        Głosów<span> {movie.vote_average}</span></div>
-                                    <div className="search__list__people__votes">Ilość
-                                        Głosów <span>{movie.vote_count}</span></div>
-                                </div>
-                                <div className=" search__list__buttons  col-12">
+                                    <div className=" search__list__buttons  col-12">
 
-                                    <button className="search__list__buttons__add btn  "
-                                            onClick={e => handleSubmit(index, e, false)}>Dodaj
-                                    </button>
-                                    <button className="search__list__buttons__wishList btn "
-                                            onClick={e => handleSubmit(index, e, true,)}>Dodaj Lista Życzeń
-                                    </button>
+                                        <button className="search__list__buttons__add btn  "
+                                                onClick={e => handleSubmit(index, e, false)}>Dodaj
+                                        </button>
+                                        <button className="search__list__buttons__wishList btn "
+                                                onClick={e => handleSubmit(index, e, true,)}>Dodaj Lista Życzeń
+                                        </button>
 
+                                    </div>
                                 </div>
-                            </div>
-                        </li>):
+                            </li>) :
 
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                                 <img className="search__list__poster col-4 alt"
@@ -146,10 +147,15 @@ export const Search = () => {
                                     <p className="search__list__text__description col-11">{movie.volumeInfo.description}</p>
                                     <div className="  search__list__stats__people col-12">
                                         <div
-                                            className="search__list__people__popularity"> Liczba stron: <span> {movie.volumeInfo.pageCount} </span>
+                                            className="search__list__people__popularity"> Liczba
+                                            stron: <span> {movie.volumeInfo.pageCount} </span>
                                         </div>
-                                        <div className="search__list__people__avarage">Język <span> {movie.volumeInfo.language}</span></div>
-                                        <div className="search__list__people__votes"> Autorzy <span>{movie.volumeInfo.authors}</span></div>
+                                        <div
+                                            className="search__list__people__avarage">Język <span> {movie.volumeInfo.language}</span>
+                                        </div>
+                                        <div
+                                            className="search__list__people__votes"> Autorzy <span>{movie.volumeInfo.authors}</span>
+                                        </div>
                                     </div>
                                     <div className=" search__list__buttons  col-12">
 

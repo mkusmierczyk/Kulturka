@@ -59,7 +59,6 @@ export const MyMovies = (props) => {
             movie.wishlist === wishesList &&
             (Date.parse(movie.date) > (Date.parse(filterStart + "T00:00:00"))
                 && Date.parse(movie.date) < (Date.parse(filterEnd + "T23:59:59")))
-
     })
 
     return (

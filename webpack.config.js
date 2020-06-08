@@ -11,7 +11,7 @@ module.exports = {
   entry: `./${entryPath}/js/${entryFile}`,
   output: {
     filename: "out.js",
-    path: path.resolve(__dirname, `${entryPath}/build`)
+    path: path.resolve(__dirname, `./build`)
   },
   mode: "development",
   devtool: "source-map",
@@ -61,8 +61,8 @@ module.exports = {
         loader: "file-loader",
         options: {
           name: "[name].[ext]",
-          publicPath: `${entryPath}/images/`,
-          outputPath: `${entryPath}/images/`
+          publicPath: `./images/`,
+          outputPath: `/images/`
         }
       }
     ]

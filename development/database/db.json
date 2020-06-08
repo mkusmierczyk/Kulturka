@@ -683,6 +683,31 @@
       "vote_count": 6,
       "wishlist": true,
       "id": 66
+    },
+    {
+      "login": "",
+      "password": "",
+      "author": "",
+      "url": "https://image.tmdb.org/t/p/w500/undefined",
+      "type": "Książka",
+      "date": "2020-06-08T09:52:58.726Z",
+      "wishlist": false,
+      "id": 67
+    },
+    {
+      "login": "",
+      "password": "",
+      "title": "Srpski film",
+      "author": "",
+      "description": "Milos to były gwiazdor filmów porno z dużymi problemami finansowymi. Pewnego dnia odzywa się do niego jego dawna partnerka z planu filmowego. Przekazuje mu wiadomość o nowym reżyserze produkcji dla dorosłych, który pragnie zatrudnić Milosa do swego najnowszego projektu. Jako że gaża jest nadzwyczaj wysoka, aktor zgadza się na propozycję. Jednak w trakcie zdjęć powoli zaczyna do niego docierać, iż nie bierze udziału w zwykłym przedsięwzięciu pornograficznym, a sceny w których ma brać udział z czasem przynoszą coraz większy ładunek przemocy...",
+      "url": "https://image.tmdb.org/t/p/w500//qT312t40YmlOSsOXOoOLDCvRbPx.jpg",
+      "type": "Film",
+      "date": "2020-06-08T09:53:08.662Z",
+      "popularity": 12.298,
+      "vote_average": 5.5,
+      "vote_count": 1020,
+      "wishlist": false,
+      "id": 68
     }
   ]
 }

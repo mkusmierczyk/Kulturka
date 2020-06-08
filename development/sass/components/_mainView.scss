@@ -137,7 +137,6 @@
   justify-content: center;
   align-items: center;
   background-color: #FF6600;
-  background-image: url("/../../images/search_movie.jpg");
   background-size: cover;
   border-radius: 50%;
   height: 100%;
@@ -151,7 +150,6 @@
 
 .main__searchPage__books {
   display: flex;
-  background-image: url("/../../images/search_book.jpg");
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -214,20 +212,17 @@
 
 .main__shortcut__myShelf {
   background-color: #00ff90;
-  background-image: url("/../../images/my_shelf_view.jpg");
   background-size: cover;
 }
 
 .main__shortcut__myMovies {
   background-color: #ff00e5;
-  background-image: url("/../../images/my_movies.jpg");
   background-size: cover;
 
 }
 
 .main__shortcut__wishesList {
   background-color: #ffd500;
-  background-image: url("/../../images/wish_list.jpg");
   background-size: cover;
 }
 

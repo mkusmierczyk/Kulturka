@@ -1,6 +1,4 @@
 import React, {Component,useEffect} from "react";
-import useInput from "./useInput";
-
 
 export const BookSearch = ({searchName, setSearchName, setMovies, setNoResults, movies})=> {
 

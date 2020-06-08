@@ -8,7 +8,11 @@ export const MyShelf = () => {
                 wishlist={false}
                 type="Książka"
                 pageName="Moja Półka"
-                movieDate={"Wyszukaj Przeczytane od"}/>
+                movieDate="Wyszukaj Przeczytane od"
+                popularityAuthor="Autor: "
+                voteAveragePages ="Ilość Stron: "
+                voteCountLanguage="Język: "
+            />
         </>
     )
 };

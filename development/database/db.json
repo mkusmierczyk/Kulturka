@@ -3,701 +3,158 @@
     {
       "login": "",
       "password": "",
-      "title": "Semper Fi",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//8WzhW02Wd3X5HZs6OITRqUdFOaz.jpg",
-      "type": "Film",
-      "date": "2020-03-13T12:29:05.424Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 0.971,
-        "vote_average": 0,
-        "vote_count": 0
-      },
-      "id": 4
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "The Sci-Fi Boys",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//aH9En7bMWKhMG2CsLxb4F7DCuFN.jpg",
-      "type": "Film",
-      "date": "2020-03-13T12:29:07.064Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 2.02,
-        "vote_average": 7.2,
-        "vote_count": 5
-      },
-      "id": 5
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Akhnatoune Fi Marrakech",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//xFJoF51tQcruXNZIAZADIc4FGHv.jpg",
-      "type": "Film",
-      "date": "2020-03-13T12:29:08.584Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 1.4,
-        "vote_average": 0,
-        "vote_count": 0
-      },
-      "id": 6
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca Pierścieni",
-      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
-      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
+      "id": "Mqp-AwAAQBAJ",
+      "title": "Ulisses",
+      "authorPopularity": [
+        "James Joyce"
+      ],
+      "languageVoteCount": "pl",
+      "duration": "",
+      "description": "\"Gdy Ulisses mimo przeszkód wreszcie ukazał się drukiem w 1922 roku, okrzyknięto go dziełem nieudanym, nieprzyzwoitym, niemoralnym itd. Uchodził za powieść, której porządny człowiek nie powinien nawet brać do ręki. Dziś, prawie sto lat później, jest powszechnie uważany za arcydzieło, którego nie wypada nie znać. O czym jest Ulisses? Można odpowiedzieć na dwa sposoby: o zwyczajnym dniu Stefana Dedalusa i Leopolda Blooma w Dublinie na początku XX wieku – albo: o wszystkim. Okazuje się bowiem, że zwykły dzień zwykłego człowieka – który chodzi, je, rozmawia czy załatwia różne sprawy, ale też myśli, czuje, wspomina i marzy – to miniatura całego ludzkiego doświadczenia. Czym jeszcze jest Ulisses? Jak napisał w posłowiu tłumacz Maciej Słomczyński, jest to „zapoczątkowanie nowego rodzaju sztuki i doprowadzenie go do doskonałości na przestrzeni jednego dzieła”.\"",
+      "url": "http://books.google.com/books/content?id=Mqp-AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "type": "Książka",
-      "date": "2020-03-13T19:33:55.435Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 9.782,
-        "vote_average": 6.5,
-        "vote_count": 430
-      },
-      "id": 8
+      "date": "2020-06-08T15:25:37.412Z",
+      "wishlist": false
     },
     {
       "login": "",
       "password": "",
-      "title": "Fight Valley",
-      "description": "Po śmierci siostry, Windsor przeprowadza własne śledztwo i dowiaduje się o nielegalnych walkach ulicznych, podczas których zginęła Tori. Pragnąć pomścić siostrę, kobieta rozpoczyna treningi u najlepszej fighterki.",
-      "url": "https://image.tmdb.org/t/p/w500//jIPWkzF9srlU8eZTldLM6JYZwkO.jpg",
-      "type": "Film",
-      "date": "2020-01-29T12:44:54.822Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 5.157,
-        "vote_average": 3.7,
-        "vote_count": 17
-      },
-      "id": 16
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Gwiezdny pył",
-      "description": "Opowieść o parze starszych ludzi, żyjących na odludziu i nie mających kontaktów ze światem zewnętrznym. Stary jest konstruktorem-amatorem różnego rodzaju dziwnych urządzeń. Tym razem zamarzył sobie, że na starość będzie kapitalistą i nie będzie płacił za prąd. W tym celu buduje na przepływającej rzeczce małą zaporę z kołem młyńskim napędzającym amatorską prądnicę. W trakcie budowy mijają dni i możemy przyglądać się codziennemu życiu tej dziwacznej pary. Piją i rozmawiają, śpiewają, kłócą się i śmieją. Wszystko to w oprawie gęstej zieleni rosnącej wokół ich domu i stawu. [filmweb.pl]",
-      "url": "https://image.tmdb.org/t/p/w500//5pXj60PZ7NGHPeMxqk4zimBGJTq.jpg",
-      "type": "Film",
-      "date": "2020-05-14T13:42:35.329Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 0.695,
-        "vote_average": 7.5,
-        "vote_count": 2
-      },
-      "id": 17
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Nędznicy",
-      "description": "Wspaniała adaptacja powieści Victora Hugo. Los francuskiego ludu, dotkniętego niesprawiedliwością społeczną, uosabia postać głównego bohatera, katorżnika Jeana Valjeana (Hugh Jackman), skazanego na ciężkie roboty za kradzież chleba. Wydźwignąwszy się z upadku dzięki pomocy biskupa, Jean odnajduje sens dobra, zdobywa wysoką pozycję społeczną i staje się protektorem skrzywdzonych i uciśnionych. Wciąż jednak prześladuje go inspektor policji Javert (Russell Crowe).",
-      "url": "https://image.tmdb.org/t/p/w500//7p919Ia1dzpn5SBkgvavoACSjKC.jpg",
-      "type": "Film",
-      "date": "2020-05-14T14:14:11.458Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 18.404,
-        "vote_average": 7.4,
-        "vote_count": 3796
-      },
-      "id": 23
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Lejdis",
-      "description": "Cztery bohaterki prowadzą bogate w niespodzianki życie. Ich przyjaźń sprawia, że łatwiej przebrnąć im przez pułapki zastawiane przez los.",
-      "url": "https://image.tmdb.org/t/p/w500//2DhpFmUyYlqcxfGWLIVW4imAFmG.jpg",
-      "type": "Film",
-      "date": "2020-05-14T14:17:19.914Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 3.997,
-        "vote_average": 5.6,
-        "vote_count": 24
-      },
-      "id": 24
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Kraina lodu II",
-      "description": "Dlaczego Elsa urodziła się obdarzona magiczną mocą? Odpowiedź na to pytanie nie daje jej spokoju i… zagraża całemu królestwu! Dlatego razem z Anną, Kristoffem, Olafem i Svenem wyruszają w niebezpieczną i niezwykłą podróż. Czy ta wyprawa odmieni życie bohaterów? Czego się podczas niej dowiedzą? Jakie przygody przeżyją? W oscarowej Krainie lodu Elsa bała się, że jej moc jest zbyt potężna i może doprowadzić do katastrofy. W drugiej części musi mieć nadzieję, że ta moc będzie wystarczająca, aby przezwyciężyć problemy, które napotka. Czy tak się stanie?",
-      "url": "https://image.tmdb.org/t/p/w500//jVGafxdBZldAJfmgZujoDfBpVxd.jpg",
-      "type": "Film",
-      "date": "2020-05-14T17:59:50.465Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 266.789,
-        "vote_average": 7.2,
-        "vote_count": 4319
-      },
-      "id": 26
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Władca Pierścieni",
-      "description": "Frodo Baggins z ośmioma towarzyszami wyrusza do Mordoru, gdzie ma zniszczyć Jedyny Pierścień. Od powodzenia misji zależą losy całego Śródziemia.",
-      "url": "https://image.tmdb.org/t/p/w500//liW0mjvTyLs7UCumaHhx3PpU4VT.jpg",
-      "type": "Film",
-      "date": "2020-05-14T18:22:40.898Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 12.717,
-        "vote_average": 6.5,
-        "vote_count": 430
-      },
-      "id": 27
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Gladiator",
-      "description": "Generał Maximus (Russell Crowe) zakończył kolejną udaną wyprawę wojenną. Zmuszony do ucieczki przez zazdrosnego o jego wpływy u Cesarza dziedzica tronu Commodusa, Maximus trafia do niewoli i zostaje gladiatorem. Powraca do Rzymu z zamiarem pomszczenia śmierci syna i żony. Wie, że jedyną siłą potężniejszą od samego Cesarza jest wola ludu, może dokonać swej zemsty, zostając największym bohaterem całego Imperium. \"Gladiator\" to epicka opowieść o odwadze i zemście osadzona w realiach Cesarstwa Rzymskiego roku 180 n.e.  [opis dystrybutora dvd]",
-      "url": "https://image.tmdb.org/t/p/w500//1f0U34P6OFPXvfQta556VfXZqiC.jpg",
-      "type": "Film",
-      "date": "2020-05-15T09:26:46.770Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 35.789,
-        "vote_average": 8.2,
-        "vote_count": 11686
-      },
-      "id": 28
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Moje córki krowy",
-      "description": "Marta (Kulesza) odniosła sukces w życiu, jest znaną aktorką, gwiazdą popularnych seriali. Pomimo sławy i pieniędzy, wciąż nie może ułożyć sobie życia. Samotnie wychowała dorosłą już córkę (w tej roli debiutująca Maria Dębska). W przeciwieństwie do swojej silnej i dominującej starszej siostry, Kasia (Muskała) jest wrażliwa i ma skłonność do egzaltacji. Pracuje jako nauczycielka, jej małżeństwo jest dalekie od ideału. Mąż Kasi (Marcin Dorociński) to życiowy nieudacznik, który bezskutecznie poszukuje pracy. Siostry nie przepadają za sobą, ale nagła choroba matki (Niemirska) zmusza je do wspólnego działania. Muszą zaopiekować się ukochanym, ale despotycznym ojcem (Dziędziel). Marta i Kasia stopniowo zbliżają się do siebie i odzyskują utracony kontakt, co wywołuje szereg tragikomicznych sytuacji.",
-      "url": "https://image.tmdb.org/t/p/w500//9W6x6JscJqrsjY4hbyc2iezULQ9.jpg",
-      "type": "Film",
-      "date": "2020-05-15T09:27:05.738Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 3.677,
-        "vote_average": 6.5,
-        "vote_count": 16
-      },
-      "id": 29
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Moje století",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//v9WZiZ0DRHHCPbZdivTRKzT1VvN.jpg",
+      "id": "ZiWKCgAAQBAJ",
+      "title": "Kandyd",
+      "authorPopularity": [
+        "Wolter"
+      ],
+      "pagesVoteAverage": 114,
+      "languageVoteCount": "pl",
+      "duration": "",
+      "description": "Kandyd, czyli optymizm – oświeceniowa satyryczna powiastka filozoficzna francuskiego filozofa Voltaire'a, po raz pierwszy wydana w 1759 r. Tytułowy bohater, Kandyd, który na początku powiastki żyje w cieplarnianych warunkach (\"raju ziemskim\") na zamku w Westfalii i jest karmiony przez swojego preceptora Panglossa leibnizowską filozofią optymizmu, na skutek nieszczęśliwego zbiegu okoliczności zostaje wygnany z tego raju i, tułając się po różnych krajach i kontynentach, przeżywa nieprawdopodobne przygody, które nieustannie wystawiają na szwank jego wiarę w dobroć świata. Na końcu powiastki Voltaire odrzuca twierdzenie Leibniza, jakoby ludzie żyli na \"najlepszym z możliwych światów\" i ustami Kandyda stawia tezę, że \"trzeba uprawiać nasz ogródek\". (Wikipedia)",
+      "url": "http://books.google.com/books/content?id=ZiWKCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "type": "Książka",
-      "date": "2020-05-15T09:27:30.226Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 0.637,
-        "vote_average": 0,
-        "vote_count": 0
-      },
-      "id": 30
+      "date": "2020-06-08T15:25:47.155Z",
+      "wishlist": true
     },
     {
       "login": "",
       "password": "",
-      "title": "Studnia i wahadło",
-      "description": "Sir Nicholas, ostatni potomek sławnego rodu panów zamku, nie może przeboleć tajemniczej śmierci swej żony. Gnany jej głosem, biega nocą po murach obronnego zamczyska. Jego szwagier Francis próbuje niby wyjaśnić przyczyny śmierci swej siostry. Napomyka, że Nicholas po prostu zwariował. Dopiero na krótko przed ostatecznym załamaniem się Nicholas rozpoznaje, że padł ofiarą straszliwego spisku. Zbudowana przez jego umysłowo chorych przodków sala tortur staje się widownią straszliwej zemsty...[filmweb.pl]",
-      "url": "https://image.tmdb.org/t/p/w500//wNbfxoUeEfqVPrC2Yxv9cpIyJRE.jpg",
-      "type": "Film",
-      "date": "2020-06-07T14:02:37.443Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 8.868,
-        "vote_average": 6.9,
-        "vote_count": 161
-      },
-      "id": 32
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Studnia i wahadło",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//xq4pLMaMlVmDEzaxTrDqDa4ET25.jpg",
-      "type": "Film",
-      "date": "2020-06-07T14:05:52.457Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 4.896,
-        "vote_average": 6.1,
-        "vote_count": 53
-      },
-      "id": 33
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Córka studniarza",
-      "description": "Ekranizacja powieści Marcela Pagnola: osadzona w idyllicznych plenerach Prowansji historia namiętności, która zrodziła się w trudnych czasach II wojny światowej.Patricia (Astrid Bergès-Frisbey), śliczna i pełna energii osiemnastolatka, jest najstarszą córką wdowca Pascala Amorettiego (Daniel Auteuil). Dziewczyna zajmuje się domem i pomaga ojcu w wychowywaniu pozostałych pięciu sióstr. Pewnego dnia poznaje przystojnego, pochodzącego z zamożnej rodziny Jacques’a Mazela (Nicolas Duvauchelle). Rodzi się między nimi gorące uczucie",
-      "url": "https://image.tmdb.org/t/p/w500//cFroSs92gL8pP6sDpee62vDyxky.jpg",
-      "type": "Film",
-      "date": "2020-06-07T14:24:15.794Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 6.582,
-        "vote_average": 6.9,
-        "vote_count": 119
-      },
-      "id": 34
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Studnia",
-      "description": "Na ziemię od lat nie spadła kropla deszczu. Nastoletnia Kendal chroni ostatnią działającą studnie przed chciwym mężczyzną.",
-      "url": "https://image.tmdb.org/t/p/w500//rHSrw8yPuuWbtVhTiCTHllVxMIA.jpg",
-      "type": "Film",
-      "date": "2020-06-07T14:24:17.642Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 7.454,
-        "vote_average": 5.4,
-        "vote_count": 66
-      },
-      "id": 35
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Grupa wsparcia",
-      "description": "\"Grupa wsparcia\" to nowa komedia romantyczna w reżyserii Zoe Lister-Jones, która wciela się również w postać głównej bohaterki. Historia dotyczy pary, której wspólne życie obfituje w kłótnie, sprzeczki i wyzwiska. Pewnego razu postanawiają, że założą zespół, a wszystkie złe słowa, które słyszą od siebie nawzajem, uczynią tekstami nowych piosenek.",
-      "url": "https://image.tmdb.org/t/p/w500//hDYKhDkmvvPnYESr1yNG3K5oMZT.jpg",
-      "type": "Film",
-      "date": "2020-06-07T14:34:11.258Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 11.395,
-        "vote_average": 6.5,
-        "vote_count": 104
-      },
-      "id": 36
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Grupa Wschód",
-      "description": "Młoda agentka, Sarah Moss (Brit Marling), pracująca w prywatnej firmie zajmującej się badaniem organizacji, które prowadzą działalność ekstremistyczną przeciwko \"wielkim korporacjom\", zostaje wyznaczona do zinfiltrowania niebezpiecznej grupy \"The East\". Sarah przenika w szeregi organizacji i powoli zyskuje zaufanie jej członków. Zadanie zaczyna się jednak komplikować, gdy kobieta poznaje powody powstania oraz cele działania \"The East\" i zakochuje się w jej charyzmatycznym przywódcy Benjim (Alexander Skarsgard) ...",
-      "url": "https://image.tmdb.org/t/p/w500//nGoFIX5WmthZZ3eLBd0QwDSkWNy.jpg",
-      "type": "Film",
-      "date": "2020-06-07T14:34:13.666Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 7.031,
-        "vote_average": 6.6,
-        "vote_count": 510
-      },
-      "id": 37
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Kalle Stropp och Grodan Boll",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//nUcECWYGBCbQuKrSHYL0RCQLNt6.jpg",
+      "id": "OzGF29hFLmMC",
+      "title": "Early Blazon",
+      "authorPopularity": [
+        "Gerard J. Brault"
+      ],
+      "pagesVoteAverage": 301,
+      "languageVoteCount": "en",
+      "duration": "",
+      "description": "Classic study of the rise and flowering of heraldry 12-13c, with Arthurian references.",
+      "url": "http://books.google.com/books/content?id=OzGF29hFLmMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "type": "Książka",
-      "date": "2020-06-07T14:34:30.395Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 0.652,
-        "vote_average": 5.3,
-        "vote_count": 2
-      },
-      "id": 38
+      "date": "2020-06-08T15:25:56.748Z",
+      "wishlist": false
     },
     {
       "login": "",
       "password": "",
-      "title": "Kalle Stropp och Grodan Boll på svindlande äventyr",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//nF6n8uZSaIn5XcD08zip3X88Yuf.jpg",
+      "id": "Ks5OBgAAQBAJ",
+      "title": "Apellido Faus",
+      "authorPopularity": [
+        "AA.VV.",
+        "Instituto de Historia y Heráldica Familiar"
+      ],
+      "pagesVoteAverage": 8,
+      "languageVoteCount": "es",
+      "duration": "",
+      "description": "Origen, significado y datos históricos más relevantes del apellido, así como la heráldica (escudo de armas) del linaje. Para la documentación y edición de todas nuestras láminas nos regimos por un estricto protocolo cuya finalidad es la de garantizar la veracidad y utilidad de la información. Incluye descripción y simbolismo de los principales esmaltes, metales y piezas heráldicas.",
+      "url": "http://books.google.com/books/content?id=Ks5OBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "type": "Książka",
-      "date": "2020-06-07T14:34:33.466Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 0.966,
-        "vote_average": 6.7,
-        "vote_count": 3
-      },
-      "id": 39
+      "date": "2020-06-08T15:26:01.043Z",
+      "wishlist": false
     },
     {
       "login": "",
       "password": "",
-      "title": "Auto Focus",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//mKg09w76HFvhGRWpcGszVwdQEsu.jpg",
+      "id": "O17mzAEACAAJ",
+      "title": "Gloria",
+      "authorPopularity": [
+        "Anton Daniël Leeman"
+      ],
+      "pagesVoteAverage": 199,
+      "languageVoteCount": "nl",
+      "duration": "",
+      "url": "https://image.flaticon.com/icons/svg/2965/2965705.svg",
       "type": "Książka",
-      "date": "2020-06-07T14:35:46.634Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 9.315,
-        "vote_average": 6.3,
-        "vote_count": 101
-      },
-      "id": 40
+      "date": "2020-06-08T15:26:15.980Z",
+      "wishlist": false
     },
     {
       "login": "",
       "password": "",
-      "title": "Grand Theft Auto",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//wRguyDgAm6vaft7jgudowPKQBaM.jpg",
-      "type": "Książka",
-      "date": "2020-06-07T14:35:54.378Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 3.775,
-        "vote_average": 5.2,
-        "vote_count": 31
-      },
-      "id": 41
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Lista de espera",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//uk1CcQvzfA8G3ogEfLNEIkPHRud.jpg",
-      "type": "Książka",
-      "date": "2020-06-07T14:36:57.163Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 2.166,
-        "vote_average": 6.5,
-        "vote_count": 11
-      },
-      "id": 42
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Nacionalna klasa do 785 ccm",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//ves5WIpBR1KMoc6mSyBJ6DQliYd.jpg",
-      "type": "Książka",
-      "date": "2020-06-07T14:44:00.994Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 3.138,
-        "vote_average": 5.1,
-        "vote_count": 6
-      },
-      "id": 43
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Med Lill-Klas i kappsäcken",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//67g3yaVWticgMZVC1tpXDBgLpl9.jpg",
-      "type": "Film",
-      "date": "2020-06-07T15:10:47.940Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 1.534,
-        "vote_average": 6,
-        "vote_count": 1
-      },
-      "id": 44
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "De De Pyaar De",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//lKxbegRPahPDeOYeaDHhsNJDZU8.jpg",
-      "type": "Film",
-      "date": "2020-06-07T15:27:01.819Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 5.2,
-        "vote_average": 6,
-        "vote_count": 28
-      },
-      "id": 45
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Trasgredire",
-      "description": "Carla - młoda, wyjątkowo atrakcyjna kobieta właśnie przeprowadziła się do Londynu. Bedąc w obcym dla siebie mieście bardzo tęskni do swojego chłopaka Matteo. Jej ukochany ma wkrótce do niej dołączyć. W oczekiwaniu na przybycie Matteo, Carla spędza kolejne dnie na poszukiwaniu apartamentu dla dwojga. Ubrana w niewiarygodnie seksowny strój porusza się po ulicach Londynu, wypatrując odpowiedniego mieszkania. Gdziekolwiek trafi, wzbudza niekryty zachwyt i pożądanie zarówno wśród mężczyzna, jak i u kobiet. Granica między niewinnym flirtem a zdradą jest jednak krucha - o czym Carla przekona się na własnej skórze...",
-      "url": "https://image.tmdb.org/t/p/w500//66O71VlmohX9Oz6wyK3FD4xFCtA.jpg",
-      "type": "Film",
-      "date": "2020-06-07T15:30:02.420Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 17.851,
-        "vote_average": 5.5,
-        "vote_count": 111
-      },
-      "id": 46
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Trasgredire",
-      "description": "Carla - młoda, wyjątkowo atrakcyjna kobieta właśnie przeprowadziła się do Londynu. Bedąc w obcym dla siebie mieście bardzo tęskni do swojego chłopaka Matteo. Jej ukochany ma wkrótce do niej dołączyć. W oczekiwaniu na przybycie Matteo, Carla spędza kolejne dnie na poszukiwaniu apartamentu dla dwojga. Ubrana w niewiarygodnie seksowny strój porusza się po ulicach Londynu, wypatrując odpowiedniego mieszkania. Gdziekolwiek trafi, wzbudza niekryty zachwyt i pożądanie zarówno wśród mężczyzna, jak i u kobiet. Granica między niewinnym flirtem a zdradą jest jednak krucha - o czym Carla przekona się na własnej skórze...",
-      "url": "https://image.tmdb.org/t/p/w500//66O71VlmohX9Oz6wyK3FD4xFCtA.jpg",
-      "type": "Film",
-      "date": "2020-06-07T15:30:05.115Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 17.851,
-        "vote_average": 5.5,
-        "vote_count": 111
-      },
-      "id": 47
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Trasgredire",
-      "description": "Carla - młoda, wyjątkowo atrakcyjna kobieta właśnie przeprowadziła się do Londynu. Bedąc w obcym dla siebie mieście bardzo tęskni do swojego chłopaka Matteo. Jej ukochany ma wkrótce do niej dołączyć. W oczekiwaniu na przybycie Matteo, Carla spędza kolejne dnie na poszukiwaniu apartamentu dla dwojga. Ubrana w niewiarygodnie seksowny strój porusza się po ulicach Londynu, wypatrując odpowiedniego mieszkania. Gdziekolwiek trafi, wzbudza niekryty zachwyt i pożądanie zarówno wśród mężczyzna, jak i u kobiet. Granica między niewinnym flirtem a zdradą jest jednak krucha - o czym Carla przekona się na własnej skórze...",
-      "url": "https://image.tmdb.org/t/p/w500//66O71VlmohX9Oz6wyK3FD4xFCtA.jpg",
-      "type": "Film",
-      "date": "2020-06-07T15:30:07.707Z",
-      "wishlist": true,
-      "people": {
-        "popularity": 17.851,
-        "vote_average": 5.5,
-        "vote_count": 111
-      },
-      "id": 48
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Mardi Gras: Ostatki na ostro",
-      "description": "Paczka przyjaciół postanawia się nieźle zabawić w święto Mardi Gras, czyli ostatni dzień karnawału. Na dodatek dziewczyna ich najlepszego kumpla wyjechała na pogrzeb dziadka. Zrywają się więc z nudnej imprezy, zabierają kumpla i wyruszają do miasta gdzie zabawa karnawałowa trwa na całego. Gdy docierają na miejsce okazuje się, że dziewczyna ich kumpla też się tu znalazła i delikatnie mówiąc nie znajduje się ona w żałobie...",
-      "url": "https://image.tmdb.org/t/p/w500//pljjsYW0BUsWDu2x5FK5ccwW7cP.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:02:03.747Z",
-      "popularity": 6.947,
-      "vote_average": 4.9,
-      "vote_count": 61,
-      "wishlist": false,
-      "id": 49
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Filles perdues, cheveux gras",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//w1DDjKqGLtUtBKk3bj1ME2rk4z7.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:02:05.388Z",
-      "popularity": 4.347,
-      "vote_average": 5.6,
-      "vote_count": 12,
-      "wishlist": true,
-      "id": 50
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Mardi Gras",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//2VvDnkwItgpDMAywTaiNHC8VT7v.jpg",
-      "type": "Książka",
-      "date": "2020-06-07T16:02:14.540Z",
-      "popularity": 1.96,
-      "vote_average": 6,
-      "vote_count": 3,
-      "wishlist": false,
-      "id": 51
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Dom Hemingway",
-      "description": "Po dwunastu latach pobytu w więzieniu na ulice Londynu powraca znany kasiarz z zamiarem odebrania długów.",
-      "url": "https://image.tmdb.org/t/p/w500//puMHxNZN2Tkiv6weLsI88gXWuSl.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:30:42.868Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 10.289,
-        "vote_average": 5.9,
-        "vote_count": 346
-      },
-      "id": 53
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Domek",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//2a8j8NNTnlbWnTMF5JbUSrLNaMz.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:32:34.611Z",
-      "wishlist": false,
-      "people": {
-        "popularity": 0.6,
-        "vote_average": 0,
-        "vote_count": 0
-      },
-      "id": 54
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Ślub moich marzeń",
-      "description": "Zaręczona z mężczyzną idealnym Jaclyn godzi się, by ślub zaplanowała przyszła teściowa. Wkrótce zaczyna swojej decyzji żałować i chce powtórzyć ceremonię zgodnie ze swoimi pragnieniami.",
-      "url": "https://image.tmdb.org/t/p/w500//6J05MfnbXK5qoEdiNRmQBq8IbsO.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:33:38.084Z",
-      "popularity": 6.365,
-      "vote_average": 6,
-      "vote_count": 44,
-      "wishlist": false,
-      "id": 55
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Rób, co należy",
-      "description": "Akcja filmu rozgrywa się w czarnym gettcie nowojorskiego Brooklynu. W okolicy znajduje się sklep warzywny prowadzony prze Koreańczyków i pizzeria Sala, włoskiego emigranta. Jest najgorętszy dzień lata. Narastają napięcia pomiędzy mieszkańcami dzielnicy. Mookie, dostawca pizzy Sala, zawsze znajduje się w centrum wydarzeń.",
-      "url": "https://image.tmdb.org/t/p/w500//63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:33:46.251Z",
-      "popularity": 17.101,
-      "vote_average": 7.8,
-      "vote_count": 857,
-      "wishlist": true,
-      "id": 56
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "High Tor",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//tGaO9fzY09u7LddSTyszhRlBnuL.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:43:01.412Z",
-      "popularity": 0.991,
-      "vote_average": 7,
-      "vote_count": 1,
-      "wishlist": false,
-      "id": 57
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Wer",
-      "description": "Adwokat zaczyna podejrzewać, że jego klient, który jest oskarżony o zamordowanie amerykańskiej rodziny, skrywa wiele mroczniejsze tajemnice.",
-      "url": "https://image.tmdb.org/t/p/w500//lKOoLZPWK4ZmNOiz2oYmXOaoa1U.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:43:32.244Z",
-      "popularity": 7.255,
-      "vote_average": 5.7,
-      "vote_count": 171,
-      "wishlist": false,
-      "id": 58
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Wer 4 Sind",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//8Q7Un2CfBaWMbQBJon8k8dZFw1n.jpg",
-      "type": "Film",
-      "date": "2020-06-07T16:43:35.507Z",
-      "popularity": 3.364,
-      "vote_average": 6.3,
-      "vote_count": 3,
-      "wishlist": true,
-      "id": 59
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Und wer nimmt den Hund?",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//jzyxL0LIhSCtBRfaHGILLaX1RrF.jpg",
-      "type": "Książka",
-      "date": "2020-06-07T16:43:42.956Z",
-      "popularity": 2.653,
-      "vote_average": 5,
-      "vote_count": 2,
-      "wishlist": true,
-      "id": 60
-    },
-    {
-      "login": "",
-      "password": "",
-      "url": "https://image.tmdb.org/t/p/w500/undefined",
-      "type": "Film",
-      "date": "2020-06-07T16:54:24.331Z",
-      "wishlist": true,
-      "id": 62
-    },
-    {
-      "login": "",
-      "password": "",
-      "url": "https://image.tmdb.org/t/p/w500/undefined",
-      "type": "Film",
-      "date": "2020-06-07T16:56:27.675Z",
-      "wishlist": true,
-      "id": 64
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Sacro GRA",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//dGYMAWlPAwsuMURdU8UkKLdVnG4.jpg",
-      "type": "Film",
-      "date": "2020-06-07T17:05:14.732Z",
-      "popularity": 3.538,
-      "vote_average": 6.1,
-      "vote_count": 40,
-      "wishlist": false,
-      "id": 65
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Det grå guld",
-      "description": "",
-      "url": "https://image.tmdb.org/t/p/w500//hre0rbJ9ACjfVyhX16nrF4SLxZF.jpg",
-      "type": "Film",
-      "date": "2020-06-07T17:05:23.451Z",
-      "popularity": 0.84,
-      "vote_average": 5.7,
-      "vote_count": 6,
-      "wishlist": true,
-      "id": 66
-    },
-    {
-      "login": "",
-      "password": "",
-      "title": "Srpski film",
+      "id": 23202,
+      "title": "Upiorna noc Halloween",
       "author": "",
-      "description": "Milos to były gwiazdor filmów porno z dużymi problemami finansowymi. Pewnego dnia odzywa się do niego jego dawna partnerka z planu filmowego. Przekazuje mu wiadomość o nowym reżyserze produkcji dla dorosłych, który pragnie zatrudnić Milosa do swego najnowszego projektu. Jako że gaża jest nadzwyczaj wysoka, aktor zgadza się na propozycję. Jednak w trakcie zdjęć powoli zaczyna do niego docierać, iż nie bierze udziału w zwykłym przedsięwzięciu pornograficznym, a sceny w których ma brać udział z czasem przynoszą coraz większy ładunek przemocy...",
-      "url": "https://image.tmdb.org/t/p/w500//qT312t40YmlOSsOXOoOLDCvRbPx.jpg",
+      "pages": "",
+      "language": "",
+      "duration": "",
+      "description": "Kilka luźno połączonych ze sobą historyjek, których akcja ma miejsce podczas nocy Halloween.",
+      "url": "https://image.tmdb.org/t/p/w500//w0nmol4g7n6MFfhfphV7GzHHYjB.jpg",
       "type": "Film",
-      "date": "2020-06-08T09:53:08.662Z",
-      "popularity": 12.298,
-      "vote_average": 5.5,
-      "vote_count": 1020,
-      "wishlist": false,
-      "id": 68
+      "date": "2020-06-08T15:26:28.780Z",
+      "authorPopularity": 11.737,
+      "pagesVoteAverage": 6.7,
+      "languageVoteCount": 889,
+      "wishlist": false
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": 49524,
+      "title": "R.I.P.D Agenci z zaświatów",
+      "author": "",
+      "pages": "",
+      "language": "",
+      "duration": "",
+      "description": "\"Rest In Peace Departament\" to departament sprawiedliwości, w którym rządy sprawują martwi funkcjonariusze policji. Pewnego dnia dołącza do nich nowy policjant, który większość czasu spędza na poszukiwaniu człowieka odpowiedzialnego za to, czym teraz jest. Film jest adaptacją komiksu pod tym samym tytułem.",
+      "url": "https://image.tmdb.org/t/p/w500//2nJU4qGTntxuXMBn4R504AuzMwn.jpg",
+      "type": "Film",
+      "date": "2020-06-08T15:26:31.908Z",
+      "authorPopularity": 18.146,
+      "pagesVoteAverage": 5.7,
+      "languageVoteCount": 2451,
+      "wishlist": false
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": 12618,
+      "title": "Zagubione serca",
+      "author": "",
+      "pages": "",
+      "language": "",
+      "duration": "",
+      "description": "W idealnym świecie \"Dutch\" (Harrison Ford) i Kay (Kristin Scott Thomas) nigdy by się nie spotkali. On jest policjantem z wydziału spraw wewnętrznych w Waszyngtonie, ona zasiada w kongresie Stanów Zjednoczonych. Pewnego dnia ich życiem wstrząsa tragedia: żona \"Dutcha\" i mąż Kay giną w katastrofie lotniczej, a oni odkrywają, że ich współmałżonkowie byli kochankami. Zrozpaczona Kay nie może uwierzyć w zdradę męża. Jedyne oparcie i zrozumienie znajduje u Dutcha. Zafascynowani sobą nawiązują namiętny romans.",
+      "url": "https://image.tmdb.org/t/p/w500//fnRiD6wr1p2vF82hoSGIpKeVPCv.jpg",
+      "type": "Film",
+      "date": "2020-06-08T15:26:34.308Z",
+      "authorPopularity": 10.582,
+      "pagesVoteAverage": 5.4,
+      "languageVoteCount": 169,
+      "wishlist": true
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": 40413,
+      "title": "Les Randonneurs",
+      "author": "",
+      "pages": "",
+      "language": "",
+      "duration": "",
+      "description": "",
+      "url": "https://image.tmdb.org/t/p/w500//hsX9iRCsFc2Eaak41bZi928Fo4k.jpg",
+      "type": "Film",
+      "date": "2020-06-08T15:26:36.132Z",
+      "authorPopularity": 6.356,
+      "pagesVoteAverage": 5.6,
+      "languageVoteCount": 115,
+      "wishlist": true
     }
   ]
 }

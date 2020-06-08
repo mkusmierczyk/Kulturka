@@ -3,8 +3,6 @@ import useInput from "./useInput"
 import {Menu} from "../main/menu";
 import {MovieSearch} from "./movieSearch";
 import {BookSearch} from "./bookSearch";
-import NoImage from "../../images/ar-camera.svg"
-import Logo from "../../images/logo.png";
 
 export const Search = () => {
     //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej
@@ -40,22 +38,46 @@ export const Search = () => {
         e.target.parentElement.parentElement.appendChild(adInfo)
 
         let movie = movies[index]
-
-        setBookMovie({
-                login: "",
-                password: "",
-                title: movie.title,
-                author: "",
-                description: movie.overview,
-                url: `https://image.tmdb.org/t/p/w500/${movie.poster_path}`,
-                type: option,
-                date: new Date,
-                popularity: movie.popularity,
-                vote_average: movie.vote_average,
-                vote_count: movie.vote_count,
-                wishlist: isWishList
-            }
-        )
+        {
+            option === "Film" ?
+                setBookMovie({
+                    login: "",
+                    password: "",
+                    id:movie.id,
+                    title: movie.title,
+                    author: "",
+                    pages: "",
+                    language: "",
+                    duration: "",
+                    description: movie.overview,
+                    url: `https://image.tmdb.org/t/p/w500/${movie.poster_path}` === `https://image.tmdb.org/t/p/w500/null` ?
+                        `https://image.flaticon.com/icons/svg/2965/2965705.svg` :
+                        `https://image.tmdb.org/t/p/w500/${movie.poster_path}`,
+                    type: option,
+                    date: new Date,
+                    authorPopularity: movie.popularity,
+                    pagesVoteAverage: movie.vote_average,
+                    languageVoteCount: movie.vote_count,
+                    wishlist: isWishList
+                }) :
+                setBookMovie({
+                    login: "",
+                    password: "",
+                    id:movie.id,
+                    title: movie.volumeInfo.title,
+                    authorPopularity: movie.volumeInfo.authors,
+                    pagesVoteAverage: movie.volumeInfo.pageCount,
+                    languageVoteCount: movie.volumeInfo.language,
+                    duration: "",
+                    description: movie.volumeInfo.description,
+                    url: movie.volumeInfo.imageLinks === undefined
+                        ? `https://image.flaticon.com/icons/svg/2965/2965705.svg`:
+                        movie.volumeInfo.imageLinks.thumbnail,
+                    type: option,
+                    date: new Date,
+                    wishlist: isWishList
+                })
+        }
     }
     const API_URL = 'http://localhost:3000';
     useEffect(() => {
@@ -73,7 +95,6 @@ export const Search = () => {
                     .catch(err => console.log(err))
         },
         [bookMovie]);
-
 
     return (
         <>
@@ -110,7 +131,7 @@ export const Search = () => {
                         {option === "Film" ?
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                                 <img className="search__list__poster col-4 alt"
-                                     src={`https://image.tmdb.org/t/p/w500/null` ?
+                                     src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}` === `https://image.tmdb.org/t/p/w500/null` ?
                                          `https://image.flaticon.com/icons/svg/2965/2965705.svg` :
                                          `https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
                                      alt={`plakat filmu ${movie.title}`}/>
@@ -174,7 +195,6 @@ export const Search = () => {
                                 </div>
                             </li>)
                         }
-
                         {noResults === 0 && <h2> Brak wyników wyszukiwania</h2>}
                     </ul>
                 </div>

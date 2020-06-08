@@ -1,7 +1,6 @@
 import React, {Component,useEffect} from "react";
 
 export const BookSearch = ({searchName, setSearchName, setMovies, setNoResults, movies})=> {
-
     useEffect(() => {
             try {
                 if (searchName !== "")
@@ -33,4 +32,4 @@ export const BookSearch = ({searchName, setSearchName, setMovies, setNoResults, 
         <input className="col-11 header__label__input " placeholder="Czego poszukujesz?"
                type="text" {...setSearchName}/>
     )
-}
+};

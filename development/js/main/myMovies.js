@@ -2,9 +2,7 @@ import React, {Component, useEffect, useState} from "react";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
 
-
 export const MyMovies = (props) => {
-
     const now = new Date();
     const [addedMovies, setAddedMovies] = useState(false);
     const [filterStart, setFilterStart] = useInput("2019-03-13");
@@ -27,7 +25,7 @@ export const MyMovies = (props) => {
             .catch(error => {
                 console.log(error)
             })
-    }, [])
+    }, []);
 
     const handleDeleteClick = (e, movieId) => {
         e.preventDefault();
@@ -42,10 +40,9 @@ export const MyMovies = (props) => {
             })
             .catch(err => {
                 console.log(err)
-            })
-    }
+            });
+    };
     if (!addedMovies) return <h1>Loading data ...</h1>
-
     let type = props.type || "Film";
     let wishesList = props.wishlist || false;
     let pageName = props.pageName || "Moja Filmoteka";
@@ -83,14 +80,9 @@ export const MyMovies = (props) => {
                             <img className="search__list__poster col-4 alt"
                                  src={movie.url}
                                  alt={`plakat filmu ${movie.title}`}/>
-
-
                             <div className='col-8 search__list__text'>
                                 <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
-
-
                                 <p className="search__list__text__description col-11">{movie.description}</p>
-
                                 <div className="  search__list__stats__people col-12">
                                     <div
                                         className="search__list__people__popularity">
@@ -102,7 +94,6 @@ export const MyMovies = (props) => {
                                     <div className="search__list__people__date">
                                        Data Dodania: {movie.date.substr(0, 10)}</div>
                                 </div>
-
                                 <div className=" search__list__buttons col-12">
                                     <button className="search__list__buttons__add btn  "
                                             onClick={e => handleDeleteClick(e, movie.id)}>Usuń
@@ -116,4 +107,4 @@ export const MyMovies = (props) => {
             </div>
         </>
     )
-}
+};

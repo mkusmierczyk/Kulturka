@@ -3,33 +3,33 @@ import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 
 export const Menu = () => {
-
     const [showMenu, setShowMenu] = useState("none");
     const [resize, setResize] = useState("none");
 
-    let resizeWidth = ()=>{
-        if (window.innerWidth > 563){
+    let resizeWidth = () => {
+        if (window.innerWidth > 563) {
             setShowMenu("flex")
         }
     }
     useEffect(() => {
         resizeWidth()
-        window.addEventListener("resize",resizeWidth)},[])
+        window.addEventListener("resize", resizeWidth)
+    }, []);
 
     const handleShowMenu = (e) => {
         e.preventDefault();
         setShowMenu("flex");
 
-    }
+    };
     const handleHideMenu = (e) => {
         e.preventDefault();
         setShowMenu("none");
 
-    }
+    };
     return (
         <>
             <HashRouter>
-                <nav className="nav " style={{display: showMenu} }>
+                <nav className="nav " style={{display: showMenu}}>
                     <div className="nav__menu  ">
                         <h1 className="nav__menu__logo"><Link to={"/"}> Kulturka </Link></h1>
                         <p className="nav__menu__closed" onClick={handleHideMenu}>X</p>
@@ -45,7 +45,6 @@ export const Menu = () => {
                             <li className="nav__menu__links nav__menu--link"><Link to={"/wishesList"}><i
                                 className="far fa-grin-hearts"> </i> <span>Lista Życzeń</span> </Link></li>
                         </ul>
-
                     </div>
                     <div className="nav__menu__media">
                         <a href='#'> <i className="fab fa-facebook-square"> </i></a>
@@ -60,4 +59,4 @@ export const Menu = () => {
 
 
     )
-}
+};

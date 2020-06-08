@@ -19,8 +19,6 @@ const App = () => {
             <Route exact path="/myMovies" component={MyMovies} />
             <Route exact path="/wishesList" component={WishesList}/>
         </HashRouter>
-
     )
 }
-
 ReactDOM.render(<App/>, document.getElementById("app"));

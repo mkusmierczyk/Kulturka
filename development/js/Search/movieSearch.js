@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
-export const MovieSearch = ({searchName, setSearchName, setMovies, setNoResults, movies, })=> {
 
+export const MovieSearch = ({searchName, setSearchName, setMovies, setNoResults, movies,}) => {
     const key = "3e8cf997cb85c12acbe8ae2e6af56e4f"
     useEffect(() => {
         try {
@@ -15,21 +15,18 @@ export const MovieSearch = ({searchName, setSearchName, setMovies, setNoResults,
                     })
                     .then(data => {
                         setMovies(data.results)
-
-                        console.log(data.results)
                     })
                     .catch(err => console.log(err)
                     );
         } catch (error) {
             console.log(error);
-
         }
         setNoResults(movies.length)
     }, [searchName]);
     if (movies === []) return <p>Loading data...</p>;
 
     return (
-            <input className="col-11 header__label__input " placeholder="Czego poszukujesz?"
-                   type="text" {...setSearchName}/>
+        <input className="col-11 header__label__input " placeholder="Czego poszukujesz?"
+               type="text" {...setSearchName}/>
     )
-}
+};

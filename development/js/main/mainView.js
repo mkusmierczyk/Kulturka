@@ -28,7 +28,7 @@ export const MainView = () => {
         wish: {
             backgroundImage: `url(${WishList})`
         },
-    }
+    };
     useEffect(() => {
         fetch(`${API_URL}/books_movies`)
             .then(response => {
@@ -47,13 +47,12 @@ export const MainView = () => {
 
     }, []);
     if (!addedMovies) return <h1>Loading data ...</h1>
-
     let onlyMovies = addedMovies.data.filter(movie => movie.type === "Film" && movie.wishlist === false);
     let onlyBooks = addedMovies.data.filter(movie => movie.type === "Książka" && movie.wishlist === false);
     let now = new Date;
     let onlyMoviesMonth = addedMovies.data.filter(movie => {
         return movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000);
-    })
+    });
     let onlyBooksMonth = addedMovies.data.filter(movie => movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
 
     return (
@@ -108,4 +107,4 @@ export const MainView = () => {
             </div>
         </>
     )
-}
+};

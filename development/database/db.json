@@ -155,6 +155,20 @@
       "pagesVoteAverage": 5.6,
       "languageVoteCount": 115,
       "wishlist": true
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": "xNGlDwAAQBAJ",
+      "title": "Domek przy plaży",
+      "pagesVoteAverage": 128,
+      "languageVoteCount": "pl",
+      "duration": "",
+      "description": "Roznosi was ciekawość, co słychać u Elle i Noah? Chcielibyście dowiedzieć się czegoś więcej o namiętnym związku bohaterów filmowego hitu Netflixa – „The Kissing Booth”? Sięgnijcie po tę książkę! Co roku Elle Evans spędza udane wakacje w domku przy plaży, należącym do rodziny Flynnów. Słońce, plaża, mnóstwo flirtowania – czegóż chcieć więcej? Elle nie może się doczekać, żeby znów wybrać się nad morze, jednak w tym roku sprawy wyglądają nieco inaczej. Elle i Noah teraz oficjalnie chodzą ze sobą – to niesamowite, ale tak jest! Elle nigdy nie była szczęśliwsza. Problem w tym, że po wakacjach Noah wyjeżdża na studia na Harvardzie. Co stanie się z ich związkiem? Elle i Lee zawsze byli najlepszymi przyjaciółmi; nikt nie zna Elle tak dobrze jak Lee. Czy pojawienie się tego lata Rachel – nowej dziewczyny Lee – nie zmieni ich dotychczasowej relacji? Elle tak bardzo chciałaby spędzić wymarzone wakacje z Noah i Lee, zanim na zawsze pożegna się z domkiem przy plaży.",
+      "url": "http://books.google.com/books/content?id=xNGlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "type": "Książka",
+      "date": "2020-06-08T15:51:31.532Z",
+      "wishlist": false
     }
   ]
 }

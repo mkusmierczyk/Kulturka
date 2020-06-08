@@ -6,7 +6,7 @@ import {BookSearch} from "./bookSearch";
 
 export const Search = () => {
     //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej
-    const [searchName, setSearchName] = useInput("")
+    const [searchName, setSearchName] = useInput("");
     const [option, setOption] = useInput("Książka");
     const [movies, setMovies] = useState([]);
     const [noResults, setNoResults] = useState(1);
@@ -30,20 +30,20 @@ export const Search = () => {
     const handleSubmit = (index, e, isWishList) => {
         e.preventDefault();
         e.target.parentElement.style.display = "none"
-        const adInfo = document.createElement("span")
-        adInfo.innerText = "Dodano do Listy"
-        adInfo.style.color = "green"
-        adInfo.style.margin = "5px"
-        adInfo.style.fontWeight = "bold"
-        e.target.parentElement.parentElement.appendChild(adInfo)
+        const adInfo = document.createElement("span");
+        adInfo.innerText = "Dodano do Listy";
+        adInfo.style.color = "green";
+        adInfo.style.margin = "5px";
+        adInfo.style.fontWeight = "bold";
+        e.target.parentElement.parentElement.appendChild(adInfo);
 
-        let movie = movies[index]
+        let movie = movies[index];
         {
             option === "Film" ?
                 setBookMovie({
                     login: "",
                     password: "",
-                    id:movie.id,
+                    id: movie.id,
                     title: movie.title,
                     author: "",
                     pages: "",
@@ -63,7 +63,7 @@ export const Search = () => {
                 setBookMovie({
                     login: "",
                     password: "",
-                    id:movie.id,
+                    id: movie.id,
                     title: movie.volumeInfo.title,
                     authorPopularity: movie.volumeInfo.authors,
                     pagesVoteAverage: movie.volumeInfo.pageCount,
@@ -71,14 +71,14 @@ export const Search = () => {
                     duration: "",
                     description: movie.volumeInfo.description,
                     url: movie.volumeInfo.imageLinks === undefined
-                        ? `https://image.flaticon.com/icons/svg/2965/2965705.svg`:
+                        ? `https://image.flaticon.com/icons/svg/2965/2965705.svg` :
                         movie.volumeInfo.imageLinks.thumbnail,
                     type: option,
                     date: new Date,
                     wishlist: isWishList
-                })
+                });
         }
-    }
+    };
     const API_URL = 'http://localhost:3000';
     useEffect(() => {
 
@@ -127,7 +127,6 @@ export const Search = () => {
                         </div>
                     </div>
                     <ul className="search__list ">
-
                         {option === "Film" ?
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                                 <img className="search__list__poster col-4 alt"
@@ -148,18 +147,15 @@ export const Search = () => {
                                             Głosów <span>{movie.vote_count}</span></div>
                                     </div>
                                     <div className=" search__list__buttons  col-12">
-
                                         <button className="search__list__buttons__add btn  "
                                                 onClick={e => handleSubmit(index, e, false)}>Dodaj
                                         </button>
                                         <button className="search__list__buttons__wishList btn "
                                                 onClick={e => handleSubmit(index, e, true,)}>Dodaj Lista Życzeń
                                         </button>
-
                                     </div>
                                 </div>
                             </li>) :
-
                             movies.map((movie, index) => <li className="row search__list__li" key={movie.id}>
                                 <img className="search__list__poster col-4 alt"
                                      src={movie.volumeInfo.imageLinks === undefined
@@ -172,8 +168,8 @@ export const Search = () => {
                                     <p className="search__list__text__description col-11">{movie.volumeInfo.description}</p>
                                     <div className="  search__list__stats__people col-12">
                                         <div
-                                            className="search__list__people__popularity"> Liczba
-                                            stron: <span> {movie.volumeInfo.pageCount} </span>
+                                            className="search__list__people__popularity">
+                                            Liczba stron: <span> {movie.volumeInfo.pageCount} </span>
                                         </div>
                                         <div
                                             className="search__list__people__avarage">Język <span> {movie.volumeInfo.language}</span>
@@ -183,14 +179,12 @@ export const Search = () => {
                                         </div>
                                     </div>
                                     <div className=" search__list__buttons  col-12">
-
                                         <button className="search__list__buttons__add btn  "
                                                 onClick={e => handleSubmit(index, e, false)}>Dodaj
                                         </button>
                                         <button className="search__list__buttons__wishList btn "
                                                 onClick={e => handleSubmit(index, e, true,)}>Dodaj Lista Życzeń
                                         </button>
-
                                     </div>
                                 </div>
                             </li>)

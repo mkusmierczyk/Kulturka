@@ -57,12 +57,11 @@ export const MyMovies = (props) => {
             (Date.parse(movie.date) > (Date.parse(filterStart + "T00:00:00"))
                 && Date.parse(movie.date) < (Date.parse(filterEnd + "T23:59:59")))
     });
-
     return (
         <>
             <div className="container header--menu">
                 <Menu/>
-                <div>
+                <div className="headerMenu">
                     <div className="header">
                         <h1 className="header__title">{pageName} </h1>
                         <div className="header--label">
@@ -84,8 +83,7 @@ export const MyMovies = (props) => {
                                 <h1 className="search__list__text__title col-12 ">{movie.title}</h1>
                                 <p className="search__list__text__description col-11">{movie.description}</p>
                                 <div className="  search__list__stats__people col-12">
-                                    <div
-                                        className="search__list__people__popularity">
+                                    <div className="search__list__people__popularity">
                                         {popularityAuthor} {movie.authorPopularity}</div>
                                     <div className="search__list__people__avarage">
                                         {voteAveragePages} {movie.pagesVoteAverage}</div>

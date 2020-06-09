@@ -3,90 +3,6 @@
     {
       "login": "",
       "password": "",
-      "id": "Mqp-AwAAQBAJ",
-      "title": "Ulisses",
-      "authorPopularity": [
-        "James Joyce"
-      ],
-      "languageVoteCount": "pl",
-      "duration": "",
-      "description": "\"Gdy Ulisses mimo przeszkód wreszcie ukazał się drukiem w 1922 roku, okrzyknięto go dziełem nieudanym, nieprzyzwoitym, niemoralnym itd. Uchodził za powieść, której porządny człowiek nie powinien nawet brać do ręki. Dziś, prawie sto lat później, jest powszechnie uważany za arcydzieło, którego nie wypada nie znać. O czym jest Ulisses? Można odpowiedzieć na dwa sposoby: o zwyczajnym dniu Stefana Dedalusa i Leopolda Blooma w Dublinie na początku XX wieku – albo: o wszystkim. Okazuje się bowiem, że zwykły dzień zwykłego człowieka – który chodzi, je, rozmawia czy załatwia różne sprawy, ale też myśli, czuje, wspomina i marzy – to miniatura całego ludzkiego doświadczenia. Czym jeszcze jest Ulisses? Jak napisał w posłowiu tłumacz Maciej Słomczyński, jest to „zapoczątkowanie nowego rodzaju sztuki i doprowadzenie go do doskonałości na przestrzeni jednego dzieła”.\"",
-      "url": "http://books.google.com/books/content?id=Mqp-AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "type": "Książka",
-      "date": "2020-06-08T15:25:37.412Z",
-      "wishlist": false
-    },
-    {
-      "login": "",
-      "password": "",
-      "id": "ZiWKCgAAQBAJ",
-      "title": "Kandyd",
-      "authorPopularity": [
-        "Wolter"
-      ],
-      "pagesVoteAverage": 114,
-      "languageVoteCount": "pl",
-      "duration": "",
-      "description": "Kandyd, czyli optymizm – oświeceniowa satyryczna powiastka filozoficzna francuskiego filozofa Voltaire'a, po raz pierwszy wydana w 1759 r. Tytułowy bohater, Kandyd, który na początku powiastki żyje w cieplarnianych warunkach (\"raju ziemskim\") na zamku w Westfalii i jest karmiony przez swojego preceptora Panglossa leibnizowską filozofią optymizmu, na skutek nieszczęśliwego zbiegu okoliczności zostaje wygnany z tego raju i, tułając się po różnych krajach i kontynentach, przeżywa nieprawdopodobne przygody, które nieustannie wystawiają na szwank jego wiarę w dobroć świata. Na końcu powiastki Voltaire odrzuca twierdzenie Leibniza, jakoby ludzie żyli na \"najlepszym z możliwych światów\" i ustami Kandyda stawia tezę, że \"trzeba uprawiać nasz ogródek\". (Wikipedia)",
-      "url": "http://books.google.com/books/content?id=ZiWKCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "type": "Książka",
-      "date": "2020-06-08T15:25:47.155Z",
-      "wishlist": true
-    },
-    {
-      "login": "",
-      "password": "",
-      "id": "OzGF29hFLmMC",
-      "title": "Early Blazon",
-      "authorPopularity": [
-        "Gerard J. Brault"
-      ],
-      "pagesVoteAverage": 301,
-      "languageVoteCount": "en",
-      "duration": "",
-      "description": "Classic study of the rise and flowering of heraldry 12-13c, with Arthurian references.",
-      "url": "http://books.google.com/books/content?id=OzGF29hFLmMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "type": "Książka",
-      "date": "2020-06-08T15:25:56.748Z",
-      "wishlist": false
-    },
-    {
-      "login": "",
-      "password": "",
-      "id": "Ks5OBgAAQBAJ",
-      "title": "Apellido Faus",
-      "authorPopularity": [
-        "AA.VV.",
-        "Instituto de Historia y Heráldica Familiar"
-      ],
-      "pagesVoteAverage": 8,
-      "languageVoteCount": "es",
-      "duration": "",
-      "description": "Origen, significado y datos históricos más relevantes del apellido, así como la heráldica (escudo de armas) del linaje. Para la documentación y edición de todas nuestras láminas nos regimos por un estricto protocolo cuya finalidad es la de garantizar la veracidad y utilidad de la información. Incluye descripción y simbolismo de los principales esmaltes, metales y piezas heráldicas.",
-      "url": "http://books.google.com/books/content?id=Ks5OBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "type": "Książka",
-      "date": "2020-06-08T15:26:01.043Z",
-      "wishlist": false
-    },
-    {
-      "login": "",
-      "password": "",
-      "id": "O17mzAEACAAJ",
-      "title": "Gloria",
-      "authorPopularity": [
-        "Anton Daniël Leeman"
-      ],
-      "pagesVoteAverage": 199,
-      "languageVoteCount": "nl",
-      "duration": "",
-      "url": "https://image.flaticon.com/icons/svg/2965/2965705.svg",
-      "type": "Książka",
-      "date": "2020-06-08T15:26:15.980Z",
-      "wishlist": false
-    },
-    {
-      "login": "",
-      "password": "",
       "id": 23202,
       "title": "Upiorna noc Halloween",
       "author": "",
@@ -167,7 +83,24 @@
       "description": "Roznosi was ciekawość, co słychać u Elle i Noah? Chcielibyście dowiedzieć się czegoś więcej o namiętnym związku bohaterów filmowego hitu Netflixa – „The Kissing Booth”? Sięgnijcie po tę książkę! Co roku Elle Evans spędza udane wakacje w domku przy plaży, należącym do rodziny Flynnów. Słońce, plaża, mnóstwo flirtowania – czegóż chcieć więcej? Elle nie może się doczekać, żeby znów wybrać się nad morze, jednak w tym roku sprawy wyglądają nieco inaczej. Elle i Noah teraz oficjalnie chodzą ze sobą – to niesamowite, ale tak jest! Elle nigdy nie była szczęśliwsza. Problem w tym, że po wakacjach Noah wyjeżdża na studia na Harvardzie. Co stanie się z ich związkiem? Elle i Lee zawsze byli najlepszymi przyjaciółmi; nikt nie zna Elle tak dobrze jak Lee. Czy pojawienie się tego lata Rachel – nowej dziewczyny Lee – nie zmieni ich dotychczasowej relacji? Elle tak bardzo chciałaby spędzić wymarzone wakacje z Noah i Lee, zanim na zawsze pożegna się z domkiem przy plaży.",
       "url": "http://books.google.com/books/content?id=xNGlDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "type": "Książka",
-      "date": "2020-06-08T15:51:31.532Z",
+      "date": "2020-06-09T11:06:50.700Z",
+      "wishlist": false
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": "U5uw6LFzNdkC",
+      "title": "The Magic of Kol Nidre",
+      "authorPopularity": [
+        "Bruce H. Siegel"
+      ],
+      "pagesVoteAverage": 32,
+      "languageVoteCount": "en",
+      "duration": "",
+      "description": "The magic of the Kol nidre prayer, central to the Yom Kippur service, is explored from the viewpoint of three generations.",
+      "url": "http://books.google.com/books/content?id=U5uw6LFzNdkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "type": "Książka",
+      "date": "2020-06-09T11:07:39.348Z",
       "wishlist": false
     }
   ]

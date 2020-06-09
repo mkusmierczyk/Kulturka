@@ -6,27 +6,11 @@ import {BookSearch} from "./bookSearch";
 
 export const Search = () => {
     //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej
-    const [searchName, setSearchName] = useInput("");
+    const [searchName, setSearchName] = useState("");
     const [option, setOption] = useInput("Książka");
     const [movies, setMovies] = useState([]);
     const [noResults, setNoResults] = useState(1);
-    const [bookMovie, setBookMovie] = useState({
-        login: "",
-        password: "",
-        title: "",
-        author: "",
-        pages: "",
-        language: "",
-        duration: "",
-        description: "",
-        url: "",
-        type: "",
-        date: "",
-        popularity: "",
-        vote_average: "",
-        vote_count: "",
-        wishlist: ""
-    });
+    const [bookMovie, setBookMovie] = useState(false);
     const handleSubmit = (index, e, isWishList) => {
         e.preventDefault();
         e.target.parentElement.style.display = "none"
@@ -81,7 +65,6 @@ export const Search = () => {
     };
     const API_URL = 'http://localhost:3000';
     useEffect(() => {
-
             if (bookMovie.title !== "")
                 fetch(`${API_URL}/books_movies`, {
 
@@ -95,6 +78,10 @@ export const Search = () => {
                     .catch(err => console.log(err))
         },
         [bookMovie]);
+    const handleOnChange = () => {
+        setMovies([])
+        setSearchName("")
+    }
 
     return (
         <>
@@ -116,7 +103,7 @@ export const Search = () => {
                                             setMovies={setMovies}
                                             setNoResults={setNoResults}/>}
                             <select className="header__label__input"
-                                    value={option}  {...setOption}>
+                                    value={option}  {...setOption} onChange={handleOnChange}>
                                 <option
                                     value="Film">Film
                                 </option>

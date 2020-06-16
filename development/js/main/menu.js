@@ -1,6 +1,6 @@
 import React, {Component, useEffect, useState} from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
+import {BrowserRouter as Router, HashRouter, Link, Route} from "react-router-dom";
 
 export const Menu = () => {
     const [showMenu, setShowMenu] = useState("none");
@@ -24,11 +24,10 @@ export const Menu = () => {
     const handleHideMenu = (e) => {
         e.preventDefault();
         setShowMenu("none");
-
     };
     return (
         <>
-            <HashRouter>
+            <Router>
                 <nav className="nav " style={{display: showMenu}}>
                     <div className="nav__menu  ">
                         <h1 className="nav__menu__logo"><Link to={"/"}> Kulturka </Link></h1>
@@ -51,12 +50,9 @@ export const Menu = () => {
                         <a href='#'> <i className="fab fa-twitter-square"> </i></a>
                         <a href='#'> <i className="fab fa-instagram"> </i></a>
                     </div>
-
                 </nav>
                 <i className=" nav__menu__hamburger fas fa-bars" onClick={handleShowMenu}> </i>
-            </HashRouter>
+            </Router>
         </>
-
-
     )
 };

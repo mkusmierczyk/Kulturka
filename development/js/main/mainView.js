@@ -7,6 +7,7 @@ import SearchMovies from "../../images/search_movie.jpg"
 import MyShelf from "../../images/my_shelf_view.jpg"
 import MyMovies from "../../images/my_movies.jpg"
 import WishList from "../../images/wish_list.jpg"
+import {SignOut} from "../auth/signOut";
 
 export const MainView = () => {
 
@@ -60,6 +61,7 @@ export const MainView = () => {
             <div className='container MenuMain'>
                 <Menu/>
                 <div className="main">
+                    <SignOut/>
                     <div className='row main__hamburger'>
                         <h1 className=" col-12 nav__menu__logo"><Link to={"/"}><img src={Logo}/>Kulturka
                         </Link></h1>

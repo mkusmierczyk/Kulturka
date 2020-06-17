@@ -5,10 +5,11 @@
   background-color: $bg_color;
   height: 100vh;
   box-sizing: border-box;
-  display: flex;//dous
-  flex-direction: row;//dous
+  display: flex; //dous
+  flex-direction: row; //dous
 }
-.main{
+
+.main {
   display: flex;
   flex-direction: column;
   @media (min-width: 800px) {

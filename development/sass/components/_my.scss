@@ -1,9 +1,11 @@
-.headerMenu{
+.headerMenu {
   width: 100%;
 }
-.header--menu{
+
+.header--menu {
   display: flex;
 }
+
 .header {
   background-color: $menu_logo_background;
   color: $screen_bg;
@@ -15,6 +17,7 @@
     width: 100%;
   }
 }
+
 .header__title {
   text-align: center;
   letter-spacing: 3.5px;
@@ -24,20 +27,24 @@
   font-weight: bold;
   padding-top: 10px;
 }
+
 .header__label {
   font-size: 1.5rem;
+
   :last-child {
     display: flex;
     align-self: flex-end;
     margin-bottom: 5px;
   }
 }
+
 .header__label__input {
   font-family: $complementary_font;
   font-size: 2rem;
   text-align: center;
   border-radius: 10px;
   margin: 5px 0 15px 0;
+
   &:first-child {
     margin-left: 20px;
   }

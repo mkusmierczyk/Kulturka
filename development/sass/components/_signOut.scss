@@ -1,16 +1,17 @@
-.signOut{
+.signOut {
   background-color: $menu_logo_background;
   color: $main_color;
   font-weight: bold;
   padding: 5px;
 }
-.signOut__name{
-  padding-right:5px ;
+
+.signOut__name {
+  padding-right: 5px;
   display: flex;
   align-self: center;
 }
 
-.signOut__name__btn{
+.signOut__name__btn {
   box-shadow: 0px 10px 14px -7px #043927;
   background: #043927 linear-gradient(to bottom, #095338 5%, #043927 100%);
   border-radius: 8px;

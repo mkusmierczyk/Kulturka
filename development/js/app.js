@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter as Router, HashRouter, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter , HashRouter as Router, Link, Route, Switch} from "react-router-dom";
 import '../sass/main.scss'
 import {Menu} from "./main/menu";
 import {MainView} from "./main/mainView";

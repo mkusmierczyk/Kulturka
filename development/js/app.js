@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter , HashRouter as Router, Link, Route, Switch} from "react-router-dom";
+import {BrowserRouter, HashRouter as Router, Link, Route, Switch} from "react-router-dom";
 import '../sass/main.scss'
 import {Menu} from "./main/menu";
 import {MainView} from "./main/mainView";
@@ -17,16 +17,15 @@ import PrivateRoute from "./auth/privateRoute";
 const App = () => {
     return (
         <Auth>
-
-        <Router>
-            <Route exact path="/menu" component={Menu}/>
-            <PrivateRoute  exact path="/" component={MainView}/>
-            <Route exact path="/search" component={Search}/>
-            <Route exact path="/myShelf" component={MyShelf}/>
-            <Route exact path="/myMovies" component={MyMovies} />
-            <Route exact path="/wishesList" component={WishesList}/>
-            <Route exact path="/login" component={Login}/>
-            <Route exact path="/register" component={Register}/>
+            <Router>
+                <Route exact path="/menu" component={Menu}/>
+                <PrivateRoute exact path="/" component={MainView}/>
+                <Route exact path="/search" component={Search}/>
+                <Route exact path="/myShelf" component={MyShelf}/>
+                <Route exact path="/myMovies" component={MyMovies}/>
+                <Route exact path="/wishesList" component={WishesList}/>
+                <Route exact path="/login" component={Login}/>
+                <Route exact path="/register" component={Register}/>
             </Router>
         </Auth>
     )

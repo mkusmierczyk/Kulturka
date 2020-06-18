@@ -8,53 +8,42 @@ import MyShelf from "../../images/my_shelf_view.jpg"
 import MyMovies from "../../images/my_movies.jpg"
 import WishList from "../../images/wish_list.jpg"
 import {SignOut} from "../auth/signOut";
+import firebase from "firebase";
 
 export const MainView = () => {
-
     const [addedMovies, setAddedMovies] = useState(false);
-    const API_URL = 'http://localhost:3000';
     const images = {
-        booksSearch: {
-            backgroundImage: `url(${SearchBook})`
+        booksSearch: {backgroundImage: `url(${SearchBook})`
         },
-        moviesSearch: {
-            backgroundImage: `url(${SearchMovies})`
+        moviesSearch: {backgroundImage: `url(${SearchMovies})`
         },
-        shelf: {
-            backgroundImage: `url(${MyShelf})`
+        shelf: {backgroundImage: `url(${MyShelf})`
         },
-        movie: {
-            backgroundImage: `url(${MyMovies})`
+        movie: {backgroundImage: `url(${MyMovies})`
         },
-        wish: {
-            backgroundImage: `url(${WishList})`
+        wish: {backgroundImage: `url(${WishList})`
         },
     };
     useEffect(() => {
-        fetch(`${API_URL}/books_movies`)
-            .then(response => {
-                if (response.ok) {
-                    return response.json()
-                } else {
-                    throw new Error("Error during loading data")
-                }
-            })
-            .then(data => {
-                setAddedMovies({data})
-            })
-            .catch(error => {
-                console.log(error)
-            })
+        const fetchData = async () => {
+            const db = firebase.firestore()
+            const data = await db.collection("books_movies").get()
+            setAddedMovies(data.docs.map(doc => doc.data()))
+        }
+        fetchData()
+    }, [])
 
-    }, []);
     if (!addedMovies) return <h1>Loading data ...</h1>
-    let onlyMovies = addedMovies.data.filter(movie => movie.type === "Film" && movie.wishlist === false);
-    let onlyBooks = addedMovies.data.filter(movie => movie.type === "Książka" && movie.wishlist === false);
+    const added = addedMovies.map(thi => {
+        return thi.dataBase
+    })
+    let onlyMovies = added.filter(movie => movie.type === "Film" && movie.wishlist === false);
+    let onlyBooks = added.filter(movie => movie.type === "Książka" && movie.wishlist === false);
     let now = new Date;
-    let onlyMoviesMonth = addedMovies.data.filter(movie => {
+    let onlyMoviesMonth = added.filter(movie => {
         return movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000);
     });
-    let onlyBooksMonth = addedMovies.data.filter(movie => movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
+    let onlyBooksMonth = added.filter(movie => movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
 
     return (
         <>

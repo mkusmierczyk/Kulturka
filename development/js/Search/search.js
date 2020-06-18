@@ -63,9 +63,7 @@ export const Search = () => {
                     wishlist: isWishList
                 });
         }
-
     };
-
     let updatedList = JSON.stringify(bookMovie, function (key, value) {return (value === undefined) ? "" : value});
     let dataBase = JSON.parse(updatedList);
 

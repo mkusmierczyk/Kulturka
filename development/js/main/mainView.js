@@ -1,4 +1,4 @@
-import React, {Component, useEffect, useState} from "react";
+import React, {Component, useContext, useEffect, useState} from "react";
 import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
 import {Menu} from "./menu";
 import Logo from "../../images/logo.png"
@@ -9,9 +9,11 @@ import MyMovies from "../../images/my_movies.jpg"
 import WishList from "../../images/wish_list.jpg"
 import {SignOut} from "../auth/signOut";
 import firebase from "firebase";
+import {AuthContext} from "../auth/auth";
 
 export const MainView = () => {
     const [addedMovies, setAddedMovies] = useState(false);
+    const { currentUser } = useContext(AuthContext);
     const images = {
         booksSearch: {backgroundImage: `url(${SearchBook})`
         },
@@ -37,13 +39,13 @@ export const MainView = () => {
     const added = addedMovies.map(thi => {
         return thi.dataBase
     })
-    let onlyMovies = added.filter(movie => movie.type === "Film" && movie.wishlist === false);
-    let onlyBooks = added.filter(movie => movie.type === "Książka" && movie.wishlist === false);
+    let onlyMovies = added.filter(movie => movie.login === currentUser.email && movie.type === "Film" && movie.wishlist === false);
+    let onlyBooks = added.filter(movie => movie.login === currentUser.email && movie.type === "Książka" && movie.wishlist === false);
     let now = new Date;
     let onlyMoviesMonth = added.filter(movie => {
-        return movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000);
+        return movie.login === currentUser.email && movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000);
     });
-    let onlyBooksMonth = added.filter(movie => movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
+    let onlyBooksMonth = added.filter(movie =>  movie.login === currentUser.email &&movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
 
     return (
         <>

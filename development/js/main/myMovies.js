@@ -1,7 +1,9 @@
-import React, {Component, useEffect, useState} from "react";
+import React, {Component, useContext, useEffect, useState} from "react";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
 import firebase from "firebase";
+import {AuthContext} from "../auth/auth";
+
 
 export const MyMovies = (props) => {
     // nie działa wishlist nie widać Ksiązek i filmów razem naprawić filtr  Tylko jedno wejscie danych o jedno wyjście
@@ -9,7 +11,7 @@ export const MyMovies = (props) => {
     const [addedMovies, setAddedMovies] = useState(false);
     const [filterStart, setFilterStart] = useInput("2019-03-13");
     const [filterEnd, setFilterEnd] = useInput((now.toISOString().slice(0, 10)));
-
+    const {currentUser} = useContext(AuthContext);
     useEffect(() => {
         const fetchData = async () => {
             const db = firebase.firestore()
@@ -40,12 +42,12 @@ export const MyMovies = (props) => {
     };
 
     const onlyMoviesNonWS = addedMovies.filter(movie => {
-        return movie.dataBase.type === type &&
+        return movie.dataBase.login === currentUser.email &&
+            movie.dataBase.type === type &&
             movie.dataBase.wishlist === wishesList &&
             (Date.parse(movie.dataBase.date) > (Date.parse(filterStart + "T00:00:00"))
                 && Date.parse(movie.dataBase.date) < (Date.parse(filterEnd + "T23:59:59")))
     });
-    console.log(addedMovies);
 
     return (
         <>

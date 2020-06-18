@@ -1,8 +1,10 @@
-import React, {Component, useEffect, useState} from "react";
+import React, {Component, useContext, useEffect, useState} from "react";
 import {Menu} from "../main/menu";
 import {MovieSearch} from "./movieSearch";
 import {BookSearch} from "./bookSearch";
+
 import * as firebase from "firebase";
+import {AuthContext} from "../auth/auth";
 
 export const Search = () => {
     //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej style do reacta nie document
@@ -11,7 +13,7 @@ export const Search = () => {
     const [movies, setMovies] = useState([]);
     const [noResults, setNoResults] = useState(1);
     const [bookMovie, setBookMovie] = useState(false);
-
+    const { currentUser } = useContext(AuthContext);
     const handleSubmit = (index, e, isWishList) => {
         e.preventDefault();
         e.target.parentElement.style.display = "none"
@@ -26,7 +28,7 @@ export const Search = () => {
         {
             option === "Film" ?
                 setBookMovie({
-                    login: "",
+                    login: currentUser.email,
                     password: "",
                     id: movie.id,
                     title: movie.title,
@@ -46,7 +48,7 @@ export const Search = () => {
                     wishlist: isWishList
                 }) :
                 setBookMovie({
-                    login: "",
+                    login: currentUser.email,
                     password: "",
                     id: movie.id,
                     title: movie.volumeInfo.title,

@@ -1,31 +1,22 @@
 import React, {Component, useEffect, useState} from "react";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
+import firebase from "firebase";
 
 export const MyMovies = (props) => {
     const now = new Date();
     const [addedMovies, setAddedMovies] = useState(false);
     const [filterStart, setFilterStart] = useInput("2019-03-13");
     const [filterEnd, setFilterEnd] = useInput((now.toISOString().slice(0, 10)));
-    const API_URL = 'http://localhost:3000';
 
     useEffect(() => {
-        fetch(`${API_URL}/books_movies`)
-            .then(response => {
-
-                if (response.ok) {
-                    return response.json()
-                } else {
-                    throw new Error("Error during loading data")
-                }
-            })
-            .then(data => {
-                setAddedMovies({data})
-            })
-            .catch(error => {
-                console.log(error)
-            })
-    }, []);
+        const fetchData = async () => {
+            const db = firebase.firestore()
+            const data = await db.collection("books_movies").get()
+            setAddedMovies(data.docs.map(doc => doc.data()))
+        }
+        fetchData()
+    }, [])
 
     const handleDeleteClick = (e, movieId) => {
         e.preventDefault();
@@ -42,21 +33,29 @@ export const MyMovies = (props) => {
                 console.log(err)
             });
     };
+
     if (!addedMovies) return <h1>Loading data ...</h1>
     let type = props.type || "Film";
     let wishesList = props.wishlist || false;
     let pageName = props.pageName || "Moja Filmoteka";
     let movieDate = props.movieDate || "Wyszukaj Filmy obejrzane od:";
-    let popularityAuthor = props.popularityAuthor ||"Ilość Obejrzeń";
-    let voteAveragePages = props.voteAveragePages ||"Średnia Głosów:";
+    let popularityAuthor = props.popularityAuthor || "Ilość Obejrzeń";
+    let voteAveragePages = props.voteAveragePages || "Średnia Głosów:";
     let voteCountLanguage = props.voteCountLanguage || "Ilość Głosów:";
 
-    const onlyMoviesNonWS = addedMovies.data.filter(movie => {
+const added = addedMovies.map(thi => {
+    return thi.dataBase
+})
+
+
+    const onlyMoviesNonWS = added.filter(movie => {
         return movie.type === type &&
             movie.wishlist === wishesList &&
             (Date.parse(movie.date) > (Date.parse(filterStart + "T00:00:00"))
                 && Date.parse(movie.date) < (Date.parse(filterEnd + "T23:59:59")))
     });
+console.log(onlyMoviesNonWS)
+
     return (
         <>
             <div className="container header--menu">
@@ -88,9 +87,10 @@ export const MyMovies = (props) => {
                                     <div className="search__list__people__avarage">
                                         {voteAveragePages} {movie.pagesVoteAverage}</div>
                                     <div className="search__list__people__votes">{voteCountLanguage}
-                                    {movie.languageVoteCount}</div>
+                                        {movie.languageVoteCount}</div>
                                     <div className="search__list__people__date">
-                                       Data Dodania: {movie.date.substr(0, 10)}</div>
+                                        Data Dodania: {movie.date.slice(0,10)}
+                                    </div>
                                 </div>
                                 <div className=" search__list__buttons col-12">
                                     <button className="search__list__buttons__add btn  "

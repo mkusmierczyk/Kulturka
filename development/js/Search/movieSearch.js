@@ -27,6 +27,6 @@ export const MovieSearch = ({searchName, setSearchName, setMovies, setNoResults,
 
     return (
         <input className="col-11 header__label__input " placeholder="Czego poszukujesz?"
-               name={"name"}  type="text" value={searchName} onChange={e=>setSearchName(e.target.value)}/>
+               name="name"  type="text" value={searchName} onChange={e=> setSearchName(e.target.value)}/>
     )
 };

@@ -23,6 +23,7 @@ export const BookSearch = ({searchName, setSearchName, setMovies, setNoResults, 
             }
         setNoResults(movies.length)
     }, [searchName]);
+    console.log(movies)
     if (movies === []) return <p>Loading data...</p>;
 
     return (

@@ -102,6 +102,57 @@
       "type": "Książka",
       "date": "2020-06-09T11:07:39.348Z",
       "wishlist": false
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": "iz8mauGQ4voC",
+      "title": "Jak Kupic Dom Madrze I Nie Przeplacic",
+      "authorPopularity": [
+        "Elzbieta Baumgartner"
+      ],
+      "pagesVoteAverage": 154,
+      "languageVoteCount": "pl",
+      "duration": "",
+      "url": "http://books.google.com/books/content?id=iz8mauGQ4voC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "type": "Książka",
+      "date": "2020-06-17T15:27:25.334Z",
+      "wishlist": false
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": "0zeuDwAAQBAJ",
+      "title": "Dom rodzinny w doświadczeniu (auto)biograficznym",
+      "authorPopularity": [
+        "Andrzej Ładyżyński",
+        "Maja Piotrowska",
+        "Magdalena Kasprzak"
+      ],
+      "pagesVoteAverage": 240,
+      "languageVoteCount": "pl",
+      "duration": "",
+      "description": "Doświadczenia domu rodzinnego należą do pierwotnych i fundamentalnych dla całego życia jednostki. Pozostają w człowieku na zawsze. To, co przeżywa się w domu rodzinnym, naznacza człowieka, nobilituje go rodzinnie oraz – niekiedy – stygmatyzuje. Ta niezwykła „instytucja” - używając określania socjologa Andrzeja Sicińskiego – współtworzona jest przez trzy aspekty. To w pierwszym rzędzie miejsce znaczące i materia wyznaczona w przestrzeni: mieszkania, wyposażenia oraz najbliższego otoczenia. Dom rodzinny to także zespół domowników, jedyna w swoim rodzaju zbiorowość społeczna z ich aktywnością, funkcjami, rolami, stylami życia oraz relacjami. Dom to w końcu wartość zaspokajająca potrzeby materialne, społeczne oraz symboliczne. Jest ściśle spleciony z życiem jednostki, z biografią każdego człowieka. I właśnie te biografie na kanwie domu rodzinnego pragniemy uczynić przedmiotem prezentowanego tomu. A wskazane powyżej obszary, jako ogólne jego ramy ukazujące wielość nowych ujęć, spojrzeń oraz podejść do eksploracji domu rodzinnego, w różnych aspektach podejmują w swoich tekstach Autorzy.",
+      "url": "http://books.google.com/books/content?id=0zeuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "type": "Książka",
+      "date": "2020-06-17T15:32:13.982Z",
+      "wishlist": false
+    },
+    {
+      "login": "",
+      "password": "",
+      "id": "8PNKDwAAQBAJ",
+      "title": "Gra w kolory",
+      "authorPopularity": [
+        "Marzena Rogalska"
+      ],
+      "languageVoteCount": "pl",
+      "duration": "",
+      "description": "Po dotkliwej stracie Agata dochodzi do siebie pod troskliwą opieką najbliższych. Kiedyś podzieliła się z nimi swoimi snami. Ale czy pojawi się ktoś, kto zechce dzielić z nią życie? I czy ona, targana wątpliwościami, będzie na to gotowa? Aby być szczęśliwym, trzeba zrozumieć siebie. Marzena Rogalska poruszająco opowiada o wewnętrznym dojrzewaniu Agaty, odkrywa jej rodzinne tajemnice i pokazuje, że każdy może zmierzyć się z demonami zapomnianej i wypartej przeszłości. Trzeba tylko odwagi i... niewielkiej pomocy przyjaciół! Marzena Rogalska – dziennikarka z powołania, tak jak bohaterka jej powieści, potrafi rozmawiać z ludźmi, ale nade wszystko umie ich słuchać. W Grze w kolory, drugiej części znakomicie przyjętej Wyprzedaży snów, przekonuje, że od bolesnej przeszłości nie warto uciekać. Lepiej stawić jej czoła i z nową siłą ruszyć przed siebie.",
+      "url": "http://books.google.com/books/content?id=8PNKDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "type": "Książka",
+      "date": "2020-06-17T15:35:19.398Z",
+      "wishlist": false
     }
   ]
 }

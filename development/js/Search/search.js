@@ -1,16 +1,17 @@
 import React, {Component, useEffect, useState} from "react";
-import useInput from "./useInput"
 import {Menu} from "../main/menu";
 import {MovieSearch} from "./movieSearch";
 import {BookSearch} from "./bookSearch";
+import * as firebase from "firebase";
 
 export const Search = () => {
-    //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej
+    //Wymaga poprawy usuwanie buttona i dodawanie nowego elementu, przeniesienie  buttonów do innego komponentu, zmienić nazwę zmiennej style do reacta nie document
     const [searchName, setSearchName] = useState("");
-    const [option, setOption] = useInput("Książka");
+    const [option, setOption] = useState("Książka");
     const [movies, setMovies] = useState([]);
     const [noResults, setNoResults] = useState(1);
     const [bookMovie, setBookMovie] = useState(false);
+
     const handleSubmit = (index, e, isWishList) => {
         e.preventDefault();
         e.target.parentElement.style.display = "none"
@@ -62,23 +63,22 @@ export const Search = () => {
                     wishlist: isWishList
                 });
         }
-    };
-    const API_URL = 'http://localhost:3000';
-    useEffect(() => {
-            if (bookMovie.title !== "")
-                fetch(`${API_URL}/books_movies`, {
 
-                    method: "POST",
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(bookMovie)
-                })
-                    .then(resp => resp.json())
-                    .catch(err => console.log(err))
+    };
+
+    let updatedList = JSON.stringify(bookMovie, function (key, value) {return (value === undefined) ? "" : value});
+    let dataBase = JSON.parse(updatedList);
+
+    useEffect(() => {
+            if (bookMovie.title !== ""){
+                const db = firebase.firestore()
+                db.collection("books_movies").add({dataBase})
+            }
         },
         [bookMovie]);
-    const handleOnChange = () => {
+
+    const handleOnChange = e => {
+        setOption(e.target.value)
         setMovies([])
         setSearchName("")
     }
@@ -103,7 +103,7 @@ export const Search = () => {
                                             setMovies={setMovies}
                                             setNoResults={setNoResults}/>}
                             <select className="header__label__input"
-                                    value={option}  {...setOption} onChange={handleOnChange}>
+                                    value={option}  onChange={handleOnChange}>
                                 <option
                                     value="Film">Film
                                 </option>

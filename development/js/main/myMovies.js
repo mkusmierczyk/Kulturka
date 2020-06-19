@@ -1,4 +1,4 @@
-import React, {Component, useContext, useEffect, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
 import firebase from "firebase";
@@ -21,9 +21,7 @@ export const MyMovies = (props) => {
         fetchData()
     }, [])
 
-
     if (!addedMovies) return <h1>Loading data ...</h1>
-
 
     let type = props.type || "Film";
     let wishesList = props.wishlist || false;
@@ -47,6 +45,7 @@ export const MyMovies = (props) => {
             movie.dataBase.wishlist === wishesList &&
             (Date.parse(movie.dataBase.date) > (Date.parse(filterStart + "T00:00:00"))
                 && Date.parse(movie.dataBase.date) < (Date.parse(filterEnd + "T23:59:59")))
+
     });
 
     return (

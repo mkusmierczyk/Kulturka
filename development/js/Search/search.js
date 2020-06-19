@@ -1,4 +1,4 @@
-import React, {Component, useContext, useEffect, useState} from "react";
+import React, { useContext, useEffect, useState} from "react";
 import {Menu} from "../main/menu";
 import {MovieSearch} from "./movieSearch";
 import {BookSearch} from "./bookSearch";
@@ -11,7 +11,6 @@ export const Search = () => {
     const [searchName, setSearchName] = useState("");
     const [option, setOption] = useState("Książka");
     const [movies, setMovies] = useState([]);
-    const [noResults, setNoResults] = useState(1);
     const [bookMovie, setBookMovie] = useState(false);
     const { currentUser } = useContext(AuthContext);
     const handleSubmit = (index, e, isWishList) => {
@@ -66,12 +65,13 @@ export const Search = () => {
                 });
         }
     };
-    let updatedList = JSON.stringify(bookMovie, function (key, value) {return (value === undefined) ? "" : value});
-    let dataBase = JSON.parse(updatedList);
+
 
     useEffect(() => {
-            if (bookMovie.title !== ""){
+            if (bookMovie !== false ){
                 const db = firebase.firestore()
+                let updatedList = JSON.stringify(bookMovie, function (key, value) {return (value === undefined) ? "" : value});
+                let dataBase = JSON.parse(updatedList);
                 db.collection("books_movies").add({dataBase})
             }
         },
@@ -95,13 +95,11 @@ export const Search = () => {
                                 <MovieSearch searchName={searchName}
                                              setSearchName={setSearchName}
                                              movies={movies}
-                                             setMovies={setMovies}
-                                             setNoResults={setNoResults}/> :
+                                             setMovies={setMovies}/> :
                                 <BookSearch searchName={searchName}
                                             setSearchName={setSearchName}
                                             movies={movies}
-                                            setMovies={setMovies}
-                                            setNoResults={setNoResults}/>}
+                                            setMovies={setMovies}/>}
                             <select className="header__label__input"
                                     value={option}  onChange={handleOnChange}>
                                 <option
@@ -176,7 +174,7 @@ export const Search = () => {
                                 </div>
                             </li>)
                         }
-                        {noResults === 0 && <h2> Brak wyników wyszukiwania</h2>}
+                        {searchName === "" && <h2> Brak wyników wyszukiwania</h2>}
                     </ul>
                 </div>
             </div>

@@ -1,6 +1,6 @@
-import React, {Component,useEffect} from "react";
+import React, {useEffect} from "react";
 
-export const BookSearch = ({searchName, setSearchName, setMovies, setNoResults, movies})=> {
+export const BookSearch = ({searchName, setSearchName, setMovies, movies})=> {
     useEffect(() => {
             try {
                 if (searchName !== "")
@@ -21,7 +21,7 @@ export const BookSearch = ({searchName, setSearchName, setMovies, setNoResults, 
             } catch (error) {
                 console.log(error);
             }
-        setNoResults(movies.length)
+
     }, [searchName]);
     console.log(movies)
     if (movies === []) return <p>Loading data...</p>;

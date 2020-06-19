@@ -31,6 +31,7 @@ export const MainView = () => {
             const db = firebase.firestore()
             const data = await db.collection("books_movies").get()
             setAddedMovies(data.docs.map(doc => doc.data()))
+
         }
         fetchData()
     }, [])

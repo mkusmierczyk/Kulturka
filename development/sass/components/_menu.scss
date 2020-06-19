@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 2;
-  width: 80vw;
   min-height: 100vh;
   max-height: 1700px;
   font-size: 1rem;
@@ -25,9 +24,6 @@
   padding-bottom: 1.5rem;
   text-align: center;
   font-weight: 700;
-  border-bottom: 2px solid $complementary_color;
-
-
   a {
     color: $main_color;
     text-decoration: none;

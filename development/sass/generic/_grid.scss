@@ -13,7 +13,7 @@ $column-base-width: 100% / $columns;
     [class*='col-'] {
       min-height: 1px;
       width: $column-base-width;
-      padding:0;
+      padding: 0;
     }
 
     @for $i from 1 through $columns {

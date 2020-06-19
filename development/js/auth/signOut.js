@@ -6,8 +6,8 @@ export const SignOut = () => {
     const { currentUser } = useContext(AuthContext);
     return (
         <>
-            <div className="row signOut">
-                <span className=" signOut__name">Witaj {currentUser.email}</span>
+            <div className="signOut">
+                <span className=" signOut__name col-12">Witaj {currentUser.email}</span>
                 <button className="signOut__name__btn" onClick={ () => app.auth().signOut() }> Wyloguj</button>
             </div>
         </>

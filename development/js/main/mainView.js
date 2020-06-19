@@ -87,13 +87,13 @@ export const MainView = () => {
                         </Link>
                     </div>
                     <div className='row main__shortcut'>
-                        <Link className="col-4 row main__shortcut__myShelf" to={"/myShelf"} style={images.shelf}>
+                        <Link className="col-4  main__shortcut__myShelf" to={"/myShelf"} style={images.shelf}>
                             Półka
                         </Link>
-                        <Link className="col-4 row main__shortcut__myMovies" to={"/myMovies"} style={images.movie}>
+                        <Link className="col-4  main__shortcut__myMovies" to={"/myMovies"} style={images.movie}>
                             Filomoteka
                         </Link>
-                        <Link className="col-4 row main__shortcut__wishesList" to={"/wishesList"} style={images.wish}>
+                        <Link className="col-4  main__shortcut__wishesList" to={"/wishesList"} style={images.wish}>
                             Lista Życzeń
                         </Link>
                     </div>

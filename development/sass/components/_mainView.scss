@@ -1,7 +1,6 @@
 //main
 
 .MenuMain {
-
   background-color: $bg_color;
   height: 100vh;
   box-sizing: border-box;
@@ -15,7 +14,6 @@
   @media (min-width: 800px) {
     width: 97%;
   }
-
 }
 
 //Hamburger section
@@ -37,7 +35,6 @@
 
 //Stats section
 .main__stats {
-
   height: 30vh;
   margin-top: 2.7rem;
   text-align: center;
@@ -62,11 +59,9 @@
   background-color: $screen_bg;
   margin-right: 2vw;
   box-shadow: 3px 10px 16px 0px rgba(166, 153, 166, 1);
-
   i {
     background-color: $success_color;
   }
-
 }
 
 .main__stats__books--counter {
@@ -75,7 +70,6 @@
   font-weight: normal;
   margin: 10px 0 10px 0;
   font-style: italic;
-
 }
 
 .main__stats__books--counter--month {
@@ -96,7 +90,6 @@
   i {
     background-color: $main_color;
   }
-
 }
 
 .main__stats__movies--counter {
@@ -113,7 +106,6 @@
   font-weight: normal;
   margin: 10px 0 10px 0;
   font-style: italic;
-
 }
 
 //Search CTA
@@ -121,14 +113,12 @@
 .main__searchPage {
   text-align: center;
   height: 20vh;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   justify-content: space-between;
   font-size: 3rem;
   font-weight: bold;
   font-family: $complementary_font;
-
-
 }
 
 .main__searchPage__movies {
@@ -189,7 +179,7 @@
 
 //Section other pages
 .main__shortcut {
-  margin-top: 2rem;
+  margin-top: 3.5rem;
   height: 20vh;
   width: 100%;
   box-shadow: 3px 10px 16px 0px rgba(166, 153, 166, 1);

@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, useEffect, useState} from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, HashRouter as Router, Link, Route, Switch} from "react-router-dom";
 import '../sass/main.scss'

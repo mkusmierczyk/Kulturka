@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useState} from "react";
+import React, {useCallback, useState} from "react";
 import {Link, withRouter} from "react-router-dom";
 import app from "../settings/firebaseConfig";
 import LoginBackground from "../../images/login_background.jpg"

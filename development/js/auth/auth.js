@@ -11,10 +11,9 @@ export const Auth = ({children}) => {
         app.auth().onAuthStateChanged((user) => {
             setCurrentUser(user)
             setPending(false)
-            console.log(user)
+
         });
     }, []);
-
 
     return (
         <AuthContext.Provider

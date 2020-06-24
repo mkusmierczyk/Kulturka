@@ -1,5 +1,5 @@
-import React, {Component, useContext, useEffect, useState} from "react";
-import {BrowserRouter, HashRouter, Link, Route} from "react-router-dom";
+import React, { useContext, useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 import {Menu} from "./menu";
 import Logo from "../../images/logo.png"
 import SearchBook from "../../images/search_book.jpg"
@@ -10,11 +10,11 @@ import WishList from "../../images/wish_list.jpg"
 import {SignOut} from "../auth/signOut";
 import firebase from "firebase";
 import {AuthContext} from "../auth/auth";
-import app from "../settings/firebaseConfig";
+
 
 export const MainView = () => {
     const [addedMovies, setAddedMovies] = useState(false);
-    const { currentUser } = useContext(AuthContext);
+    const {currentUser} = useContext(AuthContext);
     const images = {
         booksSearch: {backgroundImage: `url(${SearchBook})`
         },
@@ -32,7 +32,6 @@ export const MainView = () => {
             const db = firebase.firestore()
             const data = await db.collection("books_movies").get()
             setAddedMovies(data.docs.map(doc => doc.data()))
-
         }
         fetchData()
     }, [])
@@ -48,7 +47,6 @@ export const MainView = () => {
         return movie.login === currentUser.email && movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000);
     });
     let onlyBooksMonth = added.filter(movie =>  movie.login === currentUser.email &&movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
-
 
     return (
         <>

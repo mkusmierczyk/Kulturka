@@ -1,12 +1,14 @@
 import React, { useCallback, useState} from "react";
 import app from "../settings/firebaseConfig";
 import LoginBackground from "../../images/login_background.jpg";
+
 import {Link} from "react-router-dom";
 
 const Reminder = ({history}) => {
     const [reminderError, setReminderError]= useState(false);
     const [email, setEmail] = useState("");
     const style = {backgroundImage: `url(${LoginBackground})`};
+
     const handleRemindPass = useCallback(async event => {
         event.preventDefault();
         try{

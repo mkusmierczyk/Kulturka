@@ -13,7 +13,6 @@ export const BookSearch = ({searchName, setSearchName, setMovies, movies})=> {
                             }
                         })
                         .then(data => {
-                            console.log(data.items);
                             setMovies(data.items);
                         })
                         .catch(err => console.log(err)
@@ -23,7 +22,7 @@ export const BookSearch = ({searchName, setSearchName, setMovies, movies})=> {
             }
 
     }, [searchName]);
-    console.log(movies)
+
     if (movies === []) return <p>Loading data...</p>;
 
     return (

@@ -6,8 +6,7 @@ export const MyShelf = () => {
         <>
             <MyMovies
                 wishlist={false}
-                type1="Książka"
-                type2="Książka"
+                type="Książka"
                 pageName="Moja Półka"
                 movieDate="Wyszukaj Przeczytane od"
                 popularityAuthor="Autor: "

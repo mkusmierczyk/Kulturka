@@ -23,6 +23,7 @@ export const MovieSearch = ({searchName, setSearchName, setMovies, movies,}) => 
         }
 
     }, [searchName]);
+
     if (movies === []) return <p>Loading data...</p>;
 
     return (

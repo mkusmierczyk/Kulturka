@@ -14,7 +14,9 @@ import Register from "./auth/register";
 import "@babel/polyfill";
 import PrivateRoute from "./auth/privateRoute";
 import Reminder from "./auth/reminder";
-
+import '../fonts/Charmonman-Regular.ttf'
+import '../fonts/Charmonman-Bold.ttf'
+import '../fonts/MarckScript-Regular.ttf'
 const App = () => {
     return (
         <Auth>

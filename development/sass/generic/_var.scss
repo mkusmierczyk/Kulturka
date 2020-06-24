@@ -1,4 +1,7 @@
+
+
 //colors:
+
 
 $main_color: #f1ca1c;
 $complementary_color: #98FB98;
@@ -15,7 +18,21 @@ $bg_color: #e5e5e5;
 $menu_logo_background: #043927;
 
 
+
+
 //fonts:
+
+@font-face{
+  font-family: 'Charmonman';
+  src: local('Charmonman-Bold'),   url("/../../fonts/Charmonman-Bold.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: 'Marck Script';
+  src: local('Marck Script-Regular'),   url("/../../fonts/MarckScript-Regular.ttf") format('truetype');
+}
+
+
 $logo_font: 'Charmonman', sans-serif;
 $text_font: 'Montserrat', sans-serif;
 $complementary_font: 'Marck Script', cursive;

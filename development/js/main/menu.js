@@ -1,10 +1,8 @@
-import React, {Component, useEffect, useState} from "react";
-import ReactDOM from "react-dom";
-import {BrowserRouter, HashRouter as Router, Link, Route} from "react-router-dom";
+import React, {useEffect, useState} from "react";
+import { HashRouter as Router, Link} from "react-router-dom";
 
 export const Menu = () => {
     const [showMenu, setShowMenu] = useState("none");
-    const [resize, setResize] = useState("none");
 
     let resizeWidth = () => {
         if (window.innerWidth > 563) {

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect, useState} from "react";
 import {Menu} from "./menu";
 import useInput from "../Search/useInput";
-import firebase from "firebase";
+import * as firebase from 'firebase/app';
 import {AuthContext} from "../auth/auth";
 
 

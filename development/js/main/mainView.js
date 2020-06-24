@@ -8,7 +8,7 @@ import MyShelf from "../../images/my_shelf_view.jpg"
 import MyMovies from "../../images/my_movies.jpg"
 import WishList from "../../images/wish_list.jpg"
 import {SignOut} from "../auth/signOut";
-import firebase from "firebase";
+import * as firebase from 'firebase/app';
 import {AuthContext} from "../auth/auth";
 
 

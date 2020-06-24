@@ -4879,4 +4879,243 @@ Child [1mHtmlWebpackCompiler[39m[22m:
      1 asset
     Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
     [0] [1m./node_modules/html-webpack-plugin/lib/loader.js!./development/index.html[39m[22m 1.45 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Deskt
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ npm run-script buildstart[K[1Pgit pushcommit  -m "beta version v1.09"add .[K
+^[[A]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ git add .npm run-script buildstart[K[1Pgit pushcommit  -m "beta version v1.09"
+[master fb3c053] beta version v1.09
+ 9 files changed, 152 insertions(+), 30 deletions(-)
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ git push
+Username for 'https://github.com': mkusmierczyk
+Password for 'https://mkusmierczyk@github.com': 
+Counting objects: 16, done.
+Delta compression using up to 12 threads.
+Compressing objects:   6% (1/16)   Compressing objects:  12% (2/16)   Compressing objects:  18% (3/16)   Compressing objects:  25% (4/16)   Compressing objects:  31% (5/16)   Compressing objects:  37% (6/16)   Compressing objects:  43% (7/16)   Compressing objects:  50% (8/16)   Compressing objects:  56% (9/16)   Compressing objects:  62% (10/16)   Compressing objects:  68% (11/16)   Compressing objects:  75% (12/16)   Compressing objects:  81% (13/16)   Compressing objects:  87% (14/16)   Compressing objects:  93% (15/16)   Compressing objects: 100% (16/16)   Compressing objects: 100% (16/16), done.
+Writing objects:   6% (1/16)   Writing objects:  12% (2/16)   Writing objects:  18% (3/16)   Writing objects:  25% (4/16)   Writing objects:  31% (5/16)   Writing objects:  37% (6/16)   Writing objects:  43% (7/16)   Writing objects:  50% (8/16)   Writing objects:  56% (9/16)   Writing objects:  62% (10/16)   Writing objects:  68% (11/16)   Writing objects:  75% (12/16)   Writing objects:  81% (13/16)   Writing objects:  87% (14/16)   Writing objects:  93% (15/16)   Writing objects: 100% (16/16)   Writing objects: 100% (16/16), 3.97 KiB | 176.00 KiB/s, done.
+Total 16 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 12 local objects.[K
+To https://github.com/mkusmierczyk/Kulturka.git
+   a2310d8..fb3c053  master -> master
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ git pushcommit  -m "beta version v1.09"add .[Knpm run-script buildstart[K[1Pgit pushnpm start
+
+> Kulturka@1.0.0 start /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka
+> webpack-dev-server --hot -d
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost:3007/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34m/build/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/development[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to [1m[34m/index.html[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mb74f29957c24156623a2[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m3615[39m[22mms
+Built at: 06/24/2020 [1m7:08:45 PM[39m[22m
+                       [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+[1m[32m/images/login_background.jpg[39m[22m  27.4 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+            [1m[32m/images/logo.png[39m[22m  39.3 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+       [1m[32m/images/my_movies.jpg[39m[22m    47 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+   [1m[32m/images/my_shelf_view.jpg[39m[22m  48.8 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+     [1m[32m/images/search_book.jpg[39m[22m  26.2 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+    [1m[32m/images/search_movie.jpg[39m[22m  47.7 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+       [1m[32m/images/wish_list.jpg[39m[22m  46.7 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                  [1m[32mindex.html[39m[22m  1.17 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+                      [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost:3007 (webpack)/hot/dev-server.js ./development/js/app.js[39m[22m 52 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/Search/search.js[39m[22m] 10.3 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/app.js[39m[22m] 1.87 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/auth/auth.js[39m[22m] 2.28 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/auth/login.js[39m[22m] 6.39 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/auth/privateRoute.js[39m[22m] 1.78 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/auth/register.js[39m[22m] 5.84 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/auth/reminder.js[39m[22m] 5.07 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/main/mainView.js[39m[22m] 7.98 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/main/menu.js[39m[22m] 5.3 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/main/myMovies.js[39m[22m] 9.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/main/myShelf.js[39m[22m] 491 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/main/wishesList.js[39m[22m] 344 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:3007] [1m(webpack)-dev-server/client?http://localhost:3007[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[./node_modules/webpack/hot/dev-server.js] [1m(webpack)/hot/dev-server.js[39m[22m 1.59 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 417 hidden modules
+Child [1mHtmlWebpackCompiler[39m[22m:
+     1 asset
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [[1m./node_modules/html-webpack-plugin/lib/loader.js!./development/index.html[39m[22m] 1.45 KiB {[1m[33mHtmlWebpackPlugin_0[39m[22m}[1m[32m [built][39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[31m✖[39m [90m｢wdm｣[39m: Hash: [1me1af9c3881ea8fecfcbf[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m163[39m[22mms
+Built at: 06/24/2020 [1m7:10:02 PM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32mb74f29957c24156623a2.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+[1m[32mmain.b74f29957c24156623a2.hot-update.js[39m[22m  3.58 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                 [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+ + 1 hidden asset
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m [1m[32mmain.b74f29957c24156623a2.hot-update.js[39m[22m
+[[1m./development/js/main/mainView.js[39m[22m] 2.54 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+    + 424 hidden modules
+
+[1m[31mERROR in ./development/js/main/mainView.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/development/js/main/mainView.js: Unexpected token (11:16)
+
+[0m [90m  9 | [39m[36mimport[39m [33mWishList[39m from [32m"../../images/wish_list.jpg"[39m[0m
+[0m [90m 10 | [39m[36mimport[39m {[33mSignOut[39m} from [32m"../auth/signOut"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 11 | [39m[36mimport[39m firebase as  from [32m"firebase"[39m[33m;[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 12 | [39m[36mimport[39m {[33mAuthContext[39m} from [32m"../auth/auth"[39m[33m;[39m[0m
+[0m [90m 13 | [39m[0m
+[0m [90m 14 | [39m[0m
+    at Object._raise (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:742:17)
+    at Object.raiseWithData (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:735:17)
+    at Object.raise (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:729:17)
+    at Object.unexpected (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:8779:16)
+    at Object.expectContextual (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:8745:41)
+    at Object.parseImport (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:12475:12)
+    at Object.parseStatementContent (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:11202:27)
+    at Object.parseStatement (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:11104:17)
+    at Object.parseBlockOrModuleBlockBody (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:11679:25)
+    at Object.parseBlockBody (/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka/node_modules/@babel/parser/lib/index.js:11665:10)
+ @ ./development/js/app.js 6:0-43 26:15-23[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1mefea02d028fceba107ee[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m301[39m[22mms
+Built at: 06/24/2020 [1m7:10:06 PM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32me1af9c3881ea8fecfcbf.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+[1m[32mmain.e1af9c3881ea8fecfcbf.hot-update.js[39m[22m  29.6 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                 [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+ + 7 hidden assets
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m [1m[32mmain.e1af9c3881ea8fecfcbf.hot-update.js[39m[22m
+[[1m./development/js/main/mainView.js[39m[22m] 7.98 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 431 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m1a6eac9aeb9fba10c139[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m231[39m[22mms
+Built at: 06/24/2020 [1m7:10:22 PM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32mefea02d028fceba107ee.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+[1m[32mmain.efea02d028fceba107ee.hot-update.js[39m[22m  20.9 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                 [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+ + 7 hidden assets
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m [1m[32mmain.efea02d028fceba107ee.hot-update.js[39m[22m
+[[1m./development/js/main/mainView.js[39m[22m] 7.99 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 431 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m5c51361b54e1f75adbbc[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m264[39m[22mms
+Built at: 06/24/2020 [1m7:11:19 PM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32m1a6eac9aeb9fba10c139.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+[1m[32mmain.1a6eac9aeb9fba10c139.hot-update.js[39m[22m  21.2 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                 [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+ + 7 hidden assets
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m [1m[32mmain.1a6eac9aeb9fba10c139.hot-update.js[39m[22m
+[[1m./development/js/main/myMovies.js[39m[22m] 9.52 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 431 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m9b3eb931cd5d896cf3d6[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m301[39m[22mms
+Built at: 06/24/2020 [1m7:13:48 PM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32m5c51361b54e1f75adbbc.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+[1m[32mmain.5c51361b54e1f75adbbc.hot-update.js[39m[22m  13.1 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                 [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+ + 7 hidden assets
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m [1m[32mmain.5c51361b54e1f75adbbc.hot-update.js[39m[22m
+[[1m./development/js/Search/search.js[39m[22m] 10.3 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+[[1m./development/js/main/menu.js[39m[22m] 5.26 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 430 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m8b2c3383e666f7d56de0[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m205[39m[22mms
+Built at: 06/24/2020 [1m7:15:47 PM[39m[22m
+                                  [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                             [1m[39m[22m[1mChunk Names[39m[22m
+   [1m[32m9b3eb931cd5d896cf3d6.hot-update.json[39m[22m  46 bytes        [1m[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  
+[1m[32mmain.9b3eb931cd5d896cf3d6.hot-update.js[39m[22m  12.8 KiB    [1mmain[39m[22m  [1m[32m[emitted] [immutable] [hmr][39m[22m  main
+                                 [1m[32mout.js[39m[22m  10.4 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m                    main
+ + 7 hidden assets
+Entrypoint [1mmain[39m[22m = [1m[32mout.js[39m[22m [1m[32mmain.9b3eb931cd5d896cf3d6.hot-update.js[39m[22m
+[[1m./development/js/main/menu.js[39m[22m] 5.08 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    + 431 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+^C
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ npm start[1Pgit pushcommit  -m "beta version v1.09"add .[Knpm run-script build[11Pgit add .
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ git add .npm start[1Pgit pushcommit  -m "beta version v1.09"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .npm run-script buildstart[K[1Pgit pushcommit  -m "beta version v1.09"add .[Knpm run-script build
+
+> Kulturka@1.0.0 build /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka
+> webpack -p
+
+Hash: [1mb3428c34b37343ca4518[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m11799[39m[22mms
+Built at: 06/24/2020 [1m7:16:42 PM[39m[22m
+                       [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32m/images/login_background.jpg[39m[22m  27.4 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+            [1m[32m/images/logo.png[39m[22m  39.3 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+       [1m[32m/images/my_movies.jpg[39m[22m    47 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+   [1m[32m/images/my_shelf_view.jpg[39m[22m  48.8 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+     [1m[32m/images/search_book.jpg[39m[22m  26.2 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+    [1m[32m/images/search_movie.jpg[39m[22m  47.7 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+       [1m[32m/images/wish_list.jpg[39m[22m  46.7 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+                  [1m[32mindex.html[39m[22m  1.08 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+                      [1m[33mout.js[39m[22m  [1m[33m1.23 MiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m        [1m[33m[big][39m[22m  main
+                  [1m[32mout.js.map[39m[22m  4.15 MiB       [1m0[39m[22m  [1m[32m[emitted] [dev][39m[22m         main
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mout.js[39m[22m [1m[32mout.js.map[39m[22m
+ [56] [1m(webpack)/buildin/global.js[39m[22m 472 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [69] [1m./node_modules/@firebase/installations/dist/index.esm.js + 1 modules[39m[22m 63.5 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+[145] [1m./development/sass/main.scss[39m[22m 635 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[147] [1m./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./development/sass/main.scss[39m[22m 47.3 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[354] [1m./development/js/app.js + 34 modules[39m[22m 133 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./development/js/app.js[39m[22m 1.87 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/menu.js[39m[22m 5.08 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/auth.js[39m[22m 2.28 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/mainView.js[39m[22m 7.99 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/Search/search.js[39m[22m 10.3 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/myMovies.js[39m[22m 9.52 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/myShelf.js[39m[22m 491 bytes[1m[32m [built][39m[22m
+      | [1m./development/js/main/wishesList.js[39m[22m 344 bytes[1m[32m [built][39m[22m
+      | [1m./development/js/auth/login.js[39m[22m 6.39 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/register.js[39m[22m 5.84 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/privateRoute.js[39m[22m 1.78 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/reminder.js[39m[22m 5.07 KiB[1m[32m [built][39m[22m
+      | [1m./development/images/logo.png[39m[22m 35 bytes[1m[32m [built][39m[22m
+      | [1m./development/images/search_book.jpg[39m[22m 42 bytes[1m[32m [built][39m[22m
+      | [1m./development/images/search_movie.jpg[39m[22m 43 bytes[1m[32m [built][39m[22m
+      |     + 20 hidden modules
+[355] [1m./node_modules/@firebase/messaging/dist/index.esm.js + 1 modules[39m[22m 81.2 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+[356] [1m./node_modules/@firebase/storage/dist/index.esm.js + 1 modules[39m[22m 135 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+[357] [1m./node_modules/@firebase/analytics/dist/index.esm.js + 1 modules[39m[22m 33.1 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+    + 350 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  out.js (1.23 MiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (1.23 MiB)
+      out.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+Child [1mHtmlWebpackCompiler[39m[22m:
+     1 asset
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [0] [1m./node_modules/html-webpack-plugin/lib/loader.js!./development/index.html[39m[22m 1.45 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmk

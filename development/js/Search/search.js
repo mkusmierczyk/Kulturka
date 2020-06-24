@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState} from "react";
 import {Menu} from "../main/menu";
 import {MovieSearch} from "./movieSearch";
 import {BookSearch} from "./bookSearch";
-
 import * as firebase from "firebase";
 import {AuthContext} from "../auth/auth";
 

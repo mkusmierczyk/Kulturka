@@ -5,8 +5,8 @@ export const WishesList = () => {
     return (
         <>
             <MyMovies wishlist={true}
-                      typeBottom={4}
-                      typeTop={4}
+                      type1 = {"Książka"}
+                      type2 = {"Film"}
                       pageName="Lista Życzeń"
                       movieDate={"Wyszukaj od"}/>
         </>

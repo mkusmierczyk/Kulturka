@@ -1,0 +1,93 @@
+Script started on 2020-06-24 13:50:39+0200
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ npm start[1Pgit pushcommit  -m "beta version v1.03"add .[Knpm run-script buildstart[K[1Pgit pushcommit  -m "beta version v1.02"add .[Knpm run-script buildstart[K[1Pgit pushcommit  -m "beta version v1.02"add .[Knpm run-script build[12Pgit pushcommit  -m "beta version v1.02"push[Knpm run-script build
+
+> Kulturka@1.0.0 build /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka
+> webpack -p
+
+Hash: [1m517081cb8d4941e3ef31[39m[22m
+Version: webpack [1m4.43.0[39m[22m
+Time: [1m11685[39m[22mms
+Built at: 06/24/2020 [1m1:51:11 PM[39m[22m
+                       [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m                 [1m[39m[22m       [1mChunk Names[39m[22m
+[1m[32m/images/login_background.jpg[39m[22m   27.4 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+            [1m[32m/images/logo.png[39m[22m   39.3 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+       [1m[32m/images/my_movies.jpg[39m[22m    163 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+   [1m[32m/images/my_shelf_view.jpg[39m[22m    237 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+     [1m[32m/images/search_book.jpg[39m[22m   26.2 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+    [1m[32m/images/search_movie.jpg[39m[22m    157 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+       [1m[32m/images/wish_list.jpg[39m[22m   46.7 KiB        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+                  [1m[32mindex.html[39m[22m  911 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m               
+                      [1m[33mout.js[39m[22m   [1m[33m1.23 MiB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m        [1m[33m[big][39m[22m  main
+                  [1m[32mout.js.map[39m[22m   4.15 MiB       [1m0[39m[22m  [1m[32m[emitted] [dev][39m[22m         main
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m = [1m[32mout.js[39m[22m [1m[32mout.js.map[39m[22m
+ [56] [1m(webpack)/buildin/global.js[39m[22m 472 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+ [69] [1m./node_modules/@firebase/installations/dist/index.esm.js + 1 modules[39m[22m 63.5 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+[145] [1m./development/sass/main.scss[39m[22m 635 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[147] [1m./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./development/sass/main.scss[39m[22m 47.2 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[354] [1m./development/js/app.js + 34 modules[39m[22m 134 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      | [1m./development/js/app.js[39m[22m 1.85 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/menu.js[39m[22m 5.3 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/auth.js[39m[22m 2.3 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/mainView.js[39m[22m 8.07 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/Search/search.js[39m[22m 10.3 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/myMovies.js[39m[22m 9.51 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/main/myShelf.js[39m[22m 524 bytes[1m[32m [built][39m[22m
+      | [1m./development/js/main/wishesList.js[39m[22m 379 bytes[1m[32m [built][39m[22m
+      | [1m./development/js/auth/login.js[39m[22m 6.39 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/register.js[39m[22m 5.85 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/privateRoute.js[39m[22m 1.78 KiB[1m[32m [built][39m[22m
+      | [1m./development/js/auth/reminder.js[39m[22m 5.07 KiB[1m[32m [built][39m[22m
+      | [1m./development/images/logo.png[39m[22m 35 bytes[1m[32m [built][39m[22m
+      | [1m./development/images/search_book.jpg[39m[22m 42 bytes[1m[32m [built][39m[22m
+      | [1m./development/images/search_movie.jpg[39m[22m 43 bytes[1m[32m [built][39m[22m
+      |     + 20 hidden modules
+[355] [1m./node_modules/@firebase/messaging/dist/index.esm.js + 1 modules[39m[22m 81.2 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+[356] [1m./node_modules/@firebase/storage/dist/index.esm.js + 1 modules[39m[22m 135 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+[357] [1m./node_modules/@firebase/analytics/dist/index.esm.js + 1 modules[39m[22m 33.1 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+      |    2 modules
+    + 350 hidden modules
+
+[1m[33mWARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  out.js (1.23 MiB)[39m[22m
+
+[1m[33mWARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (1.23 MiB)
+      out.js
+[39m[22m
+
+[1m[33mWARNING in webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/[39m[22m
+Child [1mHtmlWebpackCompiler[39m[22m:
+     1 asset
+    Entrypoint [1mHtmlWebpackPlugin_0[39m[22m = [1m[32m__child-HtmlWebpackPlugin_0[39m[22m
+    [0] [1m./node_modules/html-webpack-plugin/lib/loader.js!./development/index.html[39m[22m 1.24 KiB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM[00m:[01;34m/mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[00m$ npm run-script buildstart[K[1Pgit pushcommit  -m "beta version v1.03"add .[Kcommit  -m "beta version v1.03"[1P"4"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	[31mmodified:   build/out.js[m
+	[31mmodified:   build/out.js.map[m
+	[31mmodified:   development/js/app.js[m
+	[31mmodified:   development/js/auth/auth.js[m
+	[31mmodified:   development/js/auth/login.js[m
+	[31mmodified:   development/js/auth/register.js[m
+	[31mmodified:   development/js/main/mainView.js[m
+	[31mmodified:   development/js/main/myMovies.js[m
+	[31mmodified:   development/js/main/myShelf.js[m
+	[31mmodified:   development/js/main/wishesList.js[m
+	[31mmodified:   development/sass/generic/_all.scss[m
+
+Untracked files:
+	[31mdevelopment/js/auth/reminder.js[m
+	[31mrun[m
+
+no changes added to commit
+]0;mkusmierczyk@DESKTOP-5GM8QGM: /mnt/c/Users/makus/Desktop/wszystkie projekty/Git_Portfolio/Kulturka[01;32mmkusmierczyk@DESKTOP-5GM8QGM

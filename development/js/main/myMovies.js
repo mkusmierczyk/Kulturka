@@ -40,14 +40,12 @@ export const MyMovies = (props) => {
     };
 
     const onlyMoviesNonWS = addedMovies.filter(movie => {
-        return movie.dataBase.login === currentUser.email &&
+        return  movie.dataBase.login === currentUser.email &&
             movie.dataBase.type === type &&
             movie.dataBase.wishlist === wishesList &&
             (Date.parse(movie.dataBase.date) > (Date.parse(filterStart + "T00:00:00"))
                 && Date.parse(movie.dataBase.date) < (Date.parse(filterEnd + "T23:59:59")))
-
     });
-
     return (
         <>
             <div className="container header--menu">

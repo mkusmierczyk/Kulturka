@@ -10,6 +10,7 @@ import WishList from "../../images/wish_list.jpg"
 import {SignOut} from "../auth/signOut";
 import firebase from "firebase";
 import {AuthContext} from "../auth/auth";
+import app from "../settings/firebaseConfig";
 
 export const MainView = () => {
     const [addedMovies, setAddedMovies] = useState(false);
@@ -47,6 +48,7 @@ export const MainView = () => {
         return movie.login === currentUser.email && movie.type === "Film" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000);
     });
     let onlyBooksMonth = added.filter(movie =>  movie.login === currentUser.email &&movie.type === "Książka" && movie.wishlist === false && (Date.parse(movie.date) > (Date.parse(now)) - 30 * 1440 * 60 * 1000));
+
 
     return (
         <>

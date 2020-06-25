@@ -6,7 +6,7 @@ import {AuthContext} from "../auth/auth";
 import Loader from "../settings/loader";
 
 export const Storage = (props) => {
-    // nie działa wishlist nie widać Ksiązek i filmów razem naprawić filtr  Tylko jedno wejscie danych o jedno wyjście
+    //  Tylko jedno wejscie danych o jedno wyjście
     const now = new Date();
     const [addedMovies, setAddedMovies] = useState(false);
     const [filterStart, setFilterStart] = useInput("2019-03-13");

@@ -3,7 +3,7 @@ const Loader = () => {
     return (
         <div className="loaderBody">
             <div className="loader">
-                <span>Loading...</span>
+                <span>Ładuję...</span>
             </div>
         </div>
     )

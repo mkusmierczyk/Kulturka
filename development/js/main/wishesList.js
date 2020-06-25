@@ -21,9 +21,13 @@ export const WishesList = () => {
             </div>
             {option === "Książka"?
                 <Storage wishlist={true}
-                          type = {"Książka"}
+                          type = "Książka"
                           pageName="Lista Życzeń"
-                          movieDate={"Wyszukaj od"}/> :
+                          movieDate="Wyszukaj od"
+                         popularityAuthor="Autor:"
+                         voteAveragePages ="Ilość Stron:"
+                         voteCountLanguage="Język:"/>
+                          :
                 <Storage wishlist={true}
                           type = {"Film"}
                           pageName="Lista Życzeń"

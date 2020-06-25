@@ -1,10 +1,10 @@
 import React, {Component} from "react";
-import {MyMovies} from "./myMovies";
+import {Storage} from "./Storage";
 
 export const MyShelf = () => {
     return (
         <>
-            <MyMovies
+            <Storage
                 wishlist={false}
                 type="Książka"
                 pageName="Moja Półka"

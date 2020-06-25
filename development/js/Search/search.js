@@ -65,7 +65,6 @@ export const Search = () => {
         }
     };
 
-
     useEffect(() => {
             if (bookMovie !== false ){
                 const db = firebase.firestore()

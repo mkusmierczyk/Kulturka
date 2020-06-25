@@ -3,6 +3,7 @@ import {Menu} from "./menu";
 import useInput from "../Search/useInput";
 import * as firebase from 'firebase/app';
 import {AuthContext} from "../auth/auth";
+import Loader from "../settings/loader";
 
 
 export const MyMovies = (props) => {
@@ -21,7 +22,7 @@ export const MyMovies = (props) => {
         fetchData()
     }, [])
 
-    if (!addedMovies) return <h1>Loading data ...</h1>
+    if (!addedMovies) return <Loader/>
 
     let type = props.type || "Film";
     let wishesList = props.wishlist || false;

@@ -1,6 +1,6 @@
-import React, {Component, useEffect, useState} from "react";
+import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import {BrowserRouter, HashRouter as Router, Link, Route, Switch} from "react-router-dom";
+import { HashRouter as Router, Route} from "react-router-dom";
 import '../sass/main.scss'
 import {Menu} from "./main/menu";
 import {MainView} from "./main/mainView";

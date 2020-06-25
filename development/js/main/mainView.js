@@ -10,6 +10,7 @@ import WishList from "../../images/wish_list.jpg"
 import {SignOut} from "../auth/signOut";
 import * as firebase from 'firebase/app';
 import {AuthContext} from "../auth/auth";
+import Loader from "../settings/loader";
 
 
 export const MainView = () => {
@@ -36,7 +37,7 @@ export const MainView = () => {
         fetchData()
     }, [])
 
-    if (!addedMovies) return <h1>Loading data ...</h1>
+    if (!addedMovies) return <Loader/>
     const added = addedMovies.map(thi => {
         return thi.dataBase
     })

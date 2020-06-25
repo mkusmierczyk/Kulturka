@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import Loader from "../settings/loader";
 
 export const BookSearch = ({searchName, setSearchName, setMovies, movies})=> {
     useEffect(() => {
@@ -22,7 +23,7 @@ export const BookSearch = ({searchName, setSearchName, setMovies, movies})=> {
             }
 
     }, [searchName]);
-    if (movies === []) return <p>Loading data...</p>;
+    if (movies === []) return <Loader/>;
 
     return (
         <input className="col-11 header__label__input " placeholder="Czego poszukujesz?"

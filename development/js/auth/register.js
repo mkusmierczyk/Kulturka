@@ -5,7 +5,7 @@ import LoginBackground from "../../images/login_background.jpg"
 
 const Register = ({history}) => {
 
-const [registerError, setRegisterError] = useState(false)
+const [registerError, setRegisterError] = useState(false);
 
     const handleSignUp = useCallback(async event => {
         event.preventDefault();
@@ -26,7 +26,7 @@ const [registerError, setRegisterError] = useState(false)
             }).catch(function(error) {
                 console.log(error);
             });
-                history.push("/")
+                history.push("/login")
     }, [history]);
 
     const style = {backgroundImage: `url(${LoginBackground})`}

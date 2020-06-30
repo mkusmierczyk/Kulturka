@@ -146,7 +146,7 @@ height: 15rem;
   margin: 0 1.5rem 0 1rem;
   animation: beat 1.5s ease-in-out both;
   box-shadow: 3px 10px 16px 0px rgba(166, 153, 166, 1);
-  color: $menu_logo_background;
+  color: black;
 }
 
 .main__searchPage__books {
@@ -161,7 +161,7 @@ height: 15rem;
   text-decoration: none;
   animation: beat 1.5s ease-in-out both;
   box-shadow: 3px 10px 16px 0px rgba(166, 153, 166, 1);
-  color: $menu_logo_background;
+  color: black;
 }
 
 @keyframes beat {

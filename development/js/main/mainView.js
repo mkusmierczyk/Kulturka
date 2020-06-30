@@ -53,7 +53,7 @@ export const MainView = () => {
         <>
             <div className='container MenuMain'>
                 <Menu/>
-                <div className="main">
+                <div className="main col-12">
                     <SignOut/>
                     <div className='row main__hamburger'>
                         <h1 className=" col-12 nav__menu__logo"><Link to={"/"}><img src={Logo}/>Kulturka

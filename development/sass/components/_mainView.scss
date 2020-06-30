@@ -6,6 +6,11 @@
   box-sizing: border-box;
   display: flex; //dous
   flex-direction: row; //dous
+
+
+  @media screen and (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
+   height: 100%;
+  }
 }
 
 .main {
@@ -24,6 +29,9 @@
   display: flex;
   align-items: center;
   font-weight: bold;
+  @media screen and (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
+    height: 5rem;
+  }
 
   img {
     width: 75px;
@@ -41,6 +49,9 @@
   border-radius: 4rem;
   font-weight: bold;
   font-size: 1rem;
+  @media screen and (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
+height: 15rem;
+  }
 
   i {
     font-size: 3rem;

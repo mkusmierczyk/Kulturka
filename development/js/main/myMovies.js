@@ -5,7 +5,6 @@ export const MyMovies = () => {
 
     return (
         <>
-
                 <Storage wishlist={false}
                          type = {"Film"}
                          pageName="Lista Życzeń"

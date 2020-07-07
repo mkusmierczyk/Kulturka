@@ -1,7 +1,6 @@
 import React, { useCallback, useState} from "react";
 import app from "../settings/firebaseConfig";
 import LoginBackground from "../../images/login_background.jpg";
-
 import {Link} from "react-router-dom";
 
 const Reminder = ({history}) => {

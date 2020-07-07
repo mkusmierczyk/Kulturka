@@ -14,6 +14,7 @@ import Register from "./auth/register";
 import "@babel/polyfill";
 import PrivateRoute from "./auth/privateRoute";
 import Reminder from "./auth/reminder";
+import Settings from "./settings/settings";
 
 const App = () => {
     return (
@@ -28,6 +29,7 @@ const App = () => {
                 <Route exact path="/login" component={Login}/>
                 <Route exact path="/register" component={Register}/>
                 <Route exact path="/reminder" component={Reminder}/>
+                <Route exact path="/settings" component={Settings}/>
             </Router>
         </Auth>
     )

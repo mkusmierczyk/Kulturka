@@ -41,6 +41,8 @@ export const Menu = () => {
                                 className="fas fa-video"> </i><span>Moja Filomoteka </span></Link></li>
                             <li className="nav__menu__links nav__menu--link"><Link to={"/wishesList"}><i
                                 className="far fa-grin-hearts"> </i> <span>Lista Życzeń</span> </Link></li>
+                            <li className="nav__menu__links nav__menu--link"><Link to={"/settings"}><i
+                                className="fas fa-cogs"> </i><span>Ustawienia</span></Link></li>
                         </ul>
                     </div>
                     <div className="nav__menu__media">

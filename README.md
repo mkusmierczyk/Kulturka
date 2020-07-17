@@ -1,4 +1,4 @@
-# Kulturka
+# Kulturka (Mobile Application)
 Link to site: https://mkusmierczyk.github.io/Kulturka/build/#/
 ## Table of contents
 * [General info](#general-info)
@@ -38,7 +38,7 @@ This was a final front-end project in CodersLab.
 * HTML - version 5.0
 * CSS - version 4.0
 * Sass -  with Gulp Tool
-* Json Server
+* Firebase
 ## Setup
 
 How to start:
@@ -48,7 +48,6 @@ To start development follow this instruction:
 * `clone` this repo
 * `npm install` all necessary npm packages
 * `npm start` project
-* `json-server --watch db.json` to start json server in localization  development\database
 
 
 ## Features
@@ -62,8 +61,6 @@ List of features ready and TODOs for future development
 
 
 To-do list:
-* Schedule display in Application View
-* adding books API
 * adding how long you watch movies widget
 
 
